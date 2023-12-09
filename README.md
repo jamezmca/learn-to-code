@@ -1,5 +1,5 @@
 # learn-to-code
- ### The ultimate guide to *learning to code* & full stack development that will *land you a job* in no time!
+ #### The ultimate guide to *learning to code* & full stack development that will *land you a job* in no time!
 
  ## Prologue
 
@@ -11,8 +11,24 @@
 
  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> *Or check out the interactive [version](https://www.roadmap.smoljames.com)🔥*
 
+## Resources
+
+You're not alone in your journey, dive in to our coding community.
+
+* Youtube -> https://www.youtube.com/smoljames
+* Discord -> https://discord.gg/BYr6gujs4k
+
 ## Learning To Code
 
-Time for the good stuff!
+Finally, time for the good stuff!
 
 ### Chapter 1 - HTML CSS & GIT
+
+*Completion time **[3hrs]***
+
+We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
+
+
+
+
+
