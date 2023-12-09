@@ -9,7 +9,7 @@
  
  With this guide, hopefully you too can learn to code (even if you have no prior experience) and land your developer role! 
 
- *Or check out the interactive [version](https://www.roadmap.smoljames.com) 🔥*
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> *Or check out the interactive [version](https://www.roadmap.smoljames.com) 🔥*
 
 ## Learning To Code
 
