@@ -5,7 +5,7 @@
 
  Hi,
 
- I'm James, a self-taught software developer, and this guide is the roadmap I wish I had as I endeavored to learn programming with the ultimate goal of being employed as a software developer. Successful as I was, it was a journey wrought with peril and with the knowledge I have today, there are many things I would do differently & better. 
+ I'm James, a self-taught software developer, and this guide is the roadmap I wish I had as I endeavored to learn programming with the ultimate goal of being employed as a software developer. Successful as I was, it was a journey wrought with peril and with the knowledge I have today, there are many things I would do differently & better. You can learn more about my journey [here ->](https://www.youtube.com/watch?v=nP0-oYGiqts)
  
  With this guide, hopefully you too can learn to code (even if you have no prior experience) and land your developer role! 
 
@@ -17,6 +17,8 @@ You're not alone in your journey, dive in to our coding community.
 
 * Youtube -> https://www.youtube.com/smoljames
 * Discord -> https://discord.gg/BYr6gujs4k
+* LinkedIn -> https://www.linkedin.com/in/jamezmcarthur/
+* Twitter -> https://twitter.com/_Smoljames
 
 ## Learning To Code
 
