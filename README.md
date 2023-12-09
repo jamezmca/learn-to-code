@@ -24,17 +24,17 @@ Finally, time for the good stuff!
 
 ### Chapter 1 - HTML CSS & GIT
 
-*Completion time **[3hrs]***
+*Completion time **[2.5hrs]***
 
 We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
 
-1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) **[1.5hrs]**
+1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
 
-2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) **[13mins]**
+2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
 
-3. [HTML & CSS Beginner Project - Build a CRUD APP](https://youtu.be/OulQ9W2s6Z0) **[33mins]**
+3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]*
 
-4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) **[4.5mins]**
+4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
 
 
 
