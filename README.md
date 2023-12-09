@@ -1,4 +1,4 @@
-# learn-to-code
+# Learn To Code · Roadmap
  #### The ultimate guide to *learning to code* & full stack development that will *land you a job* in no time!
 
  ## Foreword
@@ -36,7 +36,7 @@ We begin our journey with HTML CSS & GIT. The first two are essentially the back
 
 4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
 
-#### Project
+#### End of Chapter Project
 
 Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
 
