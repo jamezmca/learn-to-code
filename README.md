@@ -45,3 +45,129 @@ Build your first ever Single Page Application (SPA) - a portfolio website showca
 Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
 
 
+### Chapter 2 - JavaScript
+
+*Completion time **[2.5hrs]***
+
+We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
+
+1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
+
+2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
+
+3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]*
+
+4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+
+#### End of Chapter Project
+
+Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
+
+Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+
+
+### Chapter 3 - Frontend JavaScript Frameworks
+
+*Completion time **[2.5hrs]***
+
+We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
+
+1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
+
+2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
+
+3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]*
+
+4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+
+#### End of Chapter Project
+
+Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
+
+Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+
+
+### Chapter 4 - Backend Server Frameworks
+
+*Completion time **[2.5hrs]***
+
+We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
+
+1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
+
+2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
+
+3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]*
+
+4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+
+#### End of Chapter Project
+
+Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
+
+Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+
+
+### Chapter 5 - NoSQL Databases
+
+*Completion time **[2.5hrs]***
+
+We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
+
+1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
+
+2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
+
+3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]*
+
+4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+
+#### End of Chapter Project
+
+Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
+
+Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+
+
+### Chapter 6 - SQL Databases
+
+*Completion time **[2.5hrs]***
+
+We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
+
+1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
+
+2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
+
+3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]*
+
+4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+
+#### End of Chapter Project
+
+Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
+
+Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+
+
+### Chapter 1 - HTML CSS & GIT
+
+*Completion time **[2.5hrs]***
+
+We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
+
+1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
+
+2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
+
+3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]*
+
+4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+
+#### End of Chapter Project
+
+Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
+
+Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+
+
