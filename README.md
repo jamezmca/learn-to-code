@@ -140,4 +140,6 @@ Now that you've got the knowledge you need to start building some wicked full st
 
 Everything you could ever want to know about landing your software developer job can be found [here ->](https://www.roadmap.smoljames.com/blog/job_applications)
 
+### [I WANT A JOB](https://www.roadmap.smoljames.com/blog/job_applications)
+
 *This part cannot be unstated and is equally important as the entirely of the learning to code section!*
