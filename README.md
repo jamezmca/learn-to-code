@@ -26,7 +26,7 @@ Finally, time for the good stuff!
 
 ### Chapter 1 - HTML CSS & GIT
 
-*Completion time **[2.5hrs]***
+*Completion time **[10hrs]***
 
 We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
 
@@ -47,7 +47,7 @@ Once your masterpiece is complete & deployed, share your project URL in the [Dis
 
 ### Chapter 2 - JavaScript
 
-*Completion time **[-/- hrs]***
+*Completion time **[10hrs]***
 
 JavaScript is the most popular programming language in the world and is brilliant for both frontend and backend development.
 
@@ -64,7 +64,7 @@ Once your masterpiece is ready, share your recipe book URL in the [Discord](http
 
 ### Chapter 3 - Frontend JavaScript Frameworks
 
-*Completion time **[8hrs]***
+*Completion time **[20hrs]***
 
 JavaScript frameworks make building dynamic and interactive websites incredibly easy. There's loads to pick from but React.js is a great place to start!
 
@@ -84,7 +84,7 @@ Once your masterpiece is complete & deployed, share your project URL in the [Dis
 
 ### Chapter 4 - Backend Server Frameworks
 
-*Completion time **[2.5hrs]***
+*Completion time **[20hrs]***
 
 If you're looking to extend your capabilites beyound Frontend development into Full Stack development, then it's time to explore some Backend tech!
 
@@ -104,7 +104,7 @@ Once your masterpiece is complete & deployed, share your project URL in the [Dis
 
 ### Chapter 5 - NoSQL Databases
 
-*Completion time **[2.5hrs]***
+*Completion time **[5hrs]***
 
 It's time to persist data - all the data... all of it!
 
@@ -115,7 +115,7 @@ It's time to persist data - all the data... all of it!
 
 ### Chapter 6 - SQL Databases
 
-*Completion time **[2.5hrs]***
+*Completion time **[5hrs]***
 
 We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
 
@@ -128,11 +128,11 @@ Now that you've got the knowledge you need to start building some wicked full st
 **Projects do not need to be overly complex, just clean and well coded**
 
 1. Web portfolio -> You'll need somewhere to store you work
--- *Recommended to use a JavaScript framework combined with TailwindCSS*
+*Recommended to use a JavaScript framework combined with TailwindCSS*
 
-2. Frontend Framework (e.g. React.js or Next.js) that consumes an API
+2. Frontend Framework (e.g. React.js or Next.js) that consumes an API (weather app, pokemon pokedex etc.)
 
-3. An API project that uses the REST methodologies with Node.js, Express.js and PostgreSQL. Bonus points if you can contain it within a Docker Container.
+3. An API project that uses the REST methodologies with Node.js, Express.js and PostgreSQL. Bonus points if you can contain it within a Docker Container and combine it with the ChatGPT API.
 
 4. A Full Stack project using a frontend framework (React.js or SvelteKit), Firebase auth, Firebase Firestore database & TailwindCSS. This could be a calender app, a todo app, or even a recipe app.
 
