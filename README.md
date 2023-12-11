@@ -22,7 +22,7 @@ You're not alone in your journey, dive in to our coding community.
 
 ## Learning To Code
 
-Finally, time for the good stuff!
+Finally, time for the good stuff! If you're enjoying the guide, consider *staring ⭐️* the repo :P
 
 ### Chapter 1 - HTML CSS & GIT
 
@@ -127,7 +127,7 @@ Now that you've got the knowledge you need to start building some wicked full st
 
 **Projects do not need to be overly complex, just clean and well coded**
 
-1. Web portfolio -> You'll need somewhere to store you work
+1. [Web portfolio](https://youtu.be/ylCUH6LkW80) -> You'll need somewhere to store you work
 *Recommended to use a JavaScript framework combined with TailwindCSS*
 
 2. Frontend Framework (e.g. React.js or Next.js) that consumes an API (weather app, pokemon pokedex etc.)
