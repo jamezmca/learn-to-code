@@ -24,17 +24,31 @@ To get started coding in HTML, we first need to create an HTML document. We can 
 
 **index.html**
 
-This file should be located within a folder that is know as your *project directory*. We can have multiple HTML files within the project directory, where each file can be used as a subroute for our HTML webpage. *The default HTML page will always be the one named 'index.html'* 
+This file should be located within a folder that is know as your *project directory*. We can have multiple HTML files within the project directory, where each file can be used as a subroute for our HTML webpage. 
 
-An example project directory is as follows:
+The default HTML page will always be the one named *index.html*. An example project directory is as follows:
 
 ```
 project_directory
-|-index.html
-|-about.html
-|-contact.html
+|- index.html
+|- about.html
+|- contact.html
 ```
 
 ### Initializing an HTML Document
 
-Now that we have our project created
+Now that we have our project created our document, we can go ahead and open it up. HTML documents always start off with a little bit of boilerplate code that looks as follows:
+
+```
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        visible content goes here . . .
+    </body>
+</html>
+```
