@@ -6,9 +6,11 @@ HTML & CSS are the backbone of the internet, and almost every website out there 
 
 They're also the perfect entry point for any new or beginner developer to start learning and get their hands dirty. Master these, and you'll have the ultimate foundation for your programming journey.
 
+*The goal is to become familiar with the material and understand it, not to memorize it. All great developers have reference material they regularly refer to and this resource will always be here should you need it :)*
+
 ## Resources
 
-Here are some resources you might find helpful!
+Here are some links you might find helpful!
 
 * The Internet Is Hard -> https://internetingishard.netlify.app/
 * Learn HTML & CSS -> https://youtu.be/70T2GMDKl6M
@@ -52,3 +54,18 @@ Now that we have our project created our document, we can go ahead and open it u
     </body>
 </html>
 ```
+
+-- *If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ```!``` key, it will prompt you to create the code.
+
+#### HTML Tags
+
+If we take a look at the code generated above, there's a few key observations worth taking note of.
+
+1. HTML is created using **tags**. Tags are the keywords surrounded by the greater-than and lesser-than brackets, or the < & > keys.
+    - Most tags have an opening and closing tag. Any contents contained within the associated opening and closing tags is known as the *children contents*. The opening tag always appears first, and the closing tag can be discerned from the opening tag via the use of the forwards slash ```/```.
+        - For example -> <div> child contents </div>
+        - The left hand tag is the opening tag, and the right most tag is the closing tag as we see it has the forwards slash.
+    - Some tags are self closing. This means that the opening tag has a forwards slash at the end of the tag as opposed to at the start of the closing tag.
+        - <input />
+2. HTML tags are either **semantic** or **non-semantic**. Semantic tags imply more meaning about the subcontents that non-semantic tags. Some examples of semantic tags are as follows:
+    - <head> · <body> · <header> · <nav> · <footer> · <main> · <section> · <details> · <summary> · <aside> · <time>
