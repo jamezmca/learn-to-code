@@ -20,7 +20,7 @@ Here are some links you might find helpful!
 
 HTML stands for Hyper Text Markup Language, and it's technically not a programming language, but instead, a markup language. For now, we'll think of it as a glorified word document. In a word document, you can create text headers, add links, display images and well, HTML isn't that different.
 
-### Creating an HTML Document
+### 1.1 Creating an HTML Document
 
 To get started coding in HTML, we first need to create an HTML document. We can do that by initializing a new file, just as if we we're create a standard word document, can giving it any name followed by the ```.html``` suffix. For example -> 
 
@@ -37,7 +37,7 @@ project_directory
 |- contact.html
 ```
 
-### Initializing an HTML Document
+### 1.2 Initializing an HTML Document
 
 Now that we have our project created our document, we can go ahead and open it up. HTML documents always start off with a little bit of boilerplate code that looks as follows:
 
@@ -57,7 +57,7 @@ Now that we have our project created our document, we can go ahead and open it u
 
 -- *If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ```!``` key, it will prompt you to create the code.*
 
-### HTML Tags
+### 1.3 HTML Tags
 
 If we take a look at the code displayed above, there's a few key observations worth taking note of.
 
@@ -72,7 +72,7 @@ If we take a look at the code displayed above, there's a few key observations wo
     - **Multi use** ```<section> · <details> · <summary> · <aside> · <time>```
 3. Tag pairs contained within other tag pairs are known as *Nested tags*
 
-### HTML Tag Functionalities
+### 1.4 HTML Tag Functionalities
 
 HTML tags in general typically serve 1 of 3 general purposes -> *container, typography, or miscellaneous*.
 
@@ -132,7 +132,7 @@ Typically the containerization of contents is determined by the relatability of 
 * ```<a>link text</a>``` 
     * anchor tags are for links to internal or external web pages
 
-### Code Commenting in HTML
+### 1.5 Code Commenting in HTML
 
 We can create invisible notes in our HTML code that only developers in the code base can see. These will not appear on the web page. 
 
@@ -142,7 +142,7 @@ To create a code comment, simple wrap your desired note or comment within the fo
 
 ```<!-- COMMENT GOES IN HERE & YOU CAN SAY WHATEVER YOU LIKE! EVEN ADD EMOJIS 🔥 -->```
 
-### HTML TAG ATTRIBUTES
+### 1.6 HTML Tag Attributes
 
 Attributes allow us to add some magic to our HTML tags. As you might have guess, they're used to further describe the meaning or functionality of a tag, in a similar way that a person might have blue eyes as an attribute. Attributes can be added to any opening tag and are added to the opening tag as follows:
 
@@ -158,7 +158,7 @@ One common example is the **title** attribute, which has the effect of displayin
 
 When a user hovers their mouse over this division, which in the webpage just looks like some text, a little popup will display with the text 'about me', until the user moves their mouse away.
 
-#### Preset vs Custom Attributes
+#### 1.6.1 Preset vs Custom Attributes
 
 Some tags have attributes that are necessary for them to function. For example, the ```<a href="https://new-link.com">Anchor tag/link to somewhere else</a>``` has the *href* attribute and assigns it equal to a new when upon clicking the user would be redirected.
 
