@@ -230,3 +230,33 @@ Should you decide to have subpage routes for your numerous different services, s
 
 As mentioned in [this section](#11-creating-an-html-document), we can initialize numerous HTML files for each sub page. To navigate between them live in our website, we simply use the humble ```<a href="/about.html">About Me</a>``` anchor tag to link between them. Clicking the anchor link will route the user to the new subpage. The forward slash ```/``` shows that both HTML pages can be found in the same root folder directory.
 
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+And just like that, you're now an HTML pro. Time to move on to CSS 🎉
+
+## Chapter 2 - Introduction to CSS
+
+CSS, or Cascading Style Sheets, is the styling language of the internet. Born out of the necessity to cascade styles across similar elements, so to avoid the plague know as inline-styling (where you style elements 1-by-1 using the style attribute).
+
+### 2.1 Creating an CSS File
+
+CSS files are created by giving a document the ```.css``` suffix. These files can have any name but are most commonly either the plain old **styles.css**, or have a filename that associates them with a particular HTML file or component.
+
+A fairly typical folder directory for a simple vanilla web development project might look as follows:
+
+```
+project_directory
+|- index.html
+|- styles.css
+```
+
+### 2.2 Importing our CSS File
+
+Technically speaking, we can write CSS directly inside of an HTML document whilst still refraining from using inline-styling. We can do this by opening up a set of ```<style> ... CSS_STYLES_GO_HERE ... </style>``` within the ```<head></head>``` tags of our HTML document.
+
+However this quickly becomes cumbersome as our document continuous to grow and our mouse wheels exhausted. Instead, we can *import* our CSS file by placing the following line of code inside the ```<head></head>``` tags of our HTML document, in place of the style tags -> 
+
+```<link rel="stylesheet" href="styles.css"/>```
+
+We basically tell the page to create a link to the styles.css file, and we also add the *rel* attribute to tell the HTML document that the file is of stylesheet relation.
+
+### 2.3 Styling our HTML Document
