@@ -6,7 +6,7 @@ HTML & CSS are the backbone of the internet, and almost every website out there 
 
 They're also the perfect entry point for any new or beginner developer to start learning and get their hands dirty. Master these, and you'll have the ultimate foundation for your programming journey.
 
-*Note - The goal is to become familiar with the material and understand it, not to memorize it. All great developers have reference material they regularly refer to and this resource will always be here should you need it :)*
+-- *Note - The goal is to become familiar with the material and understand it, not to memorize it. All great developers have reference material they regularly refer to and this resource will always be here should you need it :)*
 
 ## Resources
 
@@ -55,7 +55,7 @@ Now that we have our project created our document, we can go ahead and open it u
 </html>
 ```
 
--- *If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ```!``` key, it will prompt you to create the code.
+-- *If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ```!``` key, it will prompt you to create the code.*
 
 ### HTML Tags
 
@@ -136,7 +136,7 @@ Typically the containerization of contents is determined by the relatability of 
 
 We can create invisible notes in our HTML code that only developers in the code base can see. These will not appear on the web page. 
 
-*Note - code comments cannot be nested (one contained within another)*
+-- *Note - code comments cannot be nested (one contained within another)*
 
 To create a code comment, simple wrap your desired note or comment within the following syntax:
 
