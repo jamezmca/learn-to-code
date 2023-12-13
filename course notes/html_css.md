@@ -152,8 +152,10 @@ Attributes can be added to any opening tag and are added to the opening tag as f
 
 One common example is the **title** attribute, which has the effect of displaying some on-hover text when a user hovers over the element/tag with the title.
 
-```<div title="about me">
+```
+<div title="about me">
     <p>I am james</p>
-</div>```
+</div>
+```
 
 When a user hovers their mouse over this division which in the webpage just looks like some text, a little popup will display with the text 'about me', until the user moves their mouse away.
