@@ -57,7 +57,7 @@ Now that we have our project created our document, we can go ahead and open it u
 
 -- *If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ```!``` key, it will prompt you to create the code.
 
-#### HTML Tags
+### HTML Tags
 
 If we take a look at the code displayed above, there's a few key observations worth taking note of.
 
@@ -72,9 +72,9 @@ If we take a look at the code displayed above, there's a few key observations wo
     - **Multi use** ```<section> · <details> · <summary> · <aside> · <time>```
 3. Tag pairs contained within other tag pairs are known as *Nested tags*
 
-#### HTML Tag Functionalities
+### HTML Tag Functionalities
 
-HTML tags in general typically serve 1 of 3 general purposes; *container, typography, or miscellaneous*.
+HTML tags in general typically serve 1 of 3 general purposes -> *container, typography, or miscellaneous*.
 
 **Container Tags** deal with the containerization or grouping of contents. This could be by arranging associated contents in a row, in a column, or even in a grid. We can think of it as if we we're organizing clothing within a set of drawers. We might have a drawer for all things lower body, and within the draw we might have individual subcontainers for shorts, socks and undergarmets, and perhaps socks are further segregated into grouping of long socks and short socks.
 
@@ -94,12 +94,19 @@ Typically the containerization of contents is determined by the relatability of 
 
 **Miscellaneous Tags** concern themselves with the workings of all other HTML tag functionalities. There's loads of them but 20% of them are used 80% of the time. You can read more about them [here](https://www.w3schools.com/tags/) but the main ones are as follows:
 
-* ```<input/>``` -> for user inputs such as text, dates, files and so on (self-closing)
-* ```<textarea>default text...</textarea>``` -> for larger text inputs
-* ```<img/>``` -> for img displays
-* ```<mark>highlighted text</mark>``` -> for text highlights/emphasis
-* ```<details></details>``` -> for text open/close models
-* ```<button>Click me</button>``` -> you can probably guess this one :P
-* ```<a>link text</a>``` -> anchor tags are for links to internal or external web pages
+* ```<input/>``` 
+    * for user inputs such as text, dates, files and so on (self-closing)
+* ```<textarea>default text...</textarea>``` 
+    * for larger text inputs
+* ```<img/>``` 
+    * for img displays
+* ```<mark>highlighted text</mark>``` 
+    * for text highlights/emphasis
+* ```<details></details>```
+    *  for text open/close models
+* ```<button>Click me</button>``` 
+    * you can probably guess this one :P
+* ```<a>link text</a>``` 
+    * anchor tags are for links to internal or external web pages
 
-#### Code Commenting in HTML
+### Code Commenting in HTML
