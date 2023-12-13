@@ -224,6 +224,8 @@ So now we've learned everything we need to know to craft our first webpage. Here
 </html>
 ```
 
+-- *Note the space separated classes on the form element - that allows us to assign more than one class to a particular tag. If you wish to have a class that is multiple words, then we use ~camelCase~. Words are conjoined but we capitalize the start of every new word with exclusion to the very first word.*
+
 ### 1.8 Building Multipage Applications
 
 Should you decide to have subpage routes for your numerous different services, such as a product page, or an about page, then we can do this easily in HTML too.
@@ -260,3 +262,44 @@ However this quickly becomes cumbersome as our document continuous to grow and o
 We basically tell the page to create a link to the styles.css file, and we also add the *rel* attribute to tell the HTML document that the file is of stylesheet relation.
 
 ### 2.3 Styling our HTML Document
+
+Within our CSS stylesheet, we can style our HTML document using what's known as **selectors**. Selectors come in numerous forms, and essentially allow us to *select* one or more tags by some property of said tag.
+
+The most common forms of selection are by the tag itself, the class attributes assigned to a tag, or the ID attribute assigned to a tag (keeping in mind that an ID will always be unique - on one tag alone).
+
+To select and consequently style a set of tags by their tag alone, we do the following:
+
+```
+h1 {
+    color: green;
+    font-size: 2em;
+}
+```
+
+This code will select every single h1 tag in our entire document, and cascade the color and font-size styles across the lot of them. 
+
+-- *Note the semicolon at the end of every individual style*
+
+Sometimes, we need to be slightly more specific with our styles, and so we instead select by class. Styles via class selection always take precedence over styles by tag selection. The class must first be assigned to an HTML tag, afterwhich, we can select is as follows:
+
+```
+.sectionContainer {
+    background: purple;
+    padding: 4px 8px;
+}
+```
+
+-- *The period informs the CSS sheet that we intend to select the class that proceeds the period*
+
+
+
+
+### 2.4 Muliple Selections
+
+--------+-------+-------+-------+
+|       |       |       |       |
+--------+-------+-------+-------+
+|       |       |       |       |
+--------+-------+-------+-------+
+|       |       |       |       |
+--------+-------+-------+-------+
