@@ -83,7 +83,7 @@ Typically the containerization of contents is determined by the relatability of 
 **Typography Tags** are for all things text related. Most of us are familiar with the typography options in a word document and HTML isn't so different. We have 6 tiers of heading typography tags - 
 
 ```
-<h1>Heading 1 - the biggest font & size</h1> 
+<h1>Heading 1 - the biggest font & size (only for titles and main headings)</h1> 
 <h2>Heading 2 - 2nd biggest</h2>
 <h3>Heading 3</h3>
 <h4>Heading 4</h4>
@@ -91,5 +91,15 @@ Typically the containerization of contents is determined by the relatability of 
 <h6>Heading 6 - the smallest heading</h6>
 <p>Paragraph - for any generic text (non-heading text)</p>
 ```
+
+**Miscellaneous Tags** concern themselves with the workings of all other HTML tag functionalities. There's loads of them but 20% of them are used 80% of the time. You can read more about them [here](https://www.w3schools.com/tags/) but the main ones are as follows:
+
+* ```<input/>``` -> for user inputs such as text, dates, files and so on (self-closing)
+* ```<textarea>default text...</textarea>``` -> for larger text inputs
+* ```<img/>``` -> for img displays
+* ```<mark>highlighted text</mark>``` -> for text highlights/emphasis
+* ```<details></details>``` -> for text open/close models
+* ```<button>Click me</button>``` -> you can probably guess this one :P
+* ```<a>link text</a>``` -> anchor tags are for links to internal or external web pages
 
 #### Code Commenting in HTML
