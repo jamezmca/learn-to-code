@@ -266,9 +266,9 @@ We basically tell the page to create a link to the styles.css file, and we also 
 
 Within our CSS stylesheet, we can style our HTML document using what's known as **selectors**. Selectors come in numerous forms, and essentially allow us to *select* one or more tags by some property of said tag.
 
-The most common forms of selection are by the tag itself, the class attributes assigned to a tag, or the ID attribute assigned to a tag (keeping in mind that an ID will always be unique - on one tag alone).
+**The most common forms of selection are by the tag itself, the class attributes assigned to a tag, or the ID attribute assigned to a tag (keeping in mind that an ID will always be unique - on one tag alone).**
 
-To select and consequently style a set of tags by their tag alone, we do the following:
+To select and consequently *style a set of tags by their tag alone*, we do the following:
 
 ```
 h1 {
@@ -281,7 +281,7 @@ This code will select every single h1 tag in our entire document, and cascade th
 
 -- *Note the semicolon at the end of every individual style.*
 
-Sometimes, we need to be slightly more specific with our styles, and so we instead select by class. Styles via class selection always take precedence over styles by tag selection. The class must first be assigned to an HTML tag, afterwhich, we can select is as follows:
+Sometimes, we need to be slightly more specific with our styles, and so we instead **select by class**. Styles via class selection always take precedence over styles by tag selection. The class must first be assigned to an HTML tag, afterwhich, we can select is as follows:
 
 ```
 .sectionContainer {
@@ -294,7 +294,7 @@ Sometimes, we need to be slightly more specific with our styles, and so we inste
 
 And on the occasion where you need to be extremely specific with your styles, to the point where you wish to isolate one specific tag, we'll this is when we use the ID selector. 
 
-For the ID selection, the ```#``` key always preceeds the tags ID. An example is as follows:
+For the **ID selection**, the ```#``` key always preceeds the tags ID. An example is as follows:
 
 ```
 #userInput {
