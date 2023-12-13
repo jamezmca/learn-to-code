@@ -187,9 +187,9 @@ Here are some of the most common examples where the value assigned to the attrib
 3. Custom attribute example
     - **notifications=""** could be set ="4" if a user had 4 notifications
 
-### 1.7 A Basic Webpage
+### 1.7 A Basic Singlepage Website
 
-So now we've learned everything we need to know to craft our first webpage. Here's a simple demonstration of what a webpage might look like!
+So now we've learned everything we need to know to craft our first webpage. Here's a demonstration of what a simple webpage might look like!
 
 ```
 <!DOCTYPE html>
@@ -198,8 +198,8 @@ So now we've learned everything we need to know to craft our first webpage. Here
         <title>My Interactive Page</title>
     </head>
     <body>
-        <h1>Welcome to My Interactive Page!</h1>
-        <form class="sectionForm section">
+        <h1 style="color:green;">Welcome to My Interactive Page!</h1>
+        <form id="myForm" class="sectionForm section">
             <h2>Let's Connect</h2>
             <p>Tell me a little about yourself!</p>
             <div>
@@ -210,7 +210,7 @@ So now we've learned everything we need to know to craft our first webpage. Here
                 <label for="email">Email:</label>
                 <input type="email" id="email" placeholder="Your Email">
             </div>
-            <button class="button">Send Message</button>
+            <button onClick="submitFunction()" class="button">Send Message</button>
         </form>
         <section class="section">
             <h2>Explore My Interests</h2>
@@ -223,3 +223,10 @@ So now we've learned everything we need to know to craft our first webpage. Here
     </body>
 </html>
 ```
+
+### 1.8 Building Multipage Applications
+
+Should you decide to have subpage routes for your numerous different services, such as a product page, or an about page, then we can do this easily in HTML too.
+
+As mentioned in [this section](#11-creating-an-html-document), we can initialize numerous HTML files for each sub page. To navigate between them live in our website, we simply use the humble ```<a href="/about.html">About Me</a>``` anchor tag to link between them. Clicking the anchor link will route the user to the new subpage. The forward slash ```/``` shows that both HTML pages can be found in the same root folder directory.
+
