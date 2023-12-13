@@ -78,7 +78,30 @@ HTML tags in general typically serve 1 of 3 general purposes -> *container, typo
 
 **Container Tags** deal with the containerization or grouping of contents. This could be by arranging associated contents in a row, in a column, or even in a grid. We can think of it as if we we're organizing clothing within a set of drawers. We might have a drawer for all things lower body, and within the draw we might have individual subcontainers for shorts, socks and undergarmets, and perhaps socks are further segregated into grouping of long socks and short socks.
 
-Typically the containerization of contents is determined by the relatability of the content. If some information pertains to some other, we'll likely contain them together. Equally the relation might be determined by styling requirements; i.e. this element is spaced or styled depending on another.
+Typically the containerization of contents is determined by the relatability of the content. If some information pertains to some other, we'll likely contain them together. Equally the relation might be determined by styling requirements; i.e. this element is spaced or styled depending on another. The primary container tags are as follows:
+
+* Semantic Container Tags
+    * ```<head></head>``` 
+        * contains meta information about the HTML web page; *single-use*
+    * ```<body>all visable page contents</body>``` 
+        * contains all the visable page contents; *single-use*
+    * ```<header></header``` 
+        * contains contents that creates the page header (logo, navigation links etc...); *single-use*
+    * ```<nav></nav>``` 
+        * contains all the page navigation links; *single-use*
+    * ```<main></main>``` 
+        * contains the main page content (everything not in header or footer); *single-use*
+    * ```<footer></footer>``` 
+        * contains the footer info (contact details, privacy policy, terms of use etc...); *single-use*
+    * ```<aside>highlighted text</aside>``` 
+        * contains information for side navigation bar
+    * ```<section>highlighted text</section>``` 
+        * contains large generally-related sections of contents
+* Non-semantic Container Tags
+    * ```<div></div>```
+        *  the most commonly used container tag
+    * ```<span>Click me</span>``` 
+        * used for special inline styling of certain contents
 
 **Typography Tags** are for all things text related. Most of us are familiar with the typography options in a word document and HTML isn't so different. We have 6 tiers of heading typography tags - 
 
@@ -92,7 +115,7 @@ Typically the containerization of contents is determined by the relatability of 
 <p>Paragraph - for any generic text (non-heading text)</p>
 ```
 
-**Miscellaneous Tags** concern themselves with the workings of all other HTML tag functionalities. There's loads of them but 20% of them are used 80% of the time. You can read more about them [here](https://www.w3schools.com/tags/) but the main ones are as follows:
+**Miscellaneous Tags** concern themselves with the workings of all other HTML tag functionalities. There's loads of them but only 20% of them do 80% of the work. You can read more about them [here](https://www.w3schools.com/tags/) but the main ones are as follows:
 
 * ```<input/>``` 
     * for user inputs such as text, dates, files and so on (self-closing)
