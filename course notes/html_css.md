@@ -68,6 +68,28 @@ If we take a look at the code displayed above, there's a few key observations wo
     - Some tags are self closing. This means that the opening tag has a forwards slash at the end of the tag as opposed to at the start of the closing tag.
         - <input />
 2. HTML tags are either **semantic** or **non-semantic**. Semantic tags imply more meaning about the subcontents that non-semantic tags. Some examples of semantic tags are as follows:
-    - Single use; ```<head> · <body> · <header> · <nav> · <footer> · <main>```
-    - Multi use; ```<section> · <details> · <summary> · <aside> · <time>```
+    - **Single use** ```<head> · <body> · <header> · <nav> · <footer> · <main>```
+    - **Multi use** ```<section> · <details> · <summary> · <aside> · <time>```
 3. Tag pairs contained within other tag pairs are known as *Nested tags*
+
+#### HTML Tag Functionalities
+
+HTML tags in general typically serve 1 of 3 general purposes; *container, typography, or miscellaneous*.
+
+**Container Tags** deal with the containerization or grouping of contents. This could be by arranging associated contents in a row, in a column, or even in a grid. We can think of it as if we we're organizing clothing within a set of drawers. We might have a drawer for all things lower body, and within the draw we might have individual subcontainers for shorts, socks and undergarmets, and perhaps socks are further segregated into grouping of long socks and short socks.
+
+Typically the containerization of contents is determined by the relatability of the content. If some information pertains to some other, we'll likely contain them together. Equally the relation might be determined by styling requirements; i.e. this element is spaced or styled depending on another.
+
+**Typography Tags** are for all things text related. Most of us are familiar with the typography options in a word document and HTML isn't so different. We have 6 tiers of heading typography tags - 
+
+```
+<h1>Heading 1 - the biggest font & size</h1> 
+<h2>Heading 2 - 2nd biggest</h2>
+<h3>Heading 3</h3>
+<h4>Heading 4</h4>
+<h5>Heading 5</h5>
+<h6>Heading 6 - the smallest heading</h6>
+<p>Paragraph - for any generic text (non-heading text)</p>
+```
+
+#### Code Commenting in HTML
