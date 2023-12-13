@@ -268,7 +268,7 @@ Within our CSS stylesheet, we can style our HTML document using what's known as 
 
 **The most common forms of selection are by the tag itself, the class attributes assigned to a tag, or the ID attribute assigned to a tag (keeping in mind that an ID will always be unique - on one tag alone).**
 
-To select and consequently *style a set of tags by their tag alone*, we do the following:
+To select and consequently **style a set of tags by their tag alone**, we do the following:
 
 ```
 h1 {
@@ -308,6 +308,15 @@ Styles via ID selection always take precedence over styles by both tag & class s
 
 ### 2.3.1 Muliple Selections
 
+Occassionally, you will find different tags and selections end up having the same repeated set of styles. We can avoid writing our the styling code numerous times by comma separating the selectors. For example:
+
+```
+.headerText, h3, #firstInput {
+    color: green;
+}
+```
+
+All three of these selections will have the same color style applied.
 
 ### 2.3.1 Code Commenting in CSS
 
