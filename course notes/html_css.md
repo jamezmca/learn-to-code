@@ -141,3 +141,19 @@ We can create invisible notes in our HTML code that only developers in the code 
 To create a code comment, simple wrap your desired note or comment within the following syntax:
 
 ```<!-- COMMENT GOES IN HERE & YOU CAN SAY WHATEVER YOU LIKE! EVEN ADD EMOJIS 🔥 -->```
+
+### HTML TAG ATTRIBUTES
+
+Attributes allow us to add some magic to our HTML tags. As you might have guess, they're used to further describe the meaning or functionality of a tag, in a similar way that a person might have blue eyes as an attribute.
+
+Attributes can be added to any opening tag and are added to the opening tag as follows:
+
+```<div INSERT_ATTRIBUTES_HERE > . . . </div>```
+
+One common example is the **title** attribute, which has the effect of displaying some on-hover text when a user hovers over the element/tag with the title.
+
+```<div title="about me">
+    <p>I am james</p>
+</div>```
+
+When a user hovers their mouse over this division which in the webpage just looks like some text, a little popup will display with the text 'about me', until the user moves their mouse away.
