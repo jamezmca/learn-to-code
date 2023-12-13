@@ -68,6 +68,6 @@ If we take a look at the code displayed above, there's a few key observations wo
     - Some tags are self closing. This means that the opening tag has a forwards slash at the end of the tag as opposed to at the start of the closing tag.
         - <input />
 2. HTML tags are either **semantic** or **non-semantic**. Semantic tags imply more meaning about the subcontents that non-semantic tags. Some examples of semantic tags are as follows:
-    - ```**<head>** · **<body>** · **<header>** · **<nav>** · **<footer>** · **<main>** · <section> · <details> · <summary> · <aside> · <time>```
-        - The emboldened tags are single use only.
+    - Single use; ```<head> · <body> · <header> · <nav> · <footer> · <main>```
+    - Multi use; ```<section> · <details> · <summary> · <aside> · <time>```
 3. Tag pairs contained within other tag pairs are known as *Nested tags*
