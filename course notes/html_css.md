@@ -57,6 +57,10 @@ Now that we have our project created our document, we can go ahead and open it u
 
 -- *If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ```!``` key, it will prompt you to create the code.*
 
+#### 1.2.1 Local Development
+
+To get your code live in a local development environment & to see how it looks, simply drag and drop any html file (typically the *index.html*) onto your browser. Page refresh after saving changes to your HTML document to see the updated changes.
+
 ### 1.3 HTML Tags
 
 If we take a look at the code displayed above, there's a few key observations worth taking note of.
@@ -95,8 +99,12 @@ Typically the containerization of contents is determined by the relatability of 
         * contains the footer info (contact details, privacy policy, terms of use etc...); *single-use*
     * ```<aside>highlighted text</aside>``` 
         * contains information for side navigation bar
+    * ```<form><input/></form>``` 
+        * contains form information/inputs/textareas for user interaction
     * ```<section>highlighted text</section>``` 
         * contains large generally-related sections of contents
+    * ```<ul><li>list item within an unordered list</li></ul>``` 
+        * unordered list (ul) contains 1 or more list items
 * Non-semantic Container Tags
     * ```<div></div>```
         *  the most commonly used container tag
@@ -178,3 +186,40 @@ Here are some of the most common examples where the value assigned to the attrib
     - **title=""** as described above
 3. Custom attribute example
     - **notifications=""** could be set ="4" if a user had 4 notifications
+
+### 1.7 A Basic Webpage
+
+So now we've learned everything we need to know to craft our first webpage. Here's a simple demonstration of what a webpage might look like!
+
+```
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Interactive Page</title>
+    </head>
+    <body>
+        <h1>Welcome to My Interactive Page!</h1>
+        <form class="sectionForm section">
+            <h2>Let's Connect</h2>
+            <p>Tell me a little about yourself!</p>
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder="Your Name">
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="Your Email">
+            </div>
+            <button class="button">Send Message</button>
+        </form>
+        <section class="section">
+            <h2>Explore My Interests</h2>
+            <ul>
+                <li>Photography</li>
+                <li>Coding</li>
+                <li>Traveling</li>
+            </ul>
+        </section>
+    </body>
+</html>
+```
