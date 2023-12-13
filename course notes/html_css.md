@@ -144,7 +144,7 @@ Typically the containerization of contents is determined by the relatability of 
 
 We can create invisible notes in our HTML code that only developers in the code base can see. These will not appear on the web page. 
 
--- *Note - code comments cannot be nested (one contained within another)*
+-- *Note - code comments cannot be nested (one contained within another).*
 
 To create a code comment, simple wrap your desired note or comment within the following syntax:
 
@@ -232,8 +232,9 @@ Should you decide to have subpage routes for your numerous different services, s
 
 As mentioned in [this section](#11-creating-an-html-document), we can initialize numerous HTML files for each sub page. To navigate between them live in our website, we simply use the humble ```<a href="/about.html">About Me</a>``` anchor tag to link between them. Clicking the anchor link will route the user to the new subpage. The forward slash ```/``` shows that both HTML pages can be found in the same root folder directory.
 
-🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 And just like that, you're now an HTML pro. Time to move on to CSS 🎉
+
+🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
 ## Chapter 2 - Introduction to CSS
 
@@ -278,7 +279,7 @@ h1 {
 
 This code will select every single h1 tag in our entire document, and cascade the color and font-size styles across the lot of them. 
 
--- *Note the semicolon at the end of every individual style*
+-- *Note the semicolon at the end of every individual style.*
 
 Sometimes, we need to be slightly more specific with our styles, and so we instead select by class. Styles via class selection always take precedence over styles by tag selection. The class must first be assigned to an HTML tag, afterwhich, we can select is as follows:
 
@@ -289,13 +290,29 @@ Sometimes, we need to be slightly more specific with our styles, and so we inste
 }
 ```
 
--- *The period informs the CSS sheet that we intend to select the class that proceeds the period*
+-- *The period informs the CSS sheet that we intend to select the class that proceeds the period.*
+
+And on the occasion where you need to be extremely specific with your styles, to the point where you wish to isolate one specific tag, we'll this is when we use the ID selector. 
+
+For the ID selection, the ```#``` key always preceeds the tags ID. An example is as follows:
+
+```
+#userInput {
+    border: 1px solid lightblue;
+    text-align: center;
+}
+```
+
+Styles via ID selection always take precedence over styles by both tag & class selection.
 
 
+### 2.3.1 Muliple Selections
 
 
-### 2.4 Muliple Selections
+### 2.3.1 Code Commenting in CSS
 
+
+```
 --------+-------+-------+-------+
 |       |       |       |       |
 --------+-------+-------+-------+
@@ -303,3 +320,4 @@ Sometimes, we need to be slightly more specific with our styles, and so we inste
 --------+-------+-------+-------+
 |       |       |       |       |
 --------+-------+-------+-------+
+```
