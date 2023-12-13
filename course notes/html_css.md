@@ -76,7 +76,7 @@ If we take a look at the code displayed above, there's a few key observations wo
 
 HTML tags in general typically serve 1 of 3 general purposes -> *container, typography, or miscellaneous*.
 
-**Container Tags** deal with the containerization or grouping of contents. This could be by arranging associated contents in a row, in a column, or even in a grid. We can think of it as if we we're organizing clothing within a set of drawers. We might have a drawer for all things lower body, and within the draw we might have individual subcontainers for shorts, socks and undergarmets, and perhaps socks are further segregated into grouping of long socks and short socks.
+**-> Container Tags** deal with the containerization or grouping of contents. This could be by arranging associated contents in a row, in a column, or even in a grid. We can think of it as if we we're organizing clothing within a set of drawers. We might have a drawer for all things lower body, and within the draw we might have individual subcontainers for shorts, socks and undergarmets, and perhaps socks are further segregated into grouping of long socks and short socks.
 
 Typically the containerization of contents is determined by the relatability of the content. If some information pertains to some other, we'll likely contain them together. Equally the relation might be determined by styling requirements; i.e. this element is spaced or styled depending on another. The primary container tags are as follows:
 
@@ -103,7 +103,7 @@ Typically the containerization of contents is determined by the relatability of 
     * ```<span>Click me</span>``` 
         * used for special inline styling of certain contents
 
-**Typography Tags** are for all things text related. Most of us are familiar with the typography options in a word document and HTML isn't so different. We have 6 tiers of heading typography tags - 
+**-> Typography Tags** are for all things text related. Most of us are familiar with the typography options in a word document and HTML isn't so different. We have 6 tiers of heading typography tags - 
 
 ```
 <h1>Heading 1 - the biggest font & size (only for titles and main headings)</h1> 
@@ -115,7 +115,7 @@ Typically the containerization of contents is determined by the relatability of 
 <p>Paragraph - for any generic text (non-heading text)</p>
 ```
 
-**Miscellaneous Tags** concern themselves with the workings of all other HTML tag functionalities. There's loads of them but only 20% of them do 80% of the work. You can read more about them [here](https://www.w3schools.com/tags/) but the main ones are as follows:
+**-> Miscellaneous Tags** concern themselves with the workings of all other HTML tag functionalities. There's loads of them but only 20% of them do 80% of the work. You can read more about them [here](https://www.w3schools.com/tags/) but the main ones are as follows:
 
 * ```<input/>``` 
     * for user inputs such as text, dates, files and so on (self-closing)
@@ -133,3 +133,11 @@ Typically the containerization of contents is determined by the relatability of 
     * anchor tags are for links to internal or external web pages
 
 ### Code Commenting in HTML
+
+We can create invisible notes in our HTML code that only developers in the code base can see. These will not appear on the web page. 
+
+*Note - code comments cannot be nested (one contained within another)*
+
+To create a code comment, simple wrap your desired note or comment within the following syntax:
+
+```<!-- COMMENT GOES IN HERE & YOU CAN SAY WHATEVER YOU LIKE! EVEN ADD EMOJIS 🔥 -->```
