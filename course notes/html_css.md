@@ -61,7 +61,7 @@ Now that we have our project created our document, we can go ahead and open it u
 
 If we take a look at the code displayed above, there's a few key observations worth taking note of.
 
-1. HTML is created using **tags**. Tags are the keywords surrounded by the greater-than and lesser-than brackets, or the < & > keys.
+1. HTML is created using **tags**. Tags (sometimes referred to as elements) are the keywords surrounded by the greater-than and lesser-than brackets, or the < & > keys.
     - Most tags have an opening and paired closing tag. Any contents contained within the associated opening and closing tags is known as the *children contents*. The opening tag always appears first, and the closing tag can be discerned from the opening tag via the use of the forwards slash ```/```.
         - For example -> <div> child contents </div>
         - The left hand tag is the opening tag, and the right most tag is the closing tag as we see it has the forwards slash.
@@ -144,11 +144,9 @@ To create a code comment, simple wrap your desired note or comment within the fo
 
 ### HTML TAG ATTRIBUTES
 
-Attributes allow us to add some magic to our HTML tags. As you might have guess, they're used to further describe the meaning or functionality of a tag, in a similar way that a person might have blue eyes as an attribute.
+Attributes allow us to add some magic to our HTML tags. As you might have guess, they're used to further describe the meaning or functionality of a tag, in a similar way that a person might have blue eyes as an attribute. Attributes can be added to any opening tag and are added to the opening tag as follows:
 
-Attributes can be added to any opening tag and are added to the opening tag as follows:
-
-```<div INSERT_ATTRIBUTES_HERE > . . . </div>```
+```<div INSERT_ATTRIBUTE(S)_HERE > . . . </div>```
 
 One common example is the **title** attribute, which has the effect of displaying some on-hover text when a user hovers over the element/tag with the title.
 
@@ -158,4 +156,25 @@ One common example is the **title** attribute, which has the effect of displayin
 </div>
 ```
 
-When a user hovers their mouse over this division which in the webpage just looks like some text, a little popup will display with the text 'about me', until the user moves their mouse away.
+When a user hovers their mouse over this division, which in the webpage just looks like some text, a little popup will display with the text 'about me', until the user moves their mouse away.
+
+#### Preset vs Custom Attributes
+
+Some tags have attributes that are necessary for them to function. For example, the ```<a href="https://new-link.com">Anchor tag/link to somewhere else</a>``` has the *href* attribute and assigns it equal to a new when upon clicking the user would be redirected.
+
+Just as equally, you can define random attributes to your pleasure so long as the name of the attribute isn't one of the reserved keywords for the preset attributes. 
+
+Here are some of the most common examples where the value assigned to the attribute is placed within the quotation marks.
+
+1. Preset attributes (for specific tags)
+    - ```<img src="link_to_img" alt="description_of_img"/>```
+    - ```<a href="new_link" > Link Text </a>```
+    - ```<button onClick="function_to_execute" > Click me </button>```
+    - ```<input value="current_value" onChange="function_to_store_new_value" placeholder="default_value"/>```
+2. Preset attributes (generic)
+    - **id=""** assigns a *unique* id to an element
+    - **class=""** assigns a class to an element (used for styling in CSS)
+    - **style=""** directly assigns a style such as ```color:green;```
+    - **title=""** as described above
+3. Custom attribute example
+    - **notifications=""** could be set ="4" if a user had 4 notifications
