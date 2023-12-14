@@ -529,7 +529,7 @@ Also, there's a way to make coding CSS even faster so that you can design and bu
 
 ## Final Words
 
-I hope that these notes give you the knowledge you need to excel as an HTML & CSS developer! If you've enjoyed the repo, please consider giving it a *star ⭐️*, and be sure to check out the other guides available so you can become the ultimate developer today :P
+I hope that these notes give you the knowledge you need to excel as an HTML & CSS developer! If you've enjoyed the repo, please consider giving it a ***star ⭐️***, and be sure to check out the other guides available so you can become the ultimate developer today :P
 
 Cheers,
 
