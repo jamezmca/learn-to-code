@@ -198,28 +198,33 @@ So now we've learned everything we need to know to craft our first webpage. Here
         <title>My Interactive Page</title>
     </head>
     <body>
-        <h1 style="color:green;">Welcome to My Interactive Page!</h1>
-        <form id="myForm" class="sectionForm section">
-            <h2>Let's Connect</h2>
-            <p>Tell me a little about yourself!</p>
-            <div>
-                <label for="name">Name:</label>
-                <input type="text" id="name" placeholder="Your Name">
-            </div>
-            <div>
-                <label for="email">Email:</label>
-                <input type="email" id="email" placeholder="Your Email">
-            </div>
-            <button onClick="submitFunction()" class="button">Send Message</button>
-        </form>
-        <section class="section">
-            <h2>Explore My Interests</h2>
-            <ul>
-                <li>Photography</li>
-                <li>Coding</li>
-                <li>Traveling</li>
-            </ul>
-        </section>
+        <header>
+            <h1 style="color:green;">Welcome to My Interactive Page!</h1>
+        </header>
+        <main>
+            <form id="myForm" class="sectionForm section">
+                <h2>Let's Connect</h2>
+                <p>Tell me a little about yourself!</p>
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" placeholder="Your Name">
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" placeholder="Your Email">
+                </div>
+                <button onClick="submitFunction()" class="button">Send Message</button>
+            </form>
+            <section class="section">
+                <h2>Explore My Interests</h2>
+                <ul>
+                    <li>Photography</li>
+                    <li>Coding</li>
+                    <li>Traveling</li>
+                </ul>
+            </section>
+        </main>
+        <footer></footer>
     </body>
 </html>
 ```
@@ -306,7 +311,7 @@ For the **ID selection**, the ```#``` key always preceeds the tags ID. An exampl
 Styles via ID selection always take precedence over styles by both tag & class selection.
 
 
-### 2.3.1 Muliple Selections
+#### 2.3.1 Muliple Selections
 
 Occassionally, you will find different tags and selections end up having the same repeated set of styles. We can avoid writing our the styling code numerous times by comma separating the selectors. For example:
 
@@ -318,15 +323,179 @@ Occassionally, you will find different tags and selections end up having the sam
 
 All three of these selections will have the same color style applied.
 
-### 2.3.1 Code Commenting in CSS
+#### 2.3.2 Code Commenting in CSS
+
+If needed, we can leave notes in our CSS styling to help other developers, or even ourselves, parse through and understand our styling. To create a comment in CSS, you simply wrap your comment inside of the following syntax:
+
+```
+/* INSERT COMMENT IN BETWEEN THESE KEYS */
+```
+
+
+### 2.4 CSS Styles
+
+So now we've learned how to setup our CSS sheets, connect them with our HTML document, and even some of the primary methods of tag selection (more on this later). You can find a comprehensive explanation of every single CSS style [here ->](https://www.w3schools.com/html/html_css.asp)
+
+Now we need to actually take a look at some of the main styles you'll be using to make your document look amazing; much the same as with HTML tags, 20% of styles do 80% of the heavy lifting. We can break down a majority of the styles into 3 categories:
+
+* dimensional styles -> referring to the dimensions of a tag
+* design styles -> referring to the aesthetic of a tag
+* placement styles -> referring to the placement in the document of a tag
+
+-- *For any of the following styles, please check out the above documentation link to see what values are typically set and assumed by a particular style :P*
+
+**Dimensional styles** 
+
+Dimensional styles are those that pertain to the spacial dimensions of an element. As you might expect, we're talking height, width, maximum width and so forth. We can even define the z-axis layering of elements, rotate them, translate them, stretch and scale and so much more.
+
+-- *For dimensional styles we can use either relative sizings or fixed value sizings. Typically a relative sizing is going to be more responsive and is the preferred of the two in most cases.*
+
+The most common *dimensional styles* that you'll encounter are:
+* width -> sets the width of an element
+* height -> sets the height of an element
+* max-width -> sets the maximum allowable width of an element
+* max-height -> sets the maximum allowable height of an element
+* padding -> defines the space between the outer boundaries of an element and the inner contents
+* margin -> defines the space between the outer boundaries of an element and the adjacent contents
+
+**Design Styles**
+
+Design styles are all about the aesthetic of an element. This could be font size, text color, background effects, borders, shadows, shapes and the list goes on. There are two main sub categories of design styles, one set for typography and the other for containers.
+
+The most common *design styles* that you'll encounter are:
+* Typography styles
+    - font-family -> sets the font to be used (e.g. comic sans)
+    - font-weight -> sets the weight of the font on a scale from 100 to 900 (bold, light & so forth)
+    - font-size -> determines how large the font should appear
+    - color -> sets the color of text elements
+    - text-align -> aligns text within its element (left, center, right, justify)
+* Container styles
+    - background -> this could be a color, a linear gradient, an image & more
+    - border -> this allows you to set a border, its width and its color
+    - border-radius -> this allows you to round the corners of an element
+    - box-shadow -> adds depth and dimension to elements
+    - opacity -> makes an element partially transparent (on a scale from 0 to 1)
+    - transition -> creates smooth animations between different states of an element
+    - transform -> rotates, scales, or skews elements
+
+**Placement Styles**
+
+Placement styles define how contents on the page is positioned, displayed, spaced, layered, aligned and oriented. 
+
+The most common *placement styles* that you'll encounter are:
+* position -> determines how an element is placed within the flow of the HTML document
+    - common values include *relative* which is the default and natural flow option, *fixed* which holds an element at a fixed positioning on the screen, and *absolute* which removes an element from the normal document flow and positions it relative to its nearest positioned ancestor (usually the parent element).
+        - absolute and fixed positioned elements require the specification of *top, left and either right/bottom or width/height* to map out the boundaries of the box
+* display -> determines how contents within the element is laid out
+    - flex -> creates a flexible container layout (think 1d tetris or boxes arrangement) // the most common option
+        - can set the flex-direction to column or row, specify alignment and justification within the flex container and also element gap (spacing)
+    - grid -> uses a grid layout for highly organized, grid arrangements of content
+    - none -> hides the element from view
+* z-index -> sets the z-index layering of elements on a numeric scale
+
+There are many more styles, but for the post part these will have you covered in most circumstances.
+
+#### 2.4.2 CSS Dimensional Units
+
+Some style values are numeric, and consequently require units. Units are either relative or absolute, and knowing when to use which is important.
+
+Most hard coded element sizing is done for text elements i.e. setting the font size, and on the container widths and heights. Font sizing is most common set using the **em** unit, which is a relative sizing to the default for a typography tag. 
+
+* 1em suggests a 1:1 scale, where 2em would be a 100% increase in the original size of the text. The em scale also allows for the use of decimal values such as 1.2em.
+
+For widths, heights, margins, paddings, and other dimensional styles, we'll most common be using one of three units; px, % or vh/vw.
+
+* px is an absolute pixel sizing e.g. 340px (common width small widths/heights and most paddings/margins)
+* % is a percentage of the parent container e.g. 100% or 60% (common for most widths & heights for responsive web displays)
+* vh/vw stands for viewport-height and viewport-width, and is a percentage of the viewports dimesions e.g. 40vh means 40% of the viewport-height (common for the largest of containers or overlaid modals)
+
+There are more units out there, but these are my favorite.
+
+
+### 2.5 Advanced CSS Selectors
+
+So now your pretty much right as rain to go code your HTML document and beautify it thereon afterwards. But sometimes for the slickest and sneakiest of designs, we need extra specificity in terms of how we select elements, and also some of the other user behaviors we an expect, such as hover or focus events.
+
+First off, it's good to be aware of the fact that we can select elements not only by their tag, class or ID, but also by their positioning within the HTML document itself.
+
+For example, we saw above the comma separating styles allows us to apply the same style to different selectors. But we can have a similar syntax to select elements we know are within other elements, for example:
+
+```
+h1 span {
+    background: purple;
+}
+```
+
+This example has space-separated tags, and is interpreted as 'select all spans anywhere *within* an h1 tag'. We can take it a step further and use a relational additive to the selector:
+
+```
+h1 > span {
+    background: purple;
+}
+```
+
+Adding the *>* key now makes the selector select only the spans that are direct and immediate descendants within an h1 tag. There are more relative selectors like this but this one is likely the most common. Finally, we can be even more specific with our selectors for example:
+
+```
+.headerText h1 > span {
+    background: purple;
+}
+```
+
+This example can be intepreted as -> 'Select any span the is a direct descendant within an h1 tag, that itself is anywhere within an element with the class of *headerText*. This combination selection can be incredible time saving when use appropriately and means we don't have to add classes to absolutely every tag in our HTML document.
+
+#### 2.5.1 Event Selectors
+
+We can also make our styles vary and alter when users hover over or interact with them to make out page feel more alive and intuitive. To do that, we set the base styling of a tag as we have done above, and then we define a secondary state that is to be assumed then the event is triggered, for example, when a button is hovered.
+
+We can do that as follows:
+
+```
+button {
+    background: green;
+    color: white;
+    transition-duration: 250ms;
+}
+
+button::hover {
+    /* NOTE HOW I SELECTED THE HOVER STATE FOR THE BUTTON ELEMENT */
+    background: lightgreen;
+    opacity: 0.6;
+}
+```
+
+This has the effect of reducing the background color of the button to a light green when the button is hovered, and it also lowers the opacity. This is but one of many ways that we can add interactivity to our webpage. We could also target the ::focus event which would be useful in the instance where a user focuses an input for example.
+
+#### 2.5.2 Psuedo Effects
+
+Psuedo effects are a super neat way of adding design/UI flare to our elements, without having to actually add any extra HTML code; in short, they're created and designed entirely through CSS. There's two psuedo selectors that we commonly use, one is the ```::before``` selector and the other is the ```::after``` selector; used for appending design elements before and after the selected tag respectively.
+
+The best example to demonstrate the concept would be the notification bell. Imagine we have a div containing the bell icon displaying on the screen, and now we want to overlay a tiny red dot in the upper right hand corner to indicate that there are notifications yet to be read. We can append the red dot as an after psuedo effect to the div containing the icon and absolutely position the red dot psuedo effect in the top and the right hand corner of the div. Here's some code the demonstrates how this would be done:
 
 
 ```
---------+-------+-------+-------+
-|       |       |       |       |
---------+-------+-------+-------+
-|       |       |       |       |
---------+-------+-------+-------+
-|       |       |       |       |
---------+-------+-------+-------+
+.bellContainer {
+    position: relative;
+}
+
+.bellContainer i {
+    color: #0f172a;
+}
+
+.bellContainer::after {
+    position: absolute;
+    content: '';  /* this sets the content to an empty string */
+    top: 0;
+    right: 0;
+    width: 4px;
+    aspect-ratio: 1/1; /* 1:1 ratio of width to height */
+    background: red;
+    border-radius: 100%; /* makes square go cirle */
+}
 ```
+
+
+#### 2.5.3 Access Tag Attributes in CSS
+
+
+### 2._ TailwindCSS
