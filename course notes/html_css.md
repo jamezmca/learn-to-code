@@ -338,9 +338,9 @@ So now we've learned how to setup our CSS sheets, connect them with our HTML doc
 
 Now we need to actually take a look at some of the main styles you'll be using to make your document look amazing; much the same as with HTML tags, 20% of styles do 80% of the heavy lifting. We can break down a majority of the styles into 3 categories:
 
-* dimensional styles -> referring to the dimensions of a tag
-* design styles -> referring to the aesthetic of a tag
-* placement styles -> referring to the placement in the document of a tag
+* **dimensional styles** -> referring to the dimensions of a tag
+* **design styles** -> referring to the aesthetic of a tag
+* **placement styles** -> referring to the placement in the document of a tag
 
 -- *For any of the following styles, please check out the above documentation link to see what values are typically set and assumed by a particular style :P*
 
@@ -494,8 +494,43 @@ The best example to demonstrate the concept would be the notification bell. Imag
 }
 ```
 
+Cool, now we've added the red dot without creating any unnecessary HTML code!
+
 
 #### 2.5.3 Access Tag Attributes in CSS
 
+But what if we now wanted to ensure our red dot from above actually quantified exactly how many notifcations we had. How do we then communicate this information between the HTML document into the CSS stylesheet, and thereafter set the value within the red dot. 
 
-### 2._ TailwindCSS
+The answer is **tag attributes**.
+
+If you think back to the HTML attributes section of these notes way way above, you'll see we demonstated how we can set custom attributes in tags, and even the example where we give a tag an attribute ```notications="4"```. We can actually now go an access this value within the CSS sheet using the ```attr()``` function. To then have the value display inside of our psuedo effect, we need to make the following changes to our pseudo after style:
+
+```
+.bellContainer::after {
+    /* change this line */
+    content: attr(notifications);  
+
+    /* add these lines to ensure good text placement */
+    display: grid;
+    place-items: center;
+}
+```
+
+And just like that, we've got a red dot that suggests we have 4 unread notifications.
+
+
+### 2.6 TailwindCSS
+
+And with that all said and done, it's now graduation time!!! 🎉🥳🔥 You're officially an HTML & CSS pro :P
+
+To take the next step to becoming a hyper 10x developer, it's important to put your skills to good use, and I highly recommend doing so with [this video ->](https://youtu.be/70T2GMDKl6M)
+
+Also, there's a way to make coding CSS even faster so that you can design and build webpages at mindboggling speeds. The secret is to use TailwindCSS, which is a very easy adaptation to make once you understand CSS itself. Their documentation is phenomenal and also tells you exactly how you can integrate tailwindCSS into any project you choose to venture forth upon. Link to their documentation is [here ->](https://tailwindcss.com/docs)
+
+## Final Words
+
+I hope that these notes give you the knowledge you need to excel as an HTML & CSS developer! If you've enjoyed the repo, please consider giving it a *star ⭐️*, and be sure to check out the other guides available so you can become the ultimate developer today :P
+
+Cheers,
+
+Smoljames
