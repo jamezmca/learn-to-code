@@ -229,7 +229,7 @@ So now we've learned everything we need to know to craft our first webpage. Here
 </html>
 ```
 
--- *Note the space separated classes on the form element - that allows us to assign more than one class to a particular tag. If you wish to have a class that is multiple words, then we use ~camelCase~. Words are conjoined but we capitalize the start of every new word with exclusion to the very first word.*
+-- *Note the space separated classes on the form element - that allows us to assign more than one class to a particular tag. If you wish to have a class that is multiple words, then we use ```camelCase```. Words are conjoined but we capitalize the start of every new word with exclusion to the very first word.*
 
 ### 1.8 Building Multipage Applications
 
