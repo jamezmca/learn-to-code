@@ -67,10 +67,10 @@ If we take a look at the code displayed above, there's a few key observations wo
 
 1. HTML is created using **tags**. Tags (sometimes referred to as elements) are the keywords surrounded by the greater-than and lesser-than brackets, or the < & > keys.
     - Most tags have an opening and paired closing tag. Any contents contained within the associated opening and closing tags is known as the *children contents*. The opening tag always appears first, and the closing tag can be discerned from the opening tag via the use of the forwards slash ```/```.
-        - For example -> <div> child contents </div>
+        - For example -> ```<div> child contents </div>```
         - The left hand tag is the opening tag, and the right most tag is the closing tag as we see it has the forwards slash.
     - Some tags are self closing. This means that the opening tag has a forwards slash at the end of the tag as opposed to at the start of the closing tag.
-        - <input />
+        - ```<input />```
 2. HTML tags are either **semantic** or **non-semantic**. Semantic tags imply more meaning about the subcontents that non-semantic tags. Some examples of semantic tags are as follows:
     - **Single use** ```<head> · <body> · <header> · <nav> · <footer> · <main>```
     - **Multi use** ```<section> · <details> · <summary> · <aside> · <time>```
