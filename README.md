@@ -43,6 +43,7 @@ We begin our journey with HTML CSS & GIT. The first two are essentially the back
 Summary notes and reference material can be found here ->
 
 * [HTML & CSS Survival Guide](https://github.com/jamezmca/learn-to-code/blob/main/course%20notes/html_css.md)
+* [GIT & GitHub Survival Guide](https://github.com/jamezmca/learn-to-code/blob/main/course%20notes/git_github.md)
 
 #### End of Chapter Project
 
