@@ -34,9 +34,9 @@ We begin our journey with HTML CSS & GIT. The first two are essentially the back
 
 2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
 
-3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]*
+<!-- 3. [HTML & CSS Beginner Project - Build a CRUD App](https://youtu.be/OulQ9W2s6Z0) *[33mins]* -->
 
-4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+3. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
 
 #### Course Notes
 
