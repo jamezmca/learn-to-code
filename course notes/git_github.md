@@ -35,7 +35,7 @@ The GIT workflow has a main/master branch, and also has a number of branches div
 
 Finally, when our branch is tried, tested & trustworthy, we can then *merge* it back in with the master branch, updating the master branch (and production code) to include the new changes we have been working on; completing the GIT workflow.
 
--- *You can create sub-branches of other branches, not just the master branch.*
+-- *You can create sub-branches off of other branches, not just the master branch.*
 
 #### 1.1.1 Why Do We Do This?
 
