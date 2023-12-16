@@ -76,7 +76,7 @@ Now you're ready to start committing some code 🔥
 
 So now we understand the process, let's learn exactly how to do it.
 
--- *Note that this guide will cover the 20% of GIT commands that will do 80% of the leg work*.
+-- *Note that this guide will cover the 20% of GIT commands that will do 80% of the leg work.*
 
 1. The very first step is to hop into a working directory of your choosing.
     - I typically have all my projects inside of a folder called ```github```.
@@ -87,7 +87,7 @@ So now we understand the process, let's learn exactly how to do it.
     - *Clone* a pre-existing codebase onto our hard disk to then contribute to.
         - **```git clone <repo>```** will download a github repo to your local device inside of your current working directory.
 
--- *The ```<repo>``` placeholder can be specified either via SSH or via an HTTPS (preferred) link. Both of these links can be found within the github/gitlab webpage for that repository. *
+-- *The ```<repo>``` placeholder can be specified either via SSH or via an HTTPS (preferred) link. Both of these links can be found within the github/gitlab webpage for that repository.*
 
 3. We can now **```cd```** into the newly added directory/folder on our device, and within there and while still using the terminal, we can type the **```git status```** command.
     - This will give us an overview of the project and also ensure that we have correctly downloaded or initialized the project on our device.
