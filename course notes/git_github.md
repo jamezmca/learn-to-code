@@ -65,10 +65,10 @@ Otherwise, we'll be authenticating with GitHub using GIT in our terminal using H
 
 To do that we can follow this process:
 
-1. Install the GitHub CLI (command line interface) [here ->](https://github.com/cli/cli#installation)
-2. In the command line, enter ```gh auth login```, then follow the prompts
-    - When prompted for your preferred protocol for Git operations, select ```HTTPS```
-    - When asked if you would like to authenticate to Git with your GitHub credentials, enter ```Y```
+1. Install the GitHub CLI (command line interface) [here ->](https://github.com/cli/cli#installation).
+2. In the command line, enter ```gh auth login```, then follow the prompts.
+    - When prompted for your preferred protocol for Git operations, select ```HTTPS```.
+    - When asked if you would like to authenticate to Git with your GitHub credentials, enter ```Y```.
 
 Now you're ready to start committing some code 🔥
 
@@ -78,67 +78,52 @@ So now we understand the process, let's learn exactly how to do it.
 
 -- *Note that this guide will cover the 20% of GIT commands that will do 80% of the leg work*.
 
-
 1. The very first step is to hop into a working directory of your choosing.
     - I typically have all my projects inside of a folder called ```github```.
-    - We do this in the terminal using the ```cd``` command which stands for *change directory*
+    - We do this in the terminal using the ```cd``` command which stands for *change directory*.
 2. Once in our cwd (current working directory), we must initialize our code base. There's two ways we can do this!
     - Initialize (*init*) a codebase from scratch.
+        - **```git init```** will initialize a *new* git repo (must be used at the root level of your project directory).
     - *Clone* a pre-existing codebase onto our hard disk to then contribute to.
-
-**```git init```** will initialize a *new* git repo (must be used at the root level of your project directory).
-
-**```git clone <repo>```** will download a github repo to your local device inside of your current working directory.
+        - **```git clone <repo>```** will download a github repo to your local device inside of your current working directory.
 
 -- *The ```<repo>``` placeholder can be specified either via SSH or via an HTTPS (preferred) link. Both of these links can be found within the github/gitlab webpage for that repository. *
 
-3. We can now ```cd``` into the newly added directory/folder on our device, and within there and while still using the terminal, we can type the ```git status``` command.
+3. We can now **```cd```** into the newly added directory/folder on our device, and within there and while still using the terminal, we can type the **```git status```** command.
     - This will give us an overview of the project and also ensure that we have correctly downloaded or initialized the project on our device.
     - We should also see a statement like **On branch ______** (it will probably say *main*).
         - This lets us know that we are currently in the main/master branch.
         - It is advised against modifying this branch directly, and instead recommended to use a MR system (merge requests).
-
-
-4. Now, we can double check that the branch on our local device is synchronised with latest code available in the remote GitHub repo (this is basically the source of all truth). We can do this using the ```git pull origin``` command, which will pull the latest version of the code onto our device.
+4. Now, we can double check that the branch on our local device is synchronised with latest code available in the remote GitHub repo (this is basically the source of all truth). We can do this using the **```git pull origin```** command, which will pull the latest version of the code onto our device.
     - It is critical that you do this while *in* the main/master branch unless specifically instructed to do so as we will see later.
-
-5. And now it's time to create a branch to work in. Whilst in the main branch, type ```git checkout -b <name_of_new_branch>```
+5. And now it's time to create a branch to work in. Whilst in the main branch, type **```git checkout -b <name_of_new_branch>```**
     - There name of new branch should be something pertaining to the type of work you're about to do.
         - Typically for features, I'll name them ```f/feature_name```
             - Ensure that the values are not space-separated, and instead use a dash or underscore
         - For hotfixes or bugs, I'll name then ```h/bug_name-patch```
     - The ```-b``` signifies that we are creating a new branch.
         - To swap between existing branches, or the main branch, we simple using the above checkout command **without** using the ```-b``` flag, and instead of a new branch name, we use the name of an existing branch.
-        - To view all the currently existing branches, type ```git branch```.
-
-6. Before starting work, we want to confirm we are in our new work branch by typing the ```git status``` command.
-
+        - To view all the currently existing branches, type **```git branch```**.
+6. Before starting work, we want to confirm we are in our new work branch by typing the **```git status```** command.
 7. Now that we are in our working branch, we can start to add code and new files.
-    - After making some progress, we want to use the ```git commit -am "<commit_message_describing_work>"```. That will save our progress to a commit.
-    - After adding one or more new files, we want to use the ```git add .``` command. This will ensure all new files are added to our repository.
-
-8. To save or *push* our changes, or even finished feature or hotfix to the github repo, we use the ```git push --force origin <name_of_branch>```.
-    - Ensure that you have committed all your changes and added all your files prior to doing this. You can guarantee you've saved everything by running the ```git status``` command.
-
+    - After making some progress, we want to use the **```git commit -am "<commit_message_describing_work>"```**. That will save our progress to a commit.
+    - After adding one or more new files, we want to use the **```git add .```** command. This will ensure all new files are added to our repository.
+8. To save or *push* our changes, or even finished feature or hotfix to the github repo, we use the **```git push --force origin <name_of_branch>```**.
+    - Ensure that you have committed all your changes and added all your files prior to doing this. You can guarantee you've saved everything by running the **```git status```** command.
 9. Once our code is committed and pushed to the repo, we can then inspect in GitHub. You will be able to see your branch and all the code changes you have made. From here, we want to create a **merge request** (MR) with the code. This will ask you to provide a description of the nature of the work, and also assign people to review and so on. 
     - Once the MR is created, GitHub will then check if the MR code is able to be merged. If so, then you can *merge* the merge request, and the main branch of code will be updated to include your changes. 
-    - Be sure to now *checkout* the main branch and once again type ```git pull origin``` to ensure you main branch is updated to include your recently added MR.
+    - Be sure to now *checkout* the main branch and once again type **```git pull origin```** to ensure you main branch is updated to include your recently added MR.
     
 If your branch is unable to be merged, it's likely that you have a **merge conflict**. To resolve a merge conflict, you need to follow the following instructions:
 
-1. Type ```git status``` to ensure that all the changes and updates made in your branch are committed.
-
-2. Checkout the main branch and run ```git pull origin```.
-
-3. Checkout your working branch, and type ```git merge master```.
+1. Type **```git status```** to ensure that all the changes and updates made in your branch are committed.
+2. Checkout the main branch and run **```git pull origin```**.
+3. Checkout your working branch, and type **```git merge master```**.
     - This command will tell you that you have merge conflicts. 
     - VSCode will help you resolve the code conflicts.
-
 4. Once all the merge conflicts are resolved, commit all your changes and add any files that were added.
-
 5. Once again, push your branch to GitHub per step 8 above.
     - If you check the GitHub MR you made, you fixes should be included and the merge conflicts gone, leaving your code to be merged!
-
 
 ## Final Words
 
