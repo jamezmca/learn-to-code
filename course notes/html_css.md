@@ -534,4 +534,4 @@ I hope that these notes give you the knowledge you need to excel as an HTML & CS
 
 Cheers,
 
-Smoljames
+James

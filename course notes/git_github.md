@@ -133,4 +133,4 @@ I hope that these notes give you the knowledge you need to excel as a GIT maestr
 
 Cheers,
 
-Smoljames
+James
