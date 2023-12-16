@@ -113,6 +113,8 @@ So now we understand the process, let's learn exactly how to do it.
 9. Once our code is committed and pushed to the repo, we can then inspect in GitHub. You will be able to see your branch and all the code changes you have made. From here, we want to create a **merge request** (MR) with the code. This will ask you to provide a description of the nature of the work, and also assign people to review and so on. 
     - Once the MR is created, GitHub will then check if the MR code is able to be merged. If so, then you can *merge* the merge request, and the main branch of code will be updated to include your changes. 
     - Be sure to now *checkout* the main branch and once again type **```git pull origin```** to ensure you main branch is updated to include your recently added MR.
+
+#### 1.3.1 Merge Conflicts
     
 If your branch is unable to be merged, it's likely that you have a **merge conflict**. To resolve a merge conflict, you need to follow the following instructions:
 
