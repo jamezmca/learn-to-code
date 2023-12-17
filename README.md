@@ -58,7 +58,7 @@ Once your masterpiece is complete & deployed, share your project URL in the [Dis
 
 JavaScript is the most popular programming language in the world and is brilliant for both frontend and backend development.
 
-1. [FreeCodeCamp JavaScript Algorithms & Data Structures](https://www.freecodecamp.org) *[-/- hrs]*
+1. [FreeCodeCamp JavaScript Algorithms & Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) *[-/- hrs]*
 
 2. [Build & Deploy an Unreasonably Good ToDo Web App w. HTML CSS JavaScript](https://youtu.be/OulQ9W2s6Z0) *[34mins]*
 
@@ -109,9 +109,9 @@ Take your first steps in backend development with a simple "To-Do List" app! Bui
 Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
 
 
-### Chapter 5 - NoSQL Databases
+### Chapter 5 - Databases (SQL & NoSQL)
 
-*Completion time **[5hrs]***
+*Completion time **[10hrs]***
 
 It's time to persist data - all the data... all of it!
 
@@ -119,14 +119,8 @@ It's time to persist data - all the data... all of it!
 
 2. [Node.js & Firebase Firestore Tutorial](https://youtu.be/LefcqnZHYeg) *[13mins]*
 
+3. [FreeCodeCamp SQL Tutorial](https://www.freecodecamp.org/learn/relational-database/) *[-/- hrs]*
 
-### Chapter 6 - SQL Databases
-
-*Completion time **[5hrs]***
-
-We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
-
-1. [FreeCodeCamp SQL Tutorial](https://www.freecodecamp.org/learn/relational-database/) *[-/- hrs]*
 
 ## Projects
 
