@@ -121,6 +121,11 @@ It's time to persist data - all the data... all of it!
 
 3. [FreeCodeCamp SQL Tutorial](https://www.freecodecamp.org/learn/relational-database/) *[-/- hrs]*
 
+#### End of Chapter Project
+
+Build a backend API with Node.js, Express.js & PostgreSQL that manages a stores inventory! Actions should include being able to read, add, update & delete items - basically all the standard CRUD operations, and also allow the owner to manage stock levels & quantities.
+
+Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
 
 ## Projects
 
