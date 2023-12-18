@@ -10,7 +10,7 @@ So, Git isn't just a rewind button, it's a collaborative construction zone for y
 
 As for GitHub, that's the online hub where all this data is stored and on display!
 
--- *The goal is to become familiar with the material and understand it, not to memorize it. All great developers have reference material they regularly refer to and this resource will always be here should you need it :)*
+> *The goal is to become familiar with the material and understand it, not to memorize it. All great developers have reference material they regularly refer to and this resource will always be here should you need it :)*
 
 ## Resources
 
@@ -31,11 +31,11 @@ The GIT workflow is best understood by thinking of a large & ancient tree. It ha
 
 The GIT workflow has a main/master branch, and also has a number of branches diverging from the master branch at any point of time, where the master branch is the base GitHub repository (the production code in a lot of instances), and the branches might be for new feature development that becomes a modified version of the master branch. 
 
--- *A GitHub **repository** (or "repo") is like a digital storage box for code, keeping track of all versions and letting others collaborate.*
+> *A GitHub **repository** (or "repo") is like a digital storage box for code, keeping track of all versions and letting others collaborate.*
 
 Finally, when our branch is tried, tested & trustworthy, we can then *merge* it back in with the master branch, updating the master branch (and production code) to include the new changes we have been working on; completing the GIT workflow.
 
--- *You can create sub-branches off of other branches, not just the master branch.*
+> *You can create sub-branches off of other branches, not just the master branch.*
 
 #### 1.1.1 Why Do We Do This?
 
@@ -76,7 +76,7 @@ Now you're ready to start committing some code 🔥
 
 So now we understand the process, let's learn exactly how to do it.
 
--- *Note that this guide will cover the 20% of GIT commands that will do 80% of the leg work.*
+> *Note that this guide will cover the 20% of GIT commands that will do 80% of the leg work.*
 
 1. The very first step is to hop into a working directory of your choosing.
     - I typically have all my projects inside of a folder called ```github```.

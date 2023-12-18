@@ -6,7 +6,7 @@ HTML & CSS are the backbone of the internet, and almost every website out there 
 
 They're also the perfect entry point for any new or beginner developer to start learning and get their hands dirty. Master these, and you'll have the ultimate foundation for your programming journey.
 
--- *The goal is to become familiar with the material and understand it, not to memorize it. All great developers have reference material they regularly refer to and this resource will always be here should you need it :)*
+> *The goal is to become familiar with the material and understand it, not to memorize it. All great developers have reference material they regularly refer to and this resource will always be here should you need it :)*
 
 ## Resources
 
@@ -56,7 +56,7 @@ Now that we have our project created our document, we can go ahead and open it u
 </html>
 ```
 
--- *If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ```!``` key, it will prompt you to create the code.*
+> *If you're using VSCode as your editor, we can quickly generate this boilerplate code using the intellisense. If you type the ```!``` key, it will prompt you to create the code.*
 
 #### 1.2.1 Local Development
 
@@ -145,11 +145,11 @@ Typically the containerization of contents is determined by the relatability of 
 
 We can create invisible notes in our HTML code that only developers in the code base can see. These will not appear on the web page. 
 
--- *Code comments cannot be nested (one contained within another).*
+> *Code comments cannot be nested (one contained within another).*
 
 To create a code comment, simple wrap your desired note or comment within the following syntax:
 
-```<!-- COMMENT GOES IN HERE & YOU CAN SAY WHATEVER YOU LIKE! EVEN ADD EMOJIS 🔥 -->```
+```<!> COMMENT GOES IN HERE & YOU CAN SAY WHATEVER YOU LIKE! EVEN ADD EMOJIS 🔥 -->```
 
 ### 1.6 HTML Tag Attributes
 
@@ -230,7 +230,7 @@ So now we've learned everything we need to know to craft our first webpage. Here
 </html>
 ```
 
--- *Note the space separated classes on the form element - that allows us to assign more than one class to a particular tag. If you wish to have a class that is multiple words, then we use ```camelCase```. Words are conjoined but we capitalize the start of every new word with exclusion to the very first word.*
+> *Note the space separated classes on the form element - that allows us to assign more than one class to a particular tag. If you wish to have a class that is multiple words, then we use ```camelCase```. Words are conjoined but we capitalize the start of every new word with exclusion to the very first word.*
 
 ### 1.8 Building Multipage Applications
 
@@ -285,7 +285,7 @@ h1 {
 
 This code will select every single h1 tag in our entire document, and cascade the color and font-size styles across the lot of them. 
 
--- *Note the semicolon at the end of every individual style.*
+> *Note the semicolon at the end of every individual style.*
 
 Sometimes, we need to be slightly more specific with our styles, and so we instead **select by class**. Styles via class selection always take precedence over styles by tag selection. The class must first be assigned to an HTML tag, afterwhich, we can select is as follows:
 
@@ -296,7 +296,7 @@ Sometimes, we need to be slightly more specific with our styles, and so we inste
 }
 ```
 
--- *The period informs the CSS sheet that we intend to select the class that proceeds the period.*
+> *The period informs the CSS sheet that we intend to select the class that proceeds the period.*
 
 And on the occasion where you need to be extremely specific with your styles, to the point where you wish to isolate one specific tag, we'll this is when we use the ID selector. 
 
@@ -343,13 +343,13 @@ Now we need to actually take a look at some of the main styles you'll be using t
 * **design styles** -> referring to the aesthetic of a tag
 * **placement styles** -> referring to the placement in the document of a tag
 
--- *For any of the following styles, please check out the above documentation link to see what values are typically set and assumed by a particular style :P*
+> *For any of the following styles, please check out the above documentation link to see what values are typically set and assumed by a particular style :P*
 
 **Dimensional styles** 
 
 Dimensional styles are those that pertain to the spacial dimensions of an element. As you might expect, we're talking height, width, maximum width and so forth. We can even define the z-axis layering of elements, rotate them, translate them, stretch and scale and so much more.
 
--- *For dimensional styles we can use either relative sizings or fixed value sizings. Typically a relative sizing is going to be more responsive and is the preferred of the two in most cases.*
+> *For dimensional styles we can use either relative sizings or fixed value sizings. Typically a relative sizing is going to be more responsive and is the preferred of the two in most cases.*
 
 The most common *dimensional styles* that you'll encounter are:
 * width -> sets the width of an element
