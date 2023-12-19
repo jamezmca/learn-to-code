@@ -122,8 +122,8 @@ Once we have our variables initialized, the next thing we normally do is assign 
     - **`Null`** represents the absence of a value. It's different from undefined. (e.g., null).
     - **`Undefined`** represents the absence of a value due to not being assigned yet or a reference pointing to nowhere. (e.g., undefined).
 * Object
-    - **`Object`** is a complex data type that allows you to store collections of key-value pairs. Example: { name: 'John', age: 30 }.
-    - **`Array`** is a special type of object used to store ordered collections of values. Example: [1, 2, 3, 4].
+    - **`Object`** (or dictionary) is a complex data type that allows you to store collections of key-value pairs. Example: { name: 'John', age: 30 }.
+    - **`Array`** (or list) is a special type of object used to store ordered collections of values. Example: [1, 2, 3, 4].
     - **`Function`** is a subtype of object that can be invoked/called. Example: function add(x, y) { return x + y; }.
 
 When assigning values to a variable, it's important to ensure that the value is both a viable data type, and the correct data type. We'll dive deeper into data types and how we can manipulate them in [Chapter 3](#chapter-3---develop-intermediate-programming-skills-with-javascript).
@@ -242,6 +242,47 @@ let x = 5 // CODE COMMENT HERE -> SETS VALUE OF X EQUAL TO 5
 // THIS ENTIRE LINE IS COMMENTED TOO :P
 ```
 
+### 2.2 Control Flow with Conditional Statements & Loops
+
+This is where we really start to see the benefit of programming. By simply understanding loops and conditional statements, we can start to write code that has immense functionality and purpose. 
+
+* A **conditional statement** is a statement that wraps a block of code, where the execution of the code inside depends on whether or not the conditonal statement yields a *true* or *false* value (i.e. one of the two boolean values).
+
+* A **loop** is a block of code wrapped within a loop condition; we have *for* loops and *while* loops. A *for* loop is analogous to saying 'for this many times, repeatedly execute this block of code', where a *while* loop is equivalent to saying 'while this condition is true, repeatedly execute this block of code.
+
+#### 2.2.1 The For Loop
+
+Let's begin by looking at the *for* loop. At the ground level, it's actually got some pretty simple syntax:
+
+```
+for (DEFINE_FOR_CONDITION) {
+    //insert the code to be repeated for x number of times here
+}
+```
+
+Pretty simple right? The only thing that is ever so slightly complex about the for loop is defining the bounds of the condition, of which there are 3 parts involved.
+
+1. We have to define a variable that tracks the progress of the loop.
+    - Typically we use a variable named `i`, and consequently `j` & `k` for any *nested* loops.
+        - A nested loop is a loop within another loop.
+    - `let i = 0;` would initialize a variable with the starting value of 0.
+2. We then define the bounds of the loop.
+    - This is normally an upper bounds but it could also be a lower bounds.
+        - Be careful when defining the bounds of your loop otherwise you'll end up in an infinite loop which will break your computer :P
+    - If we wanted to do a task 20 times, we could set the bounds of `i` to be `i < 20;`. 
+3. And finally we define the progression of `i` with each iteration of the loop.
+    - Typically set as `i = i + 1;` or in shortand `i++`.
+        - This would increment `i` by 1 every interation of the loop until `i` hits 20, at which time our boundary condition is broken and our loop ends. So our loop in this case would execute 20 times.
+
+And now to enter these 3 conditions into our *for* loop, we have to ensure we use the `;` separator between each of them, resulting in the following:
+
+```
+for (let i = 0; i < 20; i = i + 1) {
+    console.log('The value of i is: ', i)
+}
+```
+
+> We would expect this loop to print the sentence `the value of i is: _`, where with each iteration the _ is replaced with the current value of i, so 0 -> 19.
 
 ## Chapter 3 - Intermediate Programming Skills with JavaScript
 
