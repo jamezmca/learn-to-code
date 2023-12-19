@@ -133,6 +133,7 @@ When assigning values to a variable, it's important to ensure that the value is 
 An operator is a character that we typically associate with an operation, or an action. If we think about mathematics and calculators, the operators are the `+ - / *` keys that we are all familar. In JavaScript, it's no different. There are numerous operators available to us, some of which will be used far more frequently than others. The following list labels most of them, but don't stress about memorizing them.
 
 **Arithmetic Operators**
+
 -> Addition (+):
 `let sum = 5 + 3; // 8`
 
@@ -150,12 +151,15 @@ An operator is a character that we typically associate with an operation, or an 
 
 
 **Assignment Operators**
--> Assignment (=)
+
+-> Assignment (=):
 `let x = 10;`
 
 -> Addition Assignment (+=):
+```
 let y = 5;
 y += 3; // Equivalent to: y = y + 3; (y is now 8)
+```
 * Comparison Operators:
     - Equal (==):
         - let isEqual = 5 == '5'; // true (loose equality, type coercion)
