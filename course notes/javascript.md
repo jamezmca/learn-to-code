@@ -354,6 +354,7 @@ printName()
 ```
 
 We just call it by it's name with the circular parenthesis at the end. In this particular case our function will actually error. Any idea why? We'll, it's because we didn't pass in a name value as an argument when we invoked the function. Consequently, our function is going to be looking for a name to print, one that doesn't actually exist. The correct syntax would look a bit more like the following:
+
 ```
 // First we define the function
 function printName(name) {
@@ -368,6 +369,18 @@ printName(firstName)
 // The output would be 'The persons name is james'
 ```
 
+And we could actually make our function ever so slightly more robust by providing a default value to the argument when we define the function:
+
+```
+function printName(name = "default name") {
+    // this function receives a name input, and then prints the name to the console.
+    console.log('The persons name is: ', name)
+}
+```
+
+This would cause the name parameter to assume the value "default name" in the instance where no name is passed in as an argument when the function is invoked, otherwise it would assume the argument value.
+
+> Note that arguments are positional, meaning it's important you input them in the same order that you define them. Additionally, we should note that whatever value or parameter we pass in as an argument when we invoke the function, will be referenced by the name given to the parameter when we define the argument. So even though I passed in a variable called *firstName* with a value equal to "james", within the function we would refer to the variable as *name*, as that's what we defined it to be in the function definition.
 
 #### 2.3.4 Function Returns
 
