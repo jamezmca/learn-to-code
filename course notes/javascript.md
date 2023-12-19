@@ -130,7 +130,7 @@ When assigning values to a variable, it's important to ensure that the value is 
 
 #### 2.1.3 JavaScript Operators
 
-An operator is a character that we typically associate with an operation, or an action. If we think about mathematics and calculators, the operators are the `+ - / *` keys that we are all familar. In JavaScript, it's no different. There are numerous operators available to us, some of which will be used far more frequently than others. The following list labels most of them, but don't stress about memorizing them.
+An operator is a character that we typically associate with an operation, or an action. If we think about mathematics and calculators, the operators are the `+ - / *` keys that we are all familar. In JavaScript, it's no different. There are numerous operators available to us, some of which will be used far more frequently than others. **The following list labels most of them, but don't stress about memorizing them.**
 
 **Arithmetic Operators**
 
@@ -160,53 +160,76 @@ An operator is a character that we typically associate with an operation, or an 
 let y = 5;
 y += 3; // Equivalent to: y = y + 3; (y is now 8)
 ```
-* Comparison Operators:
-    - Equal (==):
-        - let isEqual = 5 == '5'; // true (loose equality, type coercion)
-    - Strict Equal (===):
-        - let isStrictEqual = 5 === '5'; // false (strict equality, no type coercion)
-    - Not Equal (!=) and Not Strict Not Equal (!==):
-        - let notEqual = 10 != '10'; // false
-        - let strictNotEqual = 10 !== '10'; // true
-* Logical Operators:
-    - Logical AND (&&):
-        - ```
-        if (condition1 && condition2) {
-        // code to execute if both conditions are true
-        }
-        ```
-    - Logical OR (||):
+
+**Comparison Operators**
+
+-> Equal (==):
+`let isEqual = 5 == '5'; // true (loose equality, type coercion)`
+
+-> Strict Equal (===):
+`let isStrictEqual = 5 === '5'; // false (strict equality, no type coercion)`
+
+-> Not Equal (!=) and Not Strict Not Equal (!==):
+```
+let notEqual = 10 != '10'; // false
+let strictNotEqual = 10 !== '10'; // true
+```
+
+**Logical Operators**
+
+-> Logical AND (&&):
+```
+if (condition1 && condition2) {
+// code to execute if both conditions are true
+}
+```
+
+-> Logical OR (||):
+```
 if (condition1 || condition2) {
   // code to execute if at least one condition is true
 }
+```
 
-Logical NOT (!):
+-> Logical NOT (!):
+```
 if (!someCondition) {
   // code to execute if the condition is not true
 }
+```
 
+**Increment and Decrement Operators**
 
-* Increment and Decrement Operators:
-    - Increment (++):
+-> Increment (++):
+```
 let count = 5;
 count++; // Equivalent to: count = count + 1; (count is now 6)
+```
 
-Decrement (--):
+-> Decrement (--):
+```
 let value = 8;
 value--; // Equivalent to: value = value - 1; (value is now 7)
+```
 
+**Ternary (Conditional) Operator**
 
-* Ternary (Conditional) Operator:
-    - Ternary Operator (?:):let result = (condition) ? trueValue : falseValue;
+-> Ternary Operator (?:):
+`let result = (condition) ? trueValue : falseValue;`
 
+**Other Operators**
 
-* Other Operators:
-    - typeof Operator:
-let type = typeof variable; // Returns the type of the variable
-Instanceof Operator:
+-> typeof Operator:
+`let type = typeof variable; // Returns the type of the variable`
+
+-> Instanceof Operator:
+```
 if (object instanceof Array) {
   // code to execute if the object is an array
 }
+```
+
+> There's a lot of information there, but you don't need to memorize it. Just be familiar with the idea we use different operators to *operate* on one or more values so to construct a new value!
 
 
 #### 2.1.3
