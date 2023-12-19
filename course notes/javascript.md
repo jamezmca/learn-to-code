@@ -73,6 +73,8 @@ As mentioned above, the art of writing JavaScript is analogous to writing our a 
 
 > We've already seen one example of a common syntax in JavaScript that is commonly used for printing outputs or values to our terminal -> `console.log()`. We'll come to understand more about this example later, but for now, it's good to know that this simple line is one of the most powerful tools at your disposal in JavaScript when it comes to debugging code; whatever you place within the circular parenthesis, will then be outputted to the console for you to see.
 
+The last thing to note before we dive deeper into the syntax is that our instructions need to be clearly separated from one another. We can do that by either having each individual instruction on it's own line, or by using the `;` key at the end of each instruction.
+
 #### 2.1.1 Variable & Declarations
 
 The very first syntax in JavaScript that we'll be learning is *variable declaration*. Essentially, a variable is a *name* that is associated with a value. For example, in mathematics could say `x = 5`. The name of the variable is `x` and it is associated with the value `5`. If I asked what the value of `x` was, you would say `5`.
@@ -111,7 +113,7 @@ So the correct way to write the *first name* example above would be:
 
 #### 2.1.2 Data Types
 
-Once we have our variables initialized, the next thing we normally do is assign some form of value to them. Values in JavaScript can have numerous different types, known as *Data Types*. Data types can be described as either *primitive* or *object*, where the primary key data types are as follows:
+Once we have our variables initialized, the next thing we normally do is assign some form of value to them. Values in JavaScript can have numerous different types, known as *Data Types*. Data types can be described as either *primitive* or *object* (don't worry about this too much), where the primary key data types are as follows:
 
 * Primitive 
     - **`Number`** represents all numerical values, including integers, decimals, and exponents. (e.g., 10, 3.14, 1e5).
@@ -123,6 +125,86 @@ Once we have our variables initialized, the next thing we normally do is assign 
     - **`Object`** is a complex data type that allows you to store collections of key-value pairs. Example: { name: 'John', age: 30 }.
     - **`Array`** is a special type of object used to store ordered collections of values. Example: [1, 2, 3, 4].
     - **`Function`** is a subtype of object that can be invoked/called. Example: function add(x, y) { return x + y; }.
+
+When assigning values to a variable, it's important to ensure that the value is both a viable data type, and the correct data type. We'll dive deeper into data types and how we can manipulate them in [Chapter 3](#chapter-3---develop-intermediate-programming-skills-with-javascript).
+
+#### 2.1.3 JavaScript Operators
+
+An operator is a character that we typically associate with an operation, or an action. If we think about mathematics and calculators, the operators are the `+ - / *` keys that we are all familar. In JavaScript, it's no different. There are numerous operators available to us, some of which will be used far more frequently than others. The following list labels most of them, but don't stress about memorizing them.
+
+Arithmetic Operators:
+Addition (+):
+let sum = 5 + 3; // 8
+
+Subtraction (-):
+let difference = 10 - 4; // 6
+
+Multiplication (*):
+let product = 3 * 7; // 21
+
+Division (/):
+let quotient = 15 / 3; // 5
+
+Modulus (%):
+let remainder = 10 % 3; // 1 (remainder of division)
+
+
+* Assignment Operators:
+    - Assignment (=):
+        - let x = 10;
+    - Addition Assignment (+=):
+        - let y = 5;
+        - y += 3; // Equivalent to: y = y + 3; (y is now 8)
+* Comparison Operators:
+    - Equal (==):
+        - let isEqual = 5 == '5'; // true (loose equality, type coercion)
+    - Strict Equal (===):
+        - let isStrictEqual = 5 === '5'; // false (strict equality, no type coercion)
+    - Not Equal (!=) and Not Strict Not Equal (!==):
+        - let notEqual = 10 != '10'; // false
+        - let strictNotEqual = 10 !== '10'; // true
+* Logical Operators:
+    - Logical AND (&&):
+        - ```
+        if (condition1 && condition2) {
+        // code to execute if both conditions are true
+        }
+        ```
+    - Logical OR (||):
+if (condition1 || condition2) {
+  // code to execute if at least one condition is true
+}
+
+Logical NOT (!):
+if (!someCondition) {
+  // code to execute if the condition is not true
+}
+
+
+* Increment and Decrement Operators:
+    - Increment (++):
+let count = 5;
+count++; // Equivalent to: count = count + 1; (count is now 6)
+
+Decrement (--):
+let value = 8;
+value--; // Equivalent to: value = value - 1; (value is now 7)
+
+
+* Ternary (Conditional) Operator:
+    - Ternary Operator (?:):let result = (condition) ? trueValue : falseValue;
+
+
+* Other Operators:
+    - typeof Operator:
+let type = typeof variable; // Returns the type of the variable
+Instanceof Operator:
+if (object instanceof Array) {
+  // code to execute if the object is an array
+}
+
+
+#### 2.1.3
 
 #### 2.1._ Commenting in JavaScipt
 
