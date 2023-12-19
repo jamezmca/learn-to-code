@@ -353,7 +353,7 @@ function printName(name) {
 printName()
 ```
 
-We just call it by it's name with the circular parenthesis at the end. In this particular case our function will actually error. Any idea why? We'll, it's because we didn't pass in a name value as an argument when we invoked the function. Consequently, our function is going to be looking for a name to print, one that doesn't actually exist. The correct syntax would look a bit more like the following:
+We now invoke it by typing it's name with the circular parenthesis at the end. In this particular case our function will actually error. Any idea why? We'll, it's because we didn't pass in a name value as an argument when we invoked the function. Consequently, our function is going to be looking for a name to print, one that doesn't actually exist. The correct syntax would look a bit more like the following:
 
 ```
 // First we define the function
@@ -380,14 +380,59 @@ function printName(name = "default name") {
 
 This would cause the name parameter to assume the value "default name" in the instance where no name is passed in as an argument when the function is invoked, otherwise it would assume the argument value.
 
-> Note that arguments are positional, meaning it's important you input them in the same order that you define them. Additionally, we should note that whatever value or parameter we pass in as an argument when we invoke the function, will be referenced by the name given to the parameter when we define the argument. So even though I passed in a variable called *firstName* with a value equal to "james", within the function we would refer to the variable as *name*, as that's what we defined it to be in the function definition.
+> Note that arguments are positional, meaning it's important you input them in the same order that you define them. Additionally, we should note that whatever value or parameter we pass in as an argument when we invoke the function, will be referenced by the name given to the parameter when we define the argument. So even though I passed in a variable called **firstName** with a value equal to "james", within the function we would refer to the variable as **name**, as that's what we defined it to be in the function definition.
 
 #### 2.3.4 Function Returns
+
+So what if we we're doing some math and we wanted to define a function that added two numbers. We could do that very easily using a function:
+
+```
+function addNumbers(firstNumber, secondNumber) {
+    let sum = firstNumber + secondNumber
+}
+```
+
+And that might look all well and good, however as it's currently written, this function is of very little use.  We create a variable called sum within the function that assumes the value of the addition of the two numbers, which is great, but as soon as the function finishes executing, that value is lost to the void. If we wanted to keep ahold of the final output from the function, we'd need to do 2 things.
+
+1. `return` the final output of the function
+    - As soon as we hit `return` line in our function, the function will cease to execute as of that line.
+    - We can just write `return` to exit the function, but any value we append to the return line will then be accessable outside of the function.
+2. Assign the returned value to a new variable in the main *scope* of the code.
+    - We'll touch more on scope later.
+
+So we could make our code more useful by writing the function as follows:
+
+```
+// First we define the function
+function addNumbers(firstNumber, secondNumber) {
+    let sum = firstNumber + secondNumber // calculates the sum of the two argument values
+
+    return sum // returns the value of the sum from the function
+}
+
+let sum1 = addNumbers(3, 6)
+let sum2 = addNumbers(4, 8)
+
+console.log(sum1, sum2) // outputs "9 12"
+```
+
+> This works per the comment made above about how the returned value is what is left behind in place of the function upon the completion of it's execution.
 
 <!-- #### 2.3._ Anonymous functions -->
 
 
 ## Chapter 3 - Intermediate Programming Skills with JavaScript
+
+Cool 🔥 We're making some amazing progress. Thus far we've learned about syntax, variables, functions, operators, data types and even more. Now it's time to take our understanding to the next level by taking a look at the following topics.
+
+* Working with arrays, objects, and manipulating data.
+* Scope, closures, and how to write modular and reusable code.
+* Error handling techniques and debugging tools for effective troubleshooting.
+
+### 3.1 Data Manipulation
+
+
+
 
 ## Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript
 ## Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript
