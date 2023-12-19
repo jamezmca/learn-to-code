@@ -306,7 +306,73 @@ This loop will endlessly execute until the function returns true (we'll talk mor
 
 ### 2.3 Basic Functions in JavaScript
 
-Functions are the holy grail of JavaScript. The difference between some well written code and code that causes despair might just be the use of functions. In JavaScript, a function is a reusable block of code that performs a specific task or set of tasks. Functions allow you to organize your code into modular, manageable pieces, making it easier to understand, maintain, and reuse. Functions can take input values, called parameters, and return a result.
+Functions are basically the holy grail of JavaScript. The difference between some well written code and code that causes despair might just be the use of functions. In JavaScript, a function is a reusable block of code that performs a specific task or set of tasks. Functions allow you to organize your code into modular, manageable pieces, making it easier to understand, maintain, and reuse. Functions can take input values, called parameters or arguments, and return a result.
+
+> When we say 'return a result', the returned result is essentially what is left in place of the function call after it has executed. So if we had a function that had `return 2` written at the bottom, we would be left with the value 2 at the end of the function execution.
+
+#### 2.3.1 When to use Functions
+
+Whenever you find yourself rewriting a block of code that you also have somewhere else, it's time to move it into a function. Whenever you find your code to be hard to understand and segment, it's time to move each section into it's own function. Even when you find yourself commenting out large blocks of code for certain versions of the script, it's time to move that code to a function and just comment out the function invocation instead.
+
+#### 2.3.2 The Anatomy of a Function
+
+To use a function, the first thing we have to do actually define the function. The basic structure for defining a function is as follows:
+
+```
+function nameOfFunction(optionalArgument, secondOptionalArgument) {
+    //reusable code goes in here
+}
+```
+
+The main key parts of this syntax to take note of are:
+
+1. Similar to how we initialize a variable using one of the *let, const & var* keywords, for functions we literally write `function` to let our program know what we're defining.
+2. After the function keyword, we then name our function. Function names should be unique and common practice is to use camelCase for their names.
+    - Typically the function name will concisely describe the functionality of the function.
+3. The circular parenthesis come after the name, and they contain the arguments/parameters. These are optional, so you can have an empty set of parenthesis if your function does not rely on any arguments. 
+    - Multiple arguments should be comma separated.
+4. The code space between the curly parenthesis is where we can write our reusable code.
+
+Now we know how to define a function, how do we go about using it?
+
+
+#### 2.3.3 Invoking a Function
+
+To use a function and execute the body of logic contained within the function, we need to **invoke** the function. We can invoke a singular function as many times as we choose, passing in different arguments every time. And with each invocation, that same body of logic will be executed.
+
+Let's say we define a function as follows:
+
+```
+// First we define the function
+function printName(name) {
+    // this function receives a name input, and then prints the name to the console.
+    console.log('The persons name is: ', name)
+}
+
+// And then to invoke the function . . . 
+printName()
+```
+
+We just call it by it's name with the circular parenthesis at the end. In this particular case our function will actually error. Any idea why? We'll, it's because we didn't pass in a name value as an argument when we invoked the function. Consequently, our function is going to be looking for a name to print, one that doesn't actually exist. The correct syntax would look a bit more like the following:
+```
+// First we define the function
+function printName(name) {
+    // this function receives a name input, and then prints the name to the console.
+    console.log('The persons name is: ', name)
+}
+
+// And then to invoke the function . . . 
+let firstName = "james"
+printName(firstName)
+
+// The output would be 'The persons name is james'
+```
+
+
+#### 2.3.4 Function Returns
+
+<!-- #### 2.3._ Anonymous functions -->
+
 
 ## Chapter 3 - Intermediate Programming Skills with JavaScript
 
