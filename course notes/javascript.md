@@ -134,25 +134,25 @@ An operator is a character that we typically associate with an operation, or an 
 
 **Arithmetic Operators**
 
--> Addition (+):
+* Addition (+):
 `let sum = 5 + 3; // 8`
 
--> Subtraction (-):
+* Subtraction (-):
 `let difference = 10 - 4; // 6`
 
--> Multiplication (*):
+* Multiplication (*):
 `let product = 3 * 7; // 21`
 
--> Division (/):
+* Division (/):
 `let quotient = 15 / 3; // 5`
 
--> Modulus (%):
+* Modulus (%):
 `let remainder = 10 % 3; // 1 (remainder of division)`
 
 
 **Assignment Operators**
 
--> Assignment (=):
+* Assignment (=):
 `let x = 10;`
 
 <!-- -> Addition Assignment (+=):
@@ -163,13 +163,13 @@ y += 3; // Equivalent to: y = y + 3; (y is now 8)
 
 **Comparison Operators**
 
--> Equal (==):
+* Equal (==):
 `let isEqual = 5 == '5'; // true (loose equality, type coercion)`
 
--> Strict Equal (===):
+* Strict Equal (===):
 `let isStrictEqual = 5 === '5'; // false (strict equality, no type coercion)`
 
--> Not Equal (!=) and Not Strict Not Equal (!==):
+* Not Equal (!=) and Not Strict Not Equal (!==):
 ```
 let notEqual = 10 != '10'; // false
 let strictNotEqual = 10 !== '10'; // true
@@ -177,21 +177,21 @@ let strictNotEqual = 10 !== '10'; // true
 
 **Logical Operators**
 
--> Logical AND (&&):
+* Logical AND (&&):
 ```
 if (condition1 && condition2) {
 // code to execute if both conditions are true
 }
 ```
 
--> Logical OR (||):
+* Logical OR (||):
 ```
 if (condition1 || condition2) {
   // code to execute if at least one condition is true
 }
 ```
 
--> Logical NOT (!):
+* Logical NOT (!):
 ```
 if (!someCondition) {
   // code to execute if the condition is not true
@@ -219,7 +219,7 @@ value--; // Equivalent to: value = value - 1; (value is now 7)
 
 **Other Operators**
 
--> typeof Operator:
+* typeof Operator:
 `let type = typeof variable; // Returns the type of the variable`
 
 <!-- -> Instanceof Operator:
@@ -232,12 +232,18 @@ if (object instanceof Array) {
 > There's a lot of information there, but you don't need to memorize it. Just be familiar with the idea we use different operators to *operate* on one or more values so to construct a new value! We'll cover a few more ES6+ syntax operators a bit later
 
 
-#### 2.1.3
+#### 2.1.4 Commenting in JavaScipt
 
-#### 2.1._ Commenting in JavaScipt
+As you might have noted in a few of the examples above, there are a few sentences or notes that seem to appear at the end of, or below a line of code. These are code comments. To *comment out* a line of code in JavaScript, simple put the `//` characters at the start of the line. If you only want to comment out part of a line, place the `//` characters at the left-hand-side of the code you want to comment. For example:
+
+```
+let x = 5 // CODE COMMENT HERE -> SETS VALUE OF X EQUAL TO 5
+
+// THIS ENTIRE LINE IS COMMENTED TOO :P
+```
 
 
-## Chapter 3 - Develop Intermediate Programming Skills with JavaScript
+## Chapter 3 - Intermediate Programming Skills with JavaScript
 
 ## Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript
 ## Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript
