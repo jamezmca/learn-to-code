@@ -284,6 +284,30 @@ for (let i = 0; i < 20; i = i + 1) {
 
 > We would expect this loop to print the sentence `the value of i is: _`, where with each iteration the _ is replaced with the current value of i, so 0 -> 19.
 
+#### 2.2.2 The While Loop
+
+While *while* loop on the otherhand is much the same really, if anything it's slightly simpler but is less common in application. At the ground level, it's actually got some pretty simple syntax:
+
+```
+while (DEFINE_WHILE_CONDITION) {
+    //insert the code to be repeated while the condition remains true
+}
+```
+
+The while conditon very simply is any condition that evaluates to a boolean *true* or *false* value. We could literally just write the value `true` in the condition spot and we'd have ourselves an infinite loop :P This example demonstrates a simple while condition:
+
+```
+while (img_not_found) {
+    img_not_found = findImg() //function that returns true or false depending on whether or not the image has been found
+}
+```
+
+This loop will endlessly execute until the function returns true (we'll talk more about functions later), and the `img_not_found` value is set to false, and the loop is exited.
+
+### 2.3 Basic Functions in JavaScript
+
+Functions are the holy grail of JavaScript. The difference between some well written code and code that causes despair might just be the use of functions. In JavaScript, a function is a reusable block of code that performs a specific task or set of tasks. Functions allow you to organize your code into modular, manageable pieces, making it easier to understand, maintain, and reuse. Functions can take input values, called parameters, and return a result.
+
 ## Chapter 3 - Intermediate Programming Skills with JavaScript
 
 ## Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript
