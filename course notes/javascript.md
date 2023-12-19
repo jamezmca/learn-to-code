@@ -155,11 +155,11 @@ An operator is a character that we typically associate with an operation, or an 
 -> Assignment (=):
 `let x = 10;`
 
--> Addition Assignment (+=):
+<!-- -> Addition Assignment (+=):
 ```
 let y = 5;
 y += 3; // Equivalent to: y = y + 3; (y is now 8)
-```
+``` -->
 
 **Comparison Operators**
 
@@ -198,7 +198,7 @@ if (!someCondition) {
 }
 ```
 
-**Increment and Decrement Operators**
+<!-- **Increment and Decrement Operators**
 
 -> Increment (++):
 ```
@@ -210,26 +210,26 @@ count++; // Equivalent to: count = count + 1; (count is now 6)
 ```
 let value = 8;
 value--; // Equivalent to: value = value - 1; (value is now 7)
-```
+``` -->
 
-**Ternary (Conditional) Operator**
+<!-- **Ternary (Conditional) Operator**
 
 -> Ternary Operator (?:):
-`let result = (condition) ? trueValue : falseValue;`
+`let result = (condition) ? trueValue : falseValue;` -->
 
 **Other Operators**
 
 -> typeof Operator:
 `let type = typeof variable; // Returns the type of the variable`
 
--> Instanceof Operator:
+<!-- -> Instanceof Operator:
 ```
 if (object instanceof Array) {
   // code to execute if the object is an array
 }
-```
+``` -->
 
-> There's a lot of information there, but you don't need to memorize it. Just be familiar with the idea we use different operators to *operate* on one or more values so to construct a new value!
+> There's a lot of information there, but you don't need to memorize it. Just be familiar with the idea we use different operators to *operate* on one or more values so to construct a new value! We'll cover a few more ES6+ syntax operators a bit later
 
 
 #### 2.1.3
