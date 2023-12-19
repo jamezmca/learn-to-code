@@ -85,6 +85,7 @@ To initialize a variable, we can use one of the following 3 keywords: `const` | 
     - So the mathematics example above would become `const x = 5` if written in JavaScript.
 * **`let`** is used to initialize a variable when the value is likely to change, or if we are uncertain as to how permanent it's value is (this is the most common initialization).
     - We would use `let` if we expected the value of `x` to change, for example:
+    - Note in the example below, that when we reassigned a new value to `x`, we did *not* reinitialize the variable.
 ```
 let x = 5
 x = 7
@@ -94,7 +95,7 @@ x = 7
 > We only need to initialize a variable **once** within a particular JS script. We cannot refer to a variable in our code prior to where it is initialized, but we can use it without initialization anywhere after the line where we initialize the variable.
 
 
-
+#### 2.1._ Commenting in JavaScipt
 
 
 ## Chapter 3 - Develop Intermediate Programming Skills with JavaScript
