@@ -73,7 +73,7 @@ As mentioned above, the art of writing JavaScript is analogous to writing our a 
 
 > We've already seen one example of a common syntax in JavaScript that is commonly used for printing outputs or values to our terminal -> `console.log()`. We'll come to understand more about this example later, but for now, it's good to know that this simple line is one of the most powerful tools at your disposal in JavaScript when it comes to debugging code; whatever you place within the circular parenthesis, will then be outputted to the console for you to see.
 
-#### 2.1.1 Variable Declarations
+#### 2.1.1 Variable & Declarations
 
 The very first syntax in JavaScript that we'll be learning is *variable declaration*. Essentially, a variable is a *name* that is associated with a value. For example, in mathematics could say `x = 5`. The name of the variable is `x` and it is associated with the value `5`. If I asked what the value of `x` was, you would say `5`.
 
@@ -94,6 +94,35 @@ x = 7
 
 > We only need to initialize a variable **once** within a particular JS script. We cannot refer to a variable in our code prior to where it is initialized, but we can use it without initialization anywhere after the line where we initialize the variable.
 
+As for *variable names*, there are a few rules that we must follow to ensure that we don't break our code.
+
+1. There can be no *spaces* or *dashes* in our code names.
+    - Names like `let first name = ...` or `let first-name = ...` are *not* viable.
+2. Names must begin with a letter of the alphabet -> `a-z, A-Z`.
+    - Best practice in JS is to start your variables with a lowercase letter e.g. `let name = ...` as opposed to `let Name = ...`.
+3. For *multi-word* variables, we use either the **camelCase** or **snake_case**.
+    - camelCase capitalizes the first letter of each word in a phrase, without using spaces or punctuation (with exception to the first word).
+    - snake_case is a way of writing phrases without spaces, where spaces are replaced with underscores `_`, and the words are all lower case.
+
+So the correct way to write the *first name* example above would be:
+* `let firstName = "John"` or `let first_name = "John"`.
+
+> It's preferable if you pick a style and stay consistent to that style throughout your code.
+
+#### 2.1.2 Data Types
+
+Once we have our variables initialized, the next thing we normally do is assign some form of value to them. Values in JavaScript can have numerous different types, known as *Data Types*. Data types can be described as either *primitive* or *object*, where the primary key data types are as follows:
+
+* Primitive 
+    - **`Number`** represents all numerical values, including integers, decimals, and exponents. (e.g., 10, 3.14, 1e5).
+    - **`String`** represents sequences of characters enclosed in quotes. (e.g., "Hello", 'World!', "").
+    - **`Boolean`** represents truth values, either true or false. (e.g., true, false).
+    - **`Null`** represents the absence of a value. It's different from undefined. (e.g., null).
+    - **`Undefined`** represents the absence of a value due to not being assigned yet or a reference pointing to nowhere. (e.g., undefined).
+* Object
+    - **`Object`** is a complex data type that allows you to store collections of key-value pairs. Example: { name: 'John', age: 30 }.
+    - **`Array`** is a special type of object used to store ordered collections of values. Example: [1, 2, 3, 4].
+    - **`Function`** is a subtype of object that can be invoked/called. Example: function add(x, y) { return x + y; }.
 
 #### 2.1._ Commenting in JavaScipt
 
