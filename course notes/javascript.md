@@ -71,7 +71,7 @@ So now we're familiar with the JavaScript ecosystem, how to intialize JavaScript
 
 As mentioned above, the art of writing JavaScript is analogous to writing our a set of instructions for a machine to execute, where the instructions are coded using a syntax specific to JavaScript. 
 
->>> We've already seen one example of a common syntax in JavaScript that is commonly used for printing outputs or values to our terminal -> `console.log()`. We'll come to understand more about this example later, but for now, it's good to know that this simple line is one of the most powerful tools at your disposal in JavaScript when it comes to debugging code; whatever you place within the circular parenthesis, will then be outputted to the console for you to see.
+> We've already seen one example of a common syntax in JavaScript that is commonly used for printing outputs or values to our terminal -> `console.log()`. We'll come to understand more about this example later, but for now, it's good to know that this simple line is one of the most powerful tools at your disposal in JavaScript when it comes to debugging code; whatever you place within the circular parenthesis, will then be outputted to the console for you to see.
 
 #### 2.1.1 Variable Declarations
 
@@ -79,9 +79,10 @@ The very first syntax in JavaScript that we'll be learning is *variable declarat
 
 In JavaScript we use variables all the time, but it's not quite as simple as the `x = 5` that we have in mathematics. To use variable, the first thing we **must** do is *initialize* the variable. Initializing the variable is a way of telling the computer that we want to create a variable, that we will then continue to use throughout our program. 
 
-* To initialize a variable, we can use one of the following 3 keywords: `const` | `let` | `var`.
-    - So the mathematics example above would become `const x = 5` if written in JavaScript.
+To initialize a variable, we can use one of the following 3 keywords: `const` | `let` | `var`.
+    
 * **`const`** is used to initialize a variable when we can guarantee that the value of the variable will **NEVER** change anywhere in the code.
+    - So the mathematics example above would become `const x = 5` if written in JavaScript.
 * **`let`** is used to initialize a variable when the value is likely to change, or if we are uncertain as to how permanent it's value is (this is the most common initialization).
     - We would use `let` if we expected the value of `x` to change, for example:
 ```
