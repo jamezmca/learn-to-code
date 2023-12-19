@@ -132,29 +132,30 @@ When assigning values to a variable, it's important to ensure that the value is 
 
 An operator is a character that we typically associate with an operation, or an action. If we think about mathematics and calculators, the operators are the `+ - / *` keys that we are all familar. In JavaScript, it's no different. There are numerous operators available to us, some of which will be used far more frequently than others. The following list labels most of them, but don't stress about memorizing them.
 
-Arithmetic Operators:
-Addition (+):
-let sum = 5 + 3; // 8
+**Arithmetic Operators**
+-> Addition (+):
+`let sum = 5 + 3; // 8`
 
-Subtraction (-):
-let difference = 10 - 4; // 6
+-> Subtraction (-):
+`let difference = 10 - 4; // 6`
 
-Multiplication (*):
-let product = 3 * 7; // 21
+-> Multiplication (*):
+`let product = 3 * 7; // 21`
 
-Division (/):
-let quotient = 15 / 3; // 5
+-> Division (/):
+`let quotient = 15 / 3; // 5`
 
-Modulus (%):
-let remainder = 10 % 3; // 1 (remainder of division)
+-> Modulus (%):
+`let remainder = 10 % 3; // 1 (remainder of division)`
 
 
-* Assignment Operators:
-    - Assignment (=):
-        - let x = 10;
-    - Addition Assignment (+=):
-        - let y = 5;
-        - y += 3; // Equivalent to: y = y + 3; (y is now 8)
+**Assignment Operators**
+-> Assignment (=)
+`let x = 10;`
+
+-> Addition Assignment (+=):
+let y = 5;
+y += 3; // Equivalent to: y = y + 3; (y is now 8)
 * Comparison Operators:
     - Equal (==):
         - let isEqual = 5 == '5'; // true (loose equality, type coercion)
