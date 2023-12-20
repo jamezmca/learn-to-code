@@ -429,7 +429,44 @@ Cool 🔥 We're making some amazing progress. Thus far we've learned about synta
 * Scope, closures, and how to write modular and reusable code.
 * Error handling techniques and debugging tools for effective troubleshooting.
 
+These chapters will help us to really understand the algorithms and data structures side of JavaScript.
+
 ### 3.1 Data Manipulation
+
+Starting off with data manipulation. 
+
+Earlier, we covered the different types of data that we can have. We'll it doesn't end there. Most of the data that we originally assign to a variable upon it's initialization will at a later point be modified and updated, and the means and methods for updating is totally dependant on the type of data that we have.
+
+#### 3.1.1 Modifying Strings
+
+We'll begin with the simplest data type that we can modify and interact with - the string. As we learned above, a string is a sequence of characters contained within either the single or double quotation marks.
+
+The first thing you need to know about a string is that every character has an index. If we have the string `'james'`, then the character indexes are as follows:
+
+```
+j 0
+a 1
+m 2
+e 3
+s 4
+```
+
+> Note that JavaScript uses a zero indexing system, meaning that the first index will always be the 0th index.
+
+Let's say we now wanted to check what character was at the 3rd index. We can use the `[]` square parenthesis to specify and index within the string that we wish to access. For example:
+
+```
+let name = 'james'
+console.log('The third character is: ', name[2]) // Outputs -> The third character is m
+```
+
+> Note how we specified the index of the character we wish to interact with within the square `[]` parenthesis, and also how we made sure to check the 2 index as in a 0th base indexing system, the 2nd index is the 3rd entry.
+
+index of, split, join +
+
+
+
+#### 3.1.1.1 Regex
 
 
 
