@@ -462,6 +462,8 @@ console.log('The third character is: ', name[2]) // Outputs -> The third charact
 
 > Note how we specified the index of the character we wish to interact with within the square `[]` parenthesis, and also how we made sure to check the 2 index as in a 0th base indexing system, the 2nd index is the 3rd entry.
 
+
+
 index of, split, join +
 
 
