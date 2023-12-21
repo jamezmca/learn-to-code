@@ -466,8 +466,16 @@ We also have access to what are known as string **methods**, where a method is b
 
 * **`.indexOf("")`** returns the index of a particular character passed into the parenthesis, and otherwise returns -1.
 * **`.split("")`** splits the string at whatever character is passed as an argument to the method (an empty string would split the string into an array of every character).
+* **`.includes(value)`** returns true or false depending on whether or not the string includes the *value*.
 * **`.replace("", "")`** replaces the first instance of the string passed as the first argument, with the string passed as the second argument. 
 * **`.replaceAll("", "")`** replaces every instance of the string passed as the first argument, with the string passed as the second argument. 
+
+We use string methods by appending the method to the end of the string as follows:
+
+```
+let name = 'james'
+console.log(name.includes('j')) // outputs true as the string does contain the letter j
+```
 
 
 Additionally, we can concatenate one or more strings together simply by using the addition operator `+`. For example:
@@ -478,6 +486,14 @@ let secondName = 'McArthur'
 
 let fullName = firstName + ' ' + secondName //concatenates the two strings with a space in the middle
 ```
+
+##### 3.1.1.1 Regex
+
+Regex is a string matching system that is shorthand for 'Regular Expressions'. It's essentially a way of looking for patterns or string matches within another string. 
+
+* A common example is email and password formatting to ensure they are secure - these systems will employ a regex match to verify the password.
+
+> There are a million and 1 rules to regex, and it's almost impossible to remember it all perfectly, so the best system to use for the modern day is to get a system like **[ChatGPT](https://www.chat.openai.com)** to write the regex for you, and just specify in the prompt what type of matching rules you are looking for.
 
 #### 3.1.2 Modifying Arrays and Lists
 
@@ -497,7 +513,28 @@ let fruits = ['apple', 'orange', 'banana']
 fruits[0] = 'peach' //replaces the 'apple' value in the 0th index with 'peach'
 ```
 
-#### 3.1.1.1 Regex
+We also have access to a number of array **methods** (some will be covered here and newer ones will be covered in the #ES6+ section) ->
+
+* **`.push(value)`** *pushes* a new value onto to the end of the array.
+* **`.pop()`** removes the last value from the array and returns it.
+* **`.includes(value)`** returns true or false depending on whether or not the array includes the *value*.
+* **`.indexOf(value)`** returns the index of a particular character passed into the parenthesis, and otherwise returns -1.
+* **`.sort(compareFunction)`** sorts the elements of an array in place (modifies the original array).
+* **`.reverse()`** reverses the order of the elements in the array in place (modifies the original array).
+* **`.slice(start, end)`** extracts a section of the array and returns a new array.
+* **`.join(separator)`** joins all elements of an array into a string, separated by a specified separator.
+
+To use an array method, we follow this syntax:
+
+```
+let fruits = ['apple', 'banana']
+fruits.push('peach') // pushes peach to the end of the array
+console.log(fruits) // outputs ['apple', 'banana', 'peach']
+```
+
+> There are obviously numerous other array methods but these are the ones that are most commonly used.
+
+
 
 
 
