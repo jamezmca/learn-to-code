@@ -122,7 +122,7 @@ Once we have our variables initialized, the next thing we normally do is assign 
     - **`Null`** represents the absence of a value. It's different from undefined. (e.g., null).
     - **`Undefined`** represents the absence of a value due to not being assigned yet or a reference pointing to nowhere. (e.g., undefined).
 * Object
-    - **`Object`** (or dictionary) is a complex data type that allows you to store collections of key-value pairs. Example: { name: 'John', age: 30 }.
+    - **`Object`** (or dictionary) is a complex data type that allows you to store collections of *key-value* pairs. Example: { name: 'John', age: 30 }.
     - **`Array`** (or list) is a special type of object used to store ordered collections of values. Example: [1, 2, 3, 4].
     - **`Function`** is a subtype of object that can be invoked/called. Example: function add(x, y) { return x + y; }.
 
@@ -499,11 +499,12 @@ Regex is a string matching system that is shorthand for 'Regular Expressions'. I
 
 As for our arrays, indexing elements and even modifying elements in an array is much the same as with a string. We simply use the square parenthesis once again and inside of the parenthesis we specify the index of the element that we wish to either read or modify (keeping in mind the 0 indexing system).
 
-An example of how we can do exactly that is as follows:
+An example of how we can do exactly that is as follows (ensure that your array actually has a value at that index):
 
 ```
 let fruits = ['apple', 'orange', 'banana']
 console.log(fruits[1]) // Outputs: orange
+console.log(fruits[10]) // Outputs: undefined as no entry exists at that index in the array
 ```
 
 With an array we can go a step further and actually **modify** a pre-existing value. All we do to achieve this is assign a new value to that particular index in the array with the following syntax:
@@ -515,7 +516,7 @@ fruits[0] = 'peach' //replaces the 'apple' value in the 0th index with 'peach'
 
 We also have access to a number of array **methods** (some will be covered here and newer ones will be covered in the #ES6+ section) ->
 
-* **`.push(value)`** *pushes* a new value onto to the end of the array.
+* **`.push(value)`** *pushes* a new value onto to the end of the array (i.e. **add a new value to the array**).
 * **`.pop()`** removes the last value from the array and returns it.
 * **`.includes(value)`** returns true or false depending on whether or not the array includes the *value*.
 * **`.indexOf(value)`** returns the index of a particular character passed into the parenthesis, and otherwise returns -1.
@@ -535,7 +536,38 @@ console.log(fruits) // outputs ['apple', 'banana', 'peach']
 > There are obviously numerous other array methods but these are the ones that are most commonly used.
 
 
+#### 3.1.3 Modifying Objects / Dictionaries
 
+And finally we have dictionaries (objects - either term is acceptable). The syntax is once again pretty similar to arrays and strings whereby we access a value by checking the object for the associated key. For example:
+
+```
+let person = {
+    name: 'james',
+    age: 27,
+    channel: 'https://www.youtube.com/smoljames'
+}
+
+let channelUrl = person['channel'] // note how I wrapped the key in quotations so it becomes a string
+console.log(channelUrl) // outputs -> https://www.youtube.com/smoljames
+```
+
+And likewise if we wanted to modify a key-value pair:
+
+```
+let person = {
+    'full name': 'james mcarthur', // note how this key has a space in the middle so I wrap the entire key in quotations so it becomes a string
+    age: 27,
+    channel: 'https://www.youtube.com/smoljames'
+}
+
+person['age'] = 32
+
+console.log(person) // outputs {name: 'james', age: 32, channel: 'https://www.youtube.com/smoljames'}
+```
+
+And if we wanted to add a new key-value pair to our dictionary, we simple do the example same thing as modifying the value, except we use a new key that does not exist within the dictionary already. If the key does exist, we will simply modify it's pre-existing value.
+
+> There is also a *dot* notation for working with objects, where instead of accessing a value associated with a key by using the `person['age']` syntax, we instead just type `person.age`. This only works for key names that are a single word however
 
 
 
