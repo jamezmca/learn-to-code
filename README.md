@@ -19,6 +19,7 @@ You're not alone in your journey, dive in to our coding community.
 * Discord -> https://discord.gg/BYr6gujs4k
 * LinkedIn -> https://www.linkedin.com/in/jamezmcarthur/
 * Twitter -> https://twitter.com/_Smoljames
+* Course Notes -> https://github.com/jamezmca/learn-to-code/tree/main/course%20notes
 
 ## Learning To Code
 
