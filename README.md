@@ -19,9 +19,9 @@ You're not alone in your journey, dive in to our coding community.
 * Discord -> https://discord.gg/BYr6gujs4k
 * Course Notes -> https://github.com/jamezmca/learn-to-code/tree/main/course%20notes
 
-## Learning To Code
+## Learning To Code (6 Chapters)
 
-Finally, time for the good stuff 🎉 
+Finally, time for the good stuff 🎉
 
 ### Chapter 1 - HTML CSS & GIT
 
@@ -180,4 +180,4 @@ Cheers,
 
 James
 
-✦ [LinkedIn](https://www.linkedin.com/in/jamezmcarthur/) ✦ [Twitter](https://twitter.com/_Smoljames) ✦ [Newsletter](https://smoljames.beehiiv.com/subscribe) ✦
+[LinkedIn](https://www.linkedin.com/in/jamezmcarthur/) · [Twitter](https://twitter.com/_Smoljames) · [Newsletter](https://smoljames.beehiiv.com/subscribe) ✦
