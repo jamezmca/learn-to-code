@@ -9,7 +9,7 @@
  
  With this guide, hopefully you too can learn to code (even if you have no prior experience) and land your developer role! 
 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -> *Or check out the interactive [version](https://www.roadmap.smoljames.com)🔥*
+> If you're enjoying the guide, consider *staring ⭐️* the repo :P Or check out the interactive [version](https://www.roadmap.smoljames.com)🔥
 
 ## Resources
 
@@ -17,13 +17,13 @@ You're not alone in your journey, dive in to our coding community.
 
 * Youtube -> https://www.youtube.com/smoljames
 * Discord -> https://discord.gg/BYr6gujs4k
-* LinkedIn -> https://www.linkedin.com/in/jamezmcarthur/
-* Twitter -> https://twitter.com/_Smoljames
+<!-- * LinkedIn -> https://www.linkedin.com/in/jamezmcarthur/
+* Twitter -> https://twitter.com/_Smoljames -->
 * Course Notes -> https://github.com/jamezmca/learn-to-code/tree/main/course%20notes
 
 ## Learning To Code
 
-Finally, time for the good stuff! If you're enjoying the guide, consider *staring ⭐️* the repo :P
+Finally, time for the good stuff 🎉 
 
 ### Chapter 1 - HTML CSS & GIT
 
@@ -33,11 +33,11 @@ We begin our journey with HTML CSS & GIT. The first two are essentially the back
 
 1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
 
-2. [GIT Crash Course](https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s) *[13mins]*
-
-3. [Learn HTML & CSS - Build & Deploy a Linktr.ee Clone [Beginner Tutorial]](https://youtu.be/jKWGYVRAYnc) *[30mins]*
+2. [Learn HTML & CSS - Build & Deploy a Linktr.ee Clone [Beginner Tutorial]](https://youtu.be/jKWGYVRAYnc) *[30mins]*
 
 3. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+
+4. [GIT Crash Course](https://youtu.be/WqWZt5gi-jw?si=reB1ABwV5Phus3pr) *[13mins]*
 
 #### Course Notes
 
@@ -81,6 +81,8 @@ JavaScript frameworks make building dynamic and interactive websites incredibly 
 2. [SvelteKit Web Portfolio](https://www.youtube.com/watch?v=ylCUH6LkW80) *[1.2hrs]*
 
 3. [Learn NextJS 13: Build a Modern Full-Stack E-commerce App with TailwindCSS + Stripe + Zustand](https://www.youtube.com/watch?v=oLPgc5Fp2Ts) *[1.5hrs]*
+
+4. [Learn Qwik - The World's Fastest JavaScript Web Framework](https://youtu.be/4a75F4FEArs?si=GUWyU8qb8aMZYiVU) *[1.5hrs]*
 
 
 #### End of Chapter Project
@@ -128,16 +130,28 @@ Build a backend API with Node.js, Express.js & PostgreSQL that manages a stores 
 
 Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
 
+### Chapter 6 - Full Stack Development
+
+*Completion time **[10hrs]***
+
+This chapter will help us to synthesise all our knowledge together under the branch of programming known as **Full Stack Development**. We'll learn how we can integrate all of the systems we've learned to far to build and deploy amazing web applications for just about purpose or application.
+
+1. [Passing Data Between Frontend and Backend | Node.js](https://youtu.be/5TxF9PQaq4U?si=m9x28RVUwvpJPHSv) *[20mins]*
+
+2. [Learn Next.js by building a full-stack CRUD app | Nextjs + Firebase (Auth & Firestore) + TailwindCSS](https://youtu.be/UzMr7-0FgA0?si=K3xYlI_Kr2SeVokQ) *[2hrs]*
+
+3. [Learn SvelteKit by building a Full Stack CRUD app | SvelteKit & Firebase (Auth + DB)](https://youtu.be/TIbL0VOE900?si=jY39HeeJ8F_O__Ou) *[1.33hrs]*
+
 ## Projects
 
 Now that you've got the knowledge you need to start building some wicked full stack web applications, here's my recommendation for the best trio of projects to include in your web portfolio.
 
 **Projects do not need to be overly complex, just clean and well coded**
 
-1. [Web portfolio](https://youtu.be/ylCUH6LkW80) -> You'll need somewhere to store you work
+1. [Web portfolio](https://youtu.be/ylCUH6LkW80) -> You'll need somewhere to store you work.
 *Recommended to use a JavaScript framework combined with TailwindCSS*
 
-2. Frontend Framework (e.g. React.js or Next.js) that consumes an API (weather app, pokemon pokedex etc.)
+2. Frontend Framework (e.g. React.js or Next.js) that consumes an API (weather app, pokemon pokedex etc.).
 
 3. An API project that uses the REST methodologies with Node.js, Express.js and PostgreSQL. Bonus points if you can contain it within a Docker Container and combine it with the ChatGPT API.
 
@@ -150,3 +164,23 @@ Everything you could ever want to know about landing your software developer job
 ### [I WANT A JOB 🔥](https://www.roadmap.smoljames.com/blog/job_applications)
 
 *This part cannot be understated and is equally important as the entirety of the learning to code section!*
+
+
+## Extra For Experts
+
+To make the process a hint more fun and engaging, there's a few extracurricular activities happening on the regular that you might wish to participate in! 
+
+* **Builder Streams** -> Weekly streams @ 2pm EDT time where we'll spend some time developing projects and doing other programming related things!
+* **Project Feedback** -> Get feedback and assistance on your project in the *#share-your-projects* channel in the Discord.
+* **Mock Interviews** -> Practice your interview skills with some mock interviews (they might get uploaded to the channel so be prepared :D).
+* **Coding Battles** -> Nothing like a challenge and in the coding battles we'll see who can program different things faster.
+
+## Final Words
+
+This journey can be challenging, even at the best of times. But with some patience & consistency you can absolutely become an extremely capable developer and have a successful career in tech, or just build hella bomb projects for the memes - it's up to you :P There's loads of us on this path together so just keep in mind that there's always a community here to support you along the way and we're pretty active in the Discord chat if you want to come hang out!
+
+Cheers,
+
+James
+
+✦ [LinkedIn](https://www.linkedin.com/in/jamezmcarthur/) ✦ [Twitter](https://twitter.com/_Smoljames) ✦ [Newsletter](https://smoljames.beehiiv.com/subscribe) ✦
