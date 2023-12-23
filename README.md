@@ -180,4 +180,4 @@ Cheers,
 
 James
 
-[LinkedIn](https://www.linkedin.com/in/jamezmcarthur/) · [Twitter](https://twitter.com/_Smoljames) · [Newsletter](https://smoljames.beehiiv.com/subscribe) ✦
+[LinkedIn](https://www.linkedin.com/in/jamezmcarthur/) · [Twitter](https://twitter.com/_Smoljames) · [Newsletter](https://smoljames.beehiiv.com/subscribe)
