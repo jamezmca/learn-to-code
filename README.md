@@ -2,7 +2,7 @@
 
 #### The ultimate guide to *learning to code* & full stack development that will *land you a job* in no time!
 
-![Futuristic programming landscape](./assets/headerImg.jpg)
+![Futuristic programming landscape](./assets/logos.png)
 
 ## Foreword
 
