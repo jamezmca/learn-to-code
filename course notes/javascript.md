@@ -420,6 +420,14 @@ console.log(sum1, sum2) // outputs "9 12"
 
 <!-- #### 2.3._ Anonymous functions -->
 
+#### 2.3.4 Recursion
+ASDL:ASD:LKASKJD: ASLKD":AL SD":AS"DK AL:KSD 
+ASDL"AKS:DLA
+SDKL 
+SDKL 
+SDKL 
+SDKL 
+
 
 ## Chapter 3 - Intermediate Programming Skills with JavaScript
 
@@ -551,6 +559,8 @@ let channelUrl = person['channel'] // note how I wrapped the key in quotations s
 console.log(channelUrl) // outputs -> https://www.youtube.com/smoljames
 ```
 
+> Note that the value associated with a key could be a further nested object, an array, a string or any other data type. 
+
 And likewise if we wanted to modify a key-value pair:
 
 ```
@@ -560,15 +570,74 @@ let person = {
     channel: 'https://www.youtube.com/smoljames'
 }
 
-person['age'] = 32
+person['age'] = 32 // where the key is 'age' and the new value is 32
 
 console.log(person) // outputs {name: 'james', age: 32, channel: 'https://www.youtube.com/smoljames'}
 ```
 
 And if we wanted to add a new key-value pair to our dictionary, we simple do the example same thing as modifying the value, except we use a new key that does not exist within the dictionary already. If the key does exist, we will simply modify it's pre-existing value.
 
-> There is also a *dot* notation for working with objects, where instead of accessing a value associated with a key by using the `person['age']` syntax, we instead just type `person.age`. This only works for key names that are a single word however
+> There is also a *dot notation* for working with objects, where instead of accessing a value associated with a key by using the `person['age']` syntax, we instead just type `person.age`. Unfortunately dot notation only works for key names that are a single word however.
 
+We also have access to a number of dictionary **operations/syntax** (some will be covered here and newer ones will be covered in the #ES6+ section) ->
+
+* **`delete object['property']`** removes a key value pair from the object (where the key matches the property).
+* **`'key_name' in object`** checks to see if the key is already within the object, and returns true if yes, and false if no.
+* **`Object.keys(object)`** returns an array of all the keys in the dictionary.
+
+#### 3.1.3.1 JSON 
+
+JSON (JavaScript Object Notation) is almost like an object; more specifically it's an object that has been parsed into a string. The string format has numerous benefits for data sharing and persisting that makes it a preferable alternative to an object. 
+
+* "JSON is a standard text-based format for representing structured data based on JavaScript object syntax".
+
+So consequently we *stringify* our object turning it into a string with a few formatting rules, and then when we wish to utilize the data as an object again, we once again parse it back to an object data type.
+
+Here are the essential rules of JSON to ensure valid and well-formatted data:
+
+1. Data Types
+    - JSON supports only four primitive data types:
+        - Numbers (e.g., 42, 3.14159)
+        - Strings (enclosed in double quotes: "hello", "world")
+        - Booleans (true or false)
+        - Null (represents no value)
+    - It does not support other JavaScript data types like undefined or functions.
+2. Structure
+    - JSON data is structured as key-value pairs within curly braces {} for objects, and as ordered lists within square brackets [] for arrays.
+    - Objects can contain nested objects and arrays, and arrays can contain any valid JSON data types.
+3. Commas
+    - Commas separate key-value pairs within objects and elements within arrays.
+    - It's crucial to use commas correctly, even after the last item in a list or object.
+4. Quotes
+    - String values must always be enclosed in double quotes ". Single quotes are not allowed.
+5. Naming
+    - Key names must be strings and must be unique within an object.
+    - They cannot start with a number or contain spaces or special characters (except for underscores and hyphens).
+6. Comments
+    - JSON does not allow comments within its structure. Any text that is not valid JSON syntax will be considered part of the data.
+7. Case Sensitivity
+    - JSON is case-sensitive. "name" and "Name" are considered different keys.
+8. White Space
+    - JSON is whitespace-insensitive. Indentation and spacing are used for readability but don't affect the structure.
+
+And here's how we **convert between JSON & Object format**:
+
+```
+let data = {
+    name: 'james',
+    achievements: [0, 1, 4, 6]
+}
+
+// Convert to JSON
+let jsonString = JSON.stringify(data)
+
+// To convert back to an object
+let parsedJSONObject = JSON.parse(jsonString)
+```
+
+### 3.1 Chapter Quiz
+
+do fizzbuzz and entries in array and talk about hwo they're interview questions
 
 
 ## Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript

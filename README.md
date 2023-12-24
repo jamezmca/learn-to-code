@@ -1,13 +1,16 @@
-# Learn To Code · Roadmap
- #### The ultimate guide to *learning to code* & full stack development that will *land you a job* in no time!
+# Learn To Code · Roadmap [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Learn%20to%20code%20for%20free%20today&url=https://github.com/jamezmca/learn-to-codes&hashtags=coding,learn%20to%20code,programming)
 
- ## Foreword
+#### The ultimate guide to *learning to code* & full stack development that will *land you a job* in no time!
 
- Hi,
+![Futuristic programming landscape](./assets/headerImg.jpg)
 
- I'm James, a self-taught software developer, and this guide is the roadmap I wish I had as I endeavored to learn programming with the ultimate goal of being employed as a software developer. Successful as I was, it was a journey fraught with peril and with the knowledge I have today, there are many things I would do differently & better. You can learn more about my journey [here ->](https://www.youtube.com/watch?v=nP0-oYGiqts)
+## Foreword
+
+Hi,
+
+I'm James, a self-taught software developer, and this guide is the roadmap I wish I had as I endeavored to learn programming with the ultimate goalof being employed as a software developer. Successful as I was, it was a journey fraught with peril and with the knowledge I have today, there aremany things I would do differently & better. You can learn more about my journey [here ->](https://www.youtube.com/watch?v=nP0-oYGiqts)
  
- With this guide, hopefully you too can learn to code (even if you have no prior experience) and land your developer role! 
+With this guide, hopefully you too can learn to code (even if you have no prior experience) and land your developer role! 
 
 > If you're enjoying the guide, consider *staring ⭐️* the repo :P Or check out the interactive [version](https://www.roadmap.smoljames.com)🔥
 
