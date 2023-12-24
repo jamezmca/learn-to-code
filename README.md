@@ -1,4 +1,4 @@
-# Learn To Code · Roadmap [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Learn%20to%20code%20for%20free%20today&url=https://github.com/jamezmca/learn-to-codes&hashtags=coding,learn%20to%20code,programming)
+# Learn To Code · Roadmap [![Tweet](https://img.shields.io/twitter/url/http/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=Learn%20to%20code%20for%20free%20today&url=https://github.com/jamezmca/learn-to-codes&hashtags=coding,learntocode,programming)
 
 #### The ultimate guide to *learning to code* & full stack development that will *land you a job* in no time!
 
