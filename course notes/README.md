@@ -2,7 +2,7 @@
 
 #### **Status** updates for the summary notes within the repo 🔥
 
-The course notes are intended to summarize each topic, and cover the 20% of material that will be 80% of your output :P They're organized into the 6 chapters available within the roadmap.
+The course notes are intended to summarize each topic and cover the 20% of material needed for 80% of your output :P They're organized into the 6 chapters available within the roadmap.
 
 
 * **Chapter 1 - HTML CSS & GIT**
