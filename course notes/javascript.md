@@ -733,5 +733,63 @@ calculate(5, 3);
 In this example, mathOperations.js is a module that exports functions for addition and subtraction. The calculator.js module imports these functions and uses them to perform calculations. Each module has a specific responsibility, and changes to one module are less likely to impact the other.
 
 ## Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript
+
+Now it's time to get into the good stuff. This chapter covers JavaScripts integration with HTML & CSS to produce amazing dynamic websites and web user experiences. When we say *manipulate the DOM*, we mean manipulate the Document Object Model, which itself is a *model* that represent the *HTML Document* as an *object* that can be interacted with JavaScript. In short, we can select HTML elements or tags in JavaScript and manipulate them.
+
+This allows us to add all types of cool user behavior to our HTML document through click events, content, styling and much much more.
+
+Here are some common tasks involved in DOM manipulation:
+
+1. Selecting Elements
+    - JavaScript allows you to select HTML elements using various methods. Common methods include getElementById, getElementsByClassName, getElementsByTagName, querySelector, and querySelectorAll.
+```
+// Example: selecting an element by ID
+var myElement = document.getElementById("myId");
+```    
+
+2. Modifying Content
+    - You can change the content of HTML elements, such as updating text, modifying attributes, or changing HTML structure.
+```
+// Example: changing text content
+myElement.innerText = "New content";
+
+// Example: modifying attributes
+myElement.setAttribute("src", "newimage.jpg");
+```
+
+3. Manipulating Styles
+    - JavaScript can be used to modify the CSS styles of elements, enabling dynamic changes in appearance.
+```
+// Example: changing the background color
+myElement.style.backgroundColor = "blue";
+```
+
+4. Adding and Removing Elements:
+    - You can dynamically create new HTML elements, append them to the DOM, or remove existing elements.
+```
+// Example: creating a new paragraph element
+var newParagraph = document.createElement("p");
+newParagraph.innerText = "This is a new paragraph.";
+
+// Appending the new paragraph to an existing element
+document.body.appendChild(newParagraph);
+
+// Example: removing an element
+var elementToRemove = document.getElementById("elementToRemove");
+elementToRemove.parentNode.removeChild(elementToRemove);
+```
+
+5. Event Handling
+    - JavaScript allows you to attach event listeners to elements, enabling the execution of specific functions in response to user actions (e.g., clicks, key presses).
+```
+// Example: adding a click event listener
+myElement.addEventListener("click", function() {
+    alert("Element clicked!");
+});
+```
+
+> These are just some common examples, however the sky is the limit with DOM Manipulation. If you think you should be able to make a manipulation, you probably can.
+
+
 ## Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript
 ## Chapter 6 - Learn the Modern ES6+ JavaScript Syntax

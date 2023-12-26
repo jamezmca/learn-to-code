@@ -62,7 +62,9 @@ JavaScript is the most popular programming language in the world and is brillian
 
 1. [FreeCodeCamp JavaScript Algorithms & Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) *[-/- hrs]*
 
-2. [Build & Deploy an Unreasonably Good ToDo Web App w. HTML CSS JavaScript](https://youtu.be/OulQ9W2s6Z0) *[34mins]*
+2. [How to use JavaScript in Web Development?](https://youtu.be/0GWNq9Cra60) *[10mins]*
+
+3. [Build & Deploy an Unreasonably Good ToDo Web App w. HTML CSS JavaScript](https://youtu.be/OulQ9W2s6Z0) *[34mins]*
 
 #### End of Chapter Project
 
