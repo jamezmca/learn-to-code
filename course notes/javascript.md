@@ -635,10 +635,102 @@ let jsonString = JSON.stringify(data)
 let parsedJSONObject = JSON.parse(jsonString)
 ```
 
-### 3.1 Chapter Quiz
+### 3.1.4 Chapter Quiz
 
-do fizzbuzz and entries in array and talk about hwo they're interview questions
+Here are some questions that are the perfect application of your new knowledge!
 
+1. Write a program that counts from 1 to 100, printing "Fizz" if the number is divisible by 3, "Buzz" if divisible by 5, and "FizzBuzz" if divisible by both.
+2. Write a function that takes the array `['a', 'c', 'b', 'c', 'a', 'a']` as input and returns a dictionary of key-value pairs, where the key is a letter in the array and the value is the number of instances of that letter in the array.
+
+### 3.2 Scope, closures, and how to write modular and reusable code.
+
+This section covers some of the nuanced behaviors of JavaScript.
+
+#### 3.2.1 Scope in JavaScript
+
+Starting off with scope, which defines where you can access certain variables in JavaScript. Scope can get pretty complicated, so were just going to start off with the two main types of scope -> **global** scope and **local** scope.
+
+**Global** scope means that variables declared *outside* of any function or block have global scope. They can be accessed from anywhere in the code, including within functions. For example:
+
+```
+let globalVariable = "I am global";
+
+function exampleFunction() {
+    console.log(globalVariable); // Accessing global variable
+}
+
+exampleFunction(); // Output: I am global
+```
+
+**Local** scope means that variables declared inside a function or block have local scope. They are only accessible within that specific function or block. For example:
+
+```
+function exampleFunction() {
+    let localVariable = "I am local";
+    console.log(localVariable);
+}
+
+exampleFunction(); // Output: I am local
+
+// Trying to access localVariable here would result in an error
+```
+
+> Using the *let* & *const* declarations also causes the variables to have block scope, meaning that if they are defined within a code block e.g. an `if` block, they are inaccessible from outside the block.
+
+#### 3.2.2 Closures in JavaScript
+
+Closures are a challenging concepts and I wouldn't burden yourself with the expectation that you'll understand it immediately. A closure is a fundamental concept in JavaScript that arises when a function is defined within another function. A closure allows the inner function to access variables from its outer (enclosing) function, even after the outer function has finished execution. In simpler terms, a closure "closes over" the variables from its outer scope, preserving them.
+
+```
+function counter() {
+    var count = 0;
+
+    return function() {
+        count++;
+        console.log(count);
+    };
+}
+
+var increment = counter();
+increment(); // Output: 1
+increment(); // Output: 2
+```
+
+So basically a closure in JavaScript is formed when a function retains access to variables from its outer scope even after the outer function has finished executing. It allows for data encapsulation, callback functions, and the creation of function factories, contributing to more expressive and modular code.
+
+#### 3.2.3 Modular Code in JavaScript
+
+Modular code in JavaScript refers to the practice of breaking down a program into smaller, independent, and reusable modules or components (often in different files). Each module encapsulates a specific piece of functionality and may have its own private variables and functions. This approach has several benefits:
+
+1. Encapsulation: Modules hide their internal details and expose only what is necessary, reducing the risk of naming conflicts and unintended interactions with other parts of the code.
+2. Reusability: Modules can be easily reused across different parts of an application or even in different projects, promoting a more efficient and scalable development process.
+3. Maintainability: Breaking down code into modular components makes it easier to understand, update, and maintain. Changes in one module are less likely to affect other modules if their interfaces remain consistent.
+4. Collaboration: Modular code facilitates collaboration among developers since different team members can work on separate modules without interfering with each other's code.
+
+Here's a simple example of modular code:
+
+```
+// Module 1: mathOperations.js
+export function add(a, b) {
+    return a + b;
+}
+
+export function subtract(a, b) {
+    return a - b;
+}
+
+// Module 2: calculator.js
+import { add, subtract } from './mathOperations';
+
+function calculate(a, b) {
+    console.log('Sum:', add(a, b));
+    console.log('Difference:', subtract(a, b));
+}
+
+calculate(5, 3);
+```
+
+In this example, mathOperations.js is a module that exports functions for addition and subtraction. The calculator.js module imports these functions and uses them to perform calculations. Each module has a specific responsibility, and changes to one module are less likely to impact the other.
 
 ## Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript
 ## Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript
