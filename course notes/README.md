@@ -8,4 +8,5 @@ The course notes are intended to summarize each topic, and cover the 20% of mate
 
 ## Chapter 1 - HTML CSS & GIT
 
+* HTML & CSS ![Static Badge]https://img.shields.io/badge/complete-34d399
 * HTML & CSS <mark style="background: #34d399; color: white; border-radius: 4px; padding: 2px 4px;">Complete</mark>
