@@ -29,3 +29,5 @@ The course notes are intended to summarize each topic, and cover the 20% of mate
     - Terminal ![Static Badge](https://img.shields.io/badge/not%20started-cbd5e1)
     - Docker ![Static Badge](https://img.shields.io/badge/not%20started-cbd5e1)
     - Deployment ![Static Badge](https://img.shields.io/badge/not%20started-cbd5e1)
+
+> If you would like to request a set of notes to be created for a particular subject, feel free to comment on this repo or send me a DM :P
