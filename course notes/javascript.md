@@ -741,11 +741,13 @@ This allows us to add all types of cool user behavior to our HTML document throu
 Here are some common tasks involved in DOM manipulation:
 
 1. Selecting Elements
-    - JavaScript allows you to select HTML elements using various methods. Common methods include getElementById, getElementsByClassName, getElementsByTagName, querySelector, and querySelectorAll.
+    - JavaScript allows you to select HTML elements using various methods. Common methods include getElementById, querySelector, and querySelectorAll.
 ```
 // Example: selecting an element by ID
-var myElement = document.getElementById("myId");
+let myElement = document.getElementById("myId");
 ```    
+
+> The query selector methods work by allowing you to select any element using it's CSS selectors; so as you would if you were styling that element in a CSS sheet, and you provide that selector in a string creating the query.
 
 2. Modifying Content
     - You can change the content of HTML elements, such as updating text, modifying attributes, or changing HTML structure.
@@ -764,18 +766,18 @@ myElement.setAttribute("src", "newimage.jpg");
 myElement.style.backgroundColor = "blue";
 ```
 
-4. Adding and Removing Elements:
+4. Adding and Removing Elements
     - You can dynamically create new HTML elements, append them to the DOM, or remove existing elements.
 ```
 // Example: creating a new paragraph element
-var newParagraph = document.createElement("p");
+let newParagraph = document.createElement("p");
 newParagraph.innerText = "This is a new paragraph.";
 
 // Appending the new paragraph to an existing element
 document.body.appendChild(newParagraph);
 
 // Example: removing an element
-var elementToRemove = document.getElementById("elementToRemove");
+let elementToRemove = document.getElementById("elementToRemove");
 elementToRemove.parentNode.removeChild(elementToRemove);
 ```
 
@@ -790,6 +792,11 @@ myElement.addEventListener("click", function() {
 
 > These are just some common examples, however the sky is the limit with DOM Manipulation. If you think you should be able to make a manipulation, you probably can.
 
+From here, all you need to do is ensure your JavaScript file is imported as a script at the bottom of your HTML document, and it will be executed accordingly.
+
 
 ## Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript
+
+
+
 ## Chapter 6 - Learn the Modern ES6+ JavaScript Syntax
