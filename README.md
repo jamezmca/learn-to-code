@@ -2,7 +2,7 @@
 
 #### The ultimate guide to *learning to code* & full stack development that will *land you a job* in no time!
 
-![Futuristic programming landscape](./assets/logos.png)
+![Programming logos](./assets/logos.png)
 
 ## Foreword
 
@@ -12,7 +12,7 @@ I'm James, a self-taught software developer, and this guide is the roadmap I wis
  
 With this guide, hopefully you too can learn to code (even if you have no prior experience) and land your developer role! 
 
-> If you're enjoying the guide, consider *staring ⭐️* the repo :P Or check out the interactive [version](https://www.roadmap.smoljames.com)🔥
+> If you're enjoying the guide, consider *staring ⭐️* & sharing the repo :P Or check out the interactive [version](https://www.roadmap.smoljames.com)🔥
 
 ## Resources
 
@@ -51,7 +51,7 @@ Summary notes and reference material can be found here ->
 
 Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
 
-Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+**After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me so I can see. It really helps others to be inspired by your success and is a great to show everyone what you've been working on :P
 
 
 ### Chapter 2 - JavaScript
@@ -70,7 +70,7 @@ JavaScript is the most popular programming language in the world and is brillian
 
 Ready to combine your passion for food and coding? Build an interactive Single Page Application (SPA) - your own recipe book! Using HTML, CSS, and JavaScript, create a responsive app with recipe lists, detailed instructions, and search functionality. Showcase your culinary creativity and explore data manipulation, user interaction, and SPA design. 
 
-Once your masterpiece is ready, share your recipe book URL in the [Discord](https://discord.gg/BYr6gujs4k) channel and let's embark on a delicious journey!
+**After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me so I can see. It really helps others to be inspired by your success and is a great to show everyone what you've been working on :P
 
 
 ### Chapter 3 - Frontend JavaScript Frameworks
@@ -92,7 +92,7 @@ JavaScript frameworks make building dynamic and interactive websites incredibly 
 
 Dive into the world of dynamic weather with React! Build a user-friendly dashboard displaying current conditions and forecasts for any location. Utilize React components, state management, and API integration to bring weather data to life with informative visuals and interactive features. Showcase your React mastery and share your stunning weather app with the world!
 
-Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+**After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me so I can see. It really helps others to be inspired by your success and is a great to show everyone what you've been working on :P
 
 
 ### Chapter 4 - Backend Server Frameworks
@@ -112,7 +112,7 @@ If you're looking to extend your capabilites beyound Frontend development into F
 
 Take your first steps in backend development with a simple "To-Do List" app! Build an API with Node.js and Express to add, list, and mark tasks as complete, all while utilizing in-memory data storage and basic error handling.
 
-Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+**After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me so I can see. It really helps others to be inspired by your success and is a great to show everyone what you've been working on :P
 
 
 ### Chapter 5 - Databases (SQL & NoSQL)
@@ -131,7 +131,7 @@ It's time to persist data - all the data... all of it!
 
 Build a backend API with Node.js, Express.js & PostgreSQL that manages a stores inventory! Actions should include being able to read, add, update & delete items - basically all the standard CRUD operations, and also allow the owner to manage stock levels & quantities.
 
-Once your masterpiece is complete & deployed, share your project URL in the [Discord](https://discord.gg/BYr6gujs4k) channel let everyone be wowed by your skills!
+**After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me so I can see. It really helps others to be inspired by your success and is a great to show everyone what you've been working on :P
 
 ### Chapter 6 - Full Stack Development
 
@@ -159,6 +159,8 @@ Now that you've got the knowledge you need to start building some wicked full st
 3. An API project that uses the REST methodologies with Node.js, Express.js and PostgreSQL. Bonus points if you can contain it within a Docker Container and combine it with the ChatGPT API.
 
 4. A Full Stack project using a frontend framework (React.js or SvelteKit), Firebase auth, Firebase Firestore database & TailwindCSS. This could be a calender app, a todo app, or even a recipe app.
+
+**After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me so I can see. It really helps others to be inspired by your success and is a great to show everyone what you've been working on :P
 
 ## Land a Job
 

@@ -5,7 +5,7 @@
 The course notes are intended to summarize each topic and cover the 20% of material needed for 80% of your output :P They're organized into the 6 chapters available within the roadmap.
 
 * Chapter 1 - HTML CSS & GIT
-    - **HTML & CSS** **![Static Badge](https://img.shields.io/badge/complete-34d399)**
+    - **HTML & CSS** ![Static Badge](https://img.shields.io/badge/complete-34d399)
     - **GIT & GitHub** ![Static Badge](https://img.shields.io/badge/complete-34d399)
 
 * Chapter 2 - JavaScript

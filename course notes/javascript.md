@@ -797,6 +797,34 @@ From here, all you need to do is ensure your JavaScript file is imported as a sc
 
 ## Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript
 
+So far in our learning of JavaScript, we've look only as synchronous programming. Synchronous programming can be thought of as a linear set of instructions, where one instruction starts as the previous one ends, until there are no more. And this is all well and good until you run into what is known as **promises**. 
+
+A promise is essentially a placeholder that represents information that is yet to be fulfilled. The most common occurance of this is when you make an API request, requesting information from an API, where the time taken to fulfill that request is unknown and it exists as only a promise of information awaited until it is received. It's normally pretty fast but without asynchronous programming methods, our code will send out the network request as it would any other instruction and then carry on through with the remaining instructions, having not waited for a response. The consequence of this would mean that any sequential lines of code wouldn't have access to the information requested from the API.
+
+There are two ways we can resolve this issue; with the `.then()` chaining syntax or `async/await`. The latter is the more modern syntax and is the one we will discuss in this tutorial.
+
+### 5.1 Async Await
+
+The async await syntax essentially works by declaring a function code block to be asynchronous, allowing us to await asyncrhonous operations within. This means that any asynchronous call made within the `async` block causes our code to stop, and wait for the request to be fulfilled which means that we have the information back, the promise is resolved, and we have the green light to carry on executing the remainder of our code. 
+
+We create an asynchronous block as follows:
+
+```
+async function slowRequest() {
+    await new Promise(r => setTimeout(r, 2000)); //puts the program to sleep for 2000ms or 2s
+    console.log('Finished waiting') // prints after 2s
+}
+
+```
+
+> Note the usage of the *async* at the function definiton and then the *await* keyword on the line that has an asynchronous function.
+
+You can have as many awaited lines of code as your please, so long as they are all within an asynchronous function block.
+
+### 5._ Try Catch & Finally Blocks
+
+
+### 5._ Promise.all()
 
 
 ## Chapter 6 - Learn the Modern ES6+ JavaScript Syntax
