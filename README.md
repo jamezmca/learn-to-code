@@ -51,7 +51,7 @@ Summary notes and reference material can be found here ->
 
 Build your first ever Single Page Application (SPA) - a portfolio website showcasing your coding skills! Using only HTML and CSS, create a responsive website with sections for introducing yourself, listing your skills and projects, and providing contact details. Don't hesitate to experiment with design and interactive elements (it doesn't need to be perfect).
 
-**After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me so I can see. It really helps others to be inspired by your success and is a great to show everyone what you've been working on :P
+**-> After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me so I can see. It really helps others to be inspired by your success and is a great to show everyone what you've been working on :P
 
 
 ### Chapter 2 - JavaScript
