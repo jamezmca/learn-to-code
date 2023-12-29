@@ -128,15 +128,15 @@ console.log(b) // outputs the value of a which is 4
 Once we have our variables initialized, the next thing we normally do is assign some form of value to them. Values in JavaScript can have numerous different types, known as *Data Types*. Data types can be described as either *primitive* or *object* (don't worry about this too much), where the primary key data types are as follows:
 
 * Primitive 
-    - **`Number`** represents all numerical values, including integers, decimals, and exponents. (e.g., 10, 3.14, 1e5).
-    - **`String`** represents sequences of characters enclosed in quotes. (e.g., "Hello", 'World!', "").
-    - **`Boolean`** represents truth values, either true or false. (e.g., true, false).
-    - **`Null`** represents the absence of a value. It's different from undefined. (e.g., null).
-    - **`Undefined`** represents the absence of a value due to not being assigned yet or a reference pointing to nowhere. (e.g., undefined).
+    - **`Number`** represents all numerical values, including integers, decimals, and exponents. (e.g., `10, 3.14, 1e5`).
+    - **`String`** represents sequences of characters enclosed in quotes. (e.g., `"Hello", 'World!', ""`).
+    - **`Boolean`** represents truth values, either true or false. (e.g., `true, false`).
+    - **`Null`** represents the absence of a value. It's different from undefined. (e.g., `null`).
+    - **`Undefined`** represents the absence of a value due to not being assigned yet or a reference pointing to nowhere. (e.g., `undefined`).
 * Object
-    - **`Object`** (or dictionary) is a complex data type that allows you to store collections of *key-value* pairs. Example: { name: 'John', age: 30 }.
-    - **`Array`** (or list) is a special type of object used to store ordered collections of values. Example: [1, 2, 3, 4].
-    - **`Function`** is a subtype of object that can be invoked/called. Example: function add(x, y) { return x + y; }.
+    - **`Object`** (or dictionary) is a complex data type that allows you to store collections of *key-value* pairs. Example: `{ name: 'John', age: 30 }`.
+    - **`Array`** (or list) is a special type of object used to store ordered collections of values. Example: `[1, 2, 3, 4]`.
+    - **`Function`** is a subtype of object that can be invoked/called. Example: `function add(x, y) { return x + y; }`.
 
 When assigning values to a variable, it's important to ensure that the value is both a viable data type, and the correct data type. We'll dive deeper into data types and how we can manipulate them in [Chapter 3](#chapter-3---develop-intermediate-programming-skills-with-javascript).
 
