@@ -111,6 +111,18 @@ So the correct way to write the *first name* example above would be:
 
 > It's preferable if you pick a style and stay consistent to that style throughout your code.
 
+#### 2.1.1.1 Assignment By Reference
+
+If I have a function, or a variable, I can further assign it to a new variable, for example:
+
+```
+let a = 4
+let b = a
+console.log(b) // outputs the value of a which is 4
+```
+
+> I could do this for a function or any other type of variable too, but it's not hugely common.
+
 #### 2.1.2 Data Types
 
 Once we have our variables initialized, the next thing we normally do is assign some form of value to them. Values in JavaScript can have numerous different types, known as *Data Types*. Data types can be described as either *primitive* or *object* (don't worry about this too much), where the primary key data types are as follows:
@@ -821,7 +833,7 @@ async function slowRequest() {
 
 You can have as many awaited lines of code as your please, so long as they are all within an asynchronous function block.
 
-### 5._ Try Catch & Finally Blocks
+### 5.2 Try Catch & Finally Blocks
 
 When making asynchronous requests, perhaps to an API or backend server per se, things can go wrong. Servers might time out, perhaps the request doesn't find it's destination or maybe even you're forbidden from making the request. In these cases, we need some code to handle the error as opposed to letting our code simply die :0
 
@@ -831,7 +843,6 @@ So, instead we use a `try catch finally` block to attempt the asynchronous code,
 async function fetchData() {
     try {
         // attempt our code in here
-
         const apiUrl = 'https://localhost:8080/api/data'
         const res = await fetch(apiUrl) // sends the asynchronous network request to the apiUrl
         const data = await res.json() // parses the JSON response data
@@ -850,8 +861,87 @@ async function fetchData() {
 
 This ensures that even if our response is bugged, our code will continue to run and we will still receive all the error messages.
 
+> Technically, you don't actually need the finally portion of the block, but it's good to know about and comes in handy now and then. It's best practice to use a try catch block at the minimum wherever you are making asynchronous requests or have code liable to bug out.
 
-### 5._ Promise.all()
+
+### 5.3 Promise.all()
+
+Now so far, we've learned how to make network requests and perform asynchronous operations in series (one starts after the prior finishes). If we're making a large number of requests, this can be quite a slow process.
+
+If we think of a wedding, it would be analogous to sending out one invite, waiting for a response, and only then sending out the next. It might take years to get all the invitations sent out and responses recevied. What if instead, we could send out all the letters on the same day, and then wait for all the responses to come in before moving on. We'll, we can do this by running asynchronous requests in parallel useing ```Promise.all()```.
+
+Where before, we would await for the fulfillment of each individual promise, with `Promise.all()` we pass in an array of promises and instead await the fulfillment of all of them, be it successful or unsuccessful. An example is as follows:
+
+```
+async function sleepFunction() {
+    let startTime = new Date.now()
+    let promise1 = new Promise(r => setTimeout(r, 2000)); // simulates a network request that takes 2s to fulfill 
+    let promise2 = new Promise(r => setTimeout(r, 4000)); // simulates a network request that takes 4s to fulfill 
+
+    let result = await Promise.all([promise1, promise2])
+    let endTime = new Date.now()
+
+    console.log('Time taken: ', startTime - endTime) // outputs a little over 4s as opposed to the 6s it would take to await both promises in series
+}
+```
+
+> You can use ```Promise.allSettled()``` is an equivalent method that returns an object for each data, containing a status the specifies the outcome of the request, and the fulfilled request information itself.
 
 
 ## Chapter 6 - Learn the Modern ES6+ JavaScript Syntax
+
+And finally, it's time to learn some of the most modern JavaScript syntax that is currently available to make your programming even faster 🔥 
+
+### 6.1 Arrow Functions
+
+First off we have arrow functions, which are a newer, more modern syntax for defining a function. Arrow functions maintain a lot of the key features of our original function syntax, only, they look a bit more like an arrow, for example ```() => {}``` is an anonymous arrow function that does nothing. We can convert an original function to the arrow syntax as follows:
+
+```
+// 1.0 define the original syntax
+function orginalFunction(argument) {
+    // this function expects a string as an input and consoles the string
+    console.log('This is the argument: ', argument)
+}
+
+// An equivalent arrow function would look as follows:
+// (argument) => {console.log('This is the argument: ', argument)}
+
+// we see it has the circular parenthesis for the argument, and the output is still within the curly braces
+
+// 2.0 Assign the arrow function to a variable name, in this case 'newFunction'
+let newFunction = (argument) => {console.log('This is the argument: ', argument)}
+```
+
+> If our arrow function is one line, we can simplfy the function even further to ```let newFunction = (arg) => console.log('This is the argument: ', argument))```. Note how I dropped the curly braces.
+
+#### 6.1.1 Anonymous Functions
+
+### 6.2 Ternary Operator
+
+### 6.3 Optional Chaining
+
+### 6.4 Object Destructuring
+
+### 6.5 Array Destructuring
+
+### 6.6 Template Literal Strings
+
+### 6.7 Default Parameters
+
+### 6.8 Enhanced Object Literals
+
+### 6.9 Default Parameters
+
+### 6.10 Spread Operator
+
+### 6.11 Array Methods
+
+## Chapter 7 - Going Beyond
+
+## Final Words
+
+I hope that these notes give you the knowledge you need to excel as a JavaScript Data Structures & Algorithms maestro! If you've enjoyed the repo, please consider giving it a ***star ⭐️***, and be sure to check out the other guides available so you can become the ultimate developer today :P
+
+Cheers,
+
+James
