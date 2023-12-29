@@ -16,8 +16,7 @@ The course notes are intended to summarize each topic and cover the 20% of mater
     - **ReactJS** ![Static Badge](https://img.shields.io/badge/in%20progress-fcd34d)
 
 * Chapter 4 - Backend Server Frameworks
-    - **NodeJS** ![Static Badge](https://img.shields.io/badge/not%20started-cbd5e1)
-    - **BunJS** ![Static Badge](https://img.shields.io/badge/not%20started-cbd5e1)
+    - **NodeJS + ExpressJS** ![Static Badge](https://img.shields.io/badge/not%20started-cbd5e1)
 
 * Chapter 5 - Databases
     - **SQL** ![Static Badge](https://img.shields.io/badge/not%20started-cbd5e1)
