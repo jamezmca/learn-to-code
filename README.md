@@ -163,7 +163,8 @@ Now that you've got the knowledge you need to start building some wicked full st
 
 Everything you could ever want to know about landing your software developer job can be found [here ->](https://www.roadmap.smoljames.com/blog/job_applications)
 
-### <kdb>[I WANT A JOB 🔥](https://www.roadmap.smoljames.com/blog/job_applications)</kdb>
+### [I WANT A JOB 🔥](https://www.roadmap.smoljames.com/blog/job_applications)
+<kbd>Click me</kbr>
 
 *This part cannot be understated and is equally important as the entirety of the learning to code section!*
 
@@ -171,7 +172,7 @@ Everything you could ever want to know about landing your software developer job
 
 To make the process a hint more fun and engaging, there's a few extracurricular activities happening on the regular that you might wish to participate in! 
 
-* **Builder Streams** -> Weekly streams @ 2pm EDT time where we'll spend some time developing projects and doing other programming related things!
+* **Builder Streams** -> Weekly streams @ **2pm EDT** time where we'll spend some time developing projects and doing other programming related things!
 * **Project Feedback** -> Get feedback and assistance on your project in the *#share-your-projects* channel in the Discord.
 * **Mock Interviews** -> Practice your interview skills with some mock interviews (they might get uploaded to the channel so be prepared :D).
 * **Coding Battles** -> Nothing like a challenge and in the coding battles we'll see who can program different things faster.
