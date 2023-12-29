@@ -316,6 +316,46 @@ while (img_not_found) {
 
 This loop will endlessly execute until the function returns true (we'll talk more about functions later), and the `img_not_found` value is set to false, and the loop is exited.
 
+#### 2.2.3 If Statements
+
+If statements are fairly sacred in JavaScript and come in handy all the time. Let's say that we wanted to only execute a block of code depending on a certain condition; we'll, that's when `if` blocks come in handy. We could also have a block to run in the otherwise, or `else` condition, or even have some extra conditions in between. The syntax for the `if` block is as follows:
+
+```
+if (condition) {
+    // evaluate this code if the condition is true
+}
+```
+
+> Most commonly, the condition will evaluate to a boolean true or false, but also non-zero values will also evaluate as true. For example the number `5` or a string like `james`, and conversly the number `0` and an empty string `` evaluate to false.
+
+We can add an `else` block to our condition if we want to execute an alternative block of code in the otherwise condition.
+
+```
+let val = 5
+
+if (val > 5) {
+    console.log('Value is greater than 5')
+} else {
+    console.log ('Value is less than or equal to 5)
+}
+```
+
+And to add some further subconditions in between:
+
+```
+let val = 'james'
+
+if (val.includes('j')) {
+    console.log('val contains the letter j')
+} else if (val.includes('p')) {
+    console.log('val contains the letter p')
+} else {
+    console.log('val did not contain j or p)
+}
+```
+
+> In JavaScript, you can also get `switch` statements which work just like `if` blocks. I'd just use an `if` block personally :P
+
 ### 2.3 Basic Functions in JavaScript
 
 Functions are basically the holy grail of JavaScript. The difference between some well written code and code that causes despair might just be the use of functions. In JavaScript, a function is a reusable block of code that performs a specific task or set of tasks. Functions allow you to organize your code into modular, manageable pieces, making it easier to understand, maintain, and reuse. Functions can take input values, called parameters or arguments, and return a result.
@@ -430,16 +470,34 @@ console.log(sum1, sum2) // outputs "9 12"
 
 > This works per the comment made above about how the returned value is what is left behind in place of the function upon the completion of it's execution.
 
-<!-- #### 2.3._ Anonymous functions -->
-
 #### 2.3.4 Recursion
-ASDL:ASD:LKASKJD: ASLKD":AL SD":AS"DK AL:KSD 
-ASDL"AKS:DLA
-SDKL 
-SDKL 
-SDKL 
-SDKL 
 
+Recursion in JavaScript is a programming concept where a function calls itself in order to solve a problem. A recursive function typically breaks down a complex problem into simpler, similar subproblems and solves each subproblem by invoking the same function recursively. Recursion involves two main components: a base case and a recursive case.
+
+1. **Base Case** -> The base case is the simplest scenario where the function does not call itself. It serves as the termination condition to prevent infinite recursion. When the base case is met, the function stops calling itself and returns a result.
+2. **Recursive Case** -> The recursive case involves breaking down a larger problem into smaller, more manageable instances of the same problem. The function calls itself with modified arguments, working towards reaching the base case.
+
+Here's a simple example of a recursive function to calculate the factorial of a number:
+
+```
+function factorial(n) {
+  // Base case
+  if (n === 0 || n === 1) {
+    return 1;
+  } else {
+    // Recursive case
+    return n * factorial(n - 1);
+  }
+}
+
+// Example usage
+const result = factorial(5); // Computes 5! (5 factorial)
+console.log(result); // Output: 120
+```
+
+In this example, the base case is when n is 0 or 1, and the function returns 1. For other values of n, the function calls itself with a smaller argument (n - 1) until the base case is reached.
+
+> Recursion can be a powerful and elegant technique in solving certain types of problems, but it should be used judiciously, as improper use may lead to stack overflow errors or inefficient code. Understanding the base case and ensuring progress towards it is crucial for the correct functioning of recursive algorithms.
 
 ## Chapter 3 - Intermediate Programming Skills with JavaScript
 
@@ -571,7 +629,7 @@ let channelUrl = person['channel'] // note how I wrapped the key in quotations s
 console.log(channelUrl) // outputs -> https://www.youtube.com/smoljames
 ```
 
-> Note that the value associated with a key could be a further nested object, an array, a string or any other data type. 
+> Note that the value associated with a key could be a further nested object, an array, a string or any other data type. If the key cannot be found in the dictionary, it will return `undefined`. Also, if we don't wrap the key name in quotations when using the square bracket notation, then it assumes that the key is a variable name and tries to instead use the value associated with said variable. 
 
 And likewise if we wanted to modify a key-value pair:
 
@@ -916,27 +974,267 @@ let newFunction = (argument) => {console.log('This is the argument: ', argument)
 
 #### 6.1.1 Anonymous Functions
 
-### 6.2 Ternary Operator
+As for anonymous functions, they're a rather infrequency occurance in JavaScript. The most common example is perhaps when we're appending a click event to a button in HTML or React.js perhaps.
+
+We create the function, but we simply do so without assigning it to a variable, for example:
+
+```
+function() {} // using the old syntax
+() => {} // using the new syntax
+```
+
+### 6.2 Ternary Operator (?)
+
+The ternary operator is a shorthand for an `if else` evaluation. A one-liner if you will! The syntax works as follows:
+
+```
+let friends = ['Janice', 'Lucy', 'Harry']
+
+// ternary statement -> condition ? truthy evaluation : falsy evaluation
+let isJonFriend = friends.includes('Jon') ? true : false // evaluates to false as Jon is not in the friends list
+```
+
+> You can chain numerous ternary statements if you're clever, but sometimes it's best to revert to the good old `if else` blocks for code clarity.
 
 ### 6.3 Optional Chaining
 
+Occassionally, when working with objects, you might get a few nested objects one within another. In this situation, it's not uncommon to chain your keys to access sub dictionaries - for example:
+
+```
+let person = {
+    name: 'jon',
+    friends: {
+        henry: {
+            age: 14
+        }
+    }
+}
+```
+
+Here we have 2 nested objects, friends, and then henry. Now let's say we wanted to access the age of henry. To do so, we would first have to access the friends nested dictionary, and then the henry dictionary within that, as follows:
+
+`let henryAge = person['friends']['henry']['age']`
+
+We chain the keys within each nested dictionary. We could use the dot notation also like this `person.friends.henry.age`. However, this issue we can have when chaining keys is when we don't know if a nested dictionary contains a key that we're looking for. If `friends` did not exist, and we still tried to access `henry` that should theorectically be within `friends`, our code would error because we're trying to access the key `henry` within `undefined`, which is what we would get when accessing a non-existant `friends` key within the `person` dictionary.
+
+> We could use a try catch block to not completely exit our code but this would be a lot of extra work.
+
+So instead, we use optional chaining, which essentially stops the evaluation if any of the keys is found to not exist within any level of the dictionary or nested dictionary. It's very simple to implement, all we do is add either the `?` between keys in the dot notation, or `?.` between the keys using the bracket notation:
+
+```
+let henryAge = person?.['friends']?.['henry']?.['age']
+
+// or
+
+let henryAge = person?.friends?.henry?.age
+```
+
 ### 6.4 Object Destructuring
+
+Object destructing is amazing! We essentially dismantle the object :0 Let's say we had the following object and we wanted to create variables out of the keys. In the good old days, we used to have to do the following:
+
+```
+let person = {
+    name: 'james',
+    age: 27
+}
+
+let age = person.age
+let name = person.name
+```
+
+Terrible right! We'll with object destructuring we can make it much neater!
+
+```
+let person = {
+    name: 'james',
+    age: 27
+}
+
+const {name, age} = person
+
+// and if we wanted to give a key some alias, we could instead write
+const {name: personName, age} = person // this would create a variable called personName that assumes the value of the name which is 'james'
+```
 
 ### 6.5 Array Destructuring
 
-### 6.6 Template Literal Strings
+Much the same as object destructuring, yet not quite as common, we can dismantled arrays as follows:
 
-### 6.7 Default Parameters
+```
+let oldArray = [4, 5]
+let value1 = oldArray[0]
+let value2 = oldArray[1]
+
+// With array destructuring, it becomes ->
+let [value1, value2] = oldArray // ensuring to match the variable indexes
+```
+
+### 6.6 Template Literal Strings (``)
+
+Template literal strings allows us to write strings that cross over onto multiple lines! To create a template literal string, we simple use the backtick keys (``). But template literal strings allow us to do more than that. We can also use them to insert variable values in the midst of our strings. For example:
+
+```
+let name = 'james'
+
+// traditional example
+console.log('The boy was called ' + name) // here we concatenate the two strings using the plus (+) operator
+
+// with template literal strings
+console.log(`The boy was called ${name}`)
+```
+
+> We wrap any javascript variables inside the `${variableName}` dollar sign and curly braces to insert the value associated with the variable into the string.
+
+### 6.7 Short Circuits (&& || ??)
+
+Sometimes when we're defining values and variables, we'll occassionally need to do so conditionally, where the assignment might be dependant on a condition. We could do this use an `if else` block, but we can also do it in one line using the short circuit operators.
+
+#### 6.7.1 AND Short Circuit (&&)
+
+If we wanted to assign a value only if a condition was true, we use the AND `&&` short circuit.
+
+```
+let person = {name: 'Jon'}
+let name = person.name && 'Jonny'
+// in otherwords condition && evaluation
+console.log(name) // evaluates to Jonny only if person.name exists, otherwise assumes undefined.
+```
+
+#### 6.7.2 OR Short Circuit (||)
+
+If we instead wanted to assign a backup value in the case where the first value does not exist, we instead use the `||` OR short circuit. For example:
+
+```
+let person = {name: 'Jon'}
+
+let name = person.name || 'Default Name' 
+// will assume the value of Jon unless the name key did not exist, in which case it would assume the OR condition which is 'Default name'
+```
+
+#### 6.7.3 Nullish Coalescing (??)
+
+Similar to the OR example, nullish coalescing returns it's right-handside operand when it's left-handside operand is `null` or `undefined`, and otherwise returns it's left-handside operand.
+
+```
+const foo = null ?? 'Default String' // assumes the 'Default String' value
+const baz = 0 ?? 42 // assumes 0 
+```
+
+> Note in the last example with Baz, if we use the || OR short circuit, the 0 would have cause the OR operand to be assumed, hence the difference.
 
 ### 6.8 Enhanced Object Literals
 
-### 6.9 Default Parameters
+Enhanced object literals is a super nifty syntax that makes constructing objects even easier. Let's say we were trying to construct an object to consolidate a number of variables we already have defined. It would probably look a bit as follows:
 
-### 6.10 Spread Operator
+```
+let name = 'james'
+let age = 27
 
-### 6.11 Array Methods
+let person = {
+    name: name,
+    age: age
+}
+```
+
+It seems pretty redundant that we should have to write the key and the value both, considering they're the exact same word. Using object literals, we don't have to. We could shorten the syntax to the following:
+
+```
+let name = 'james'
+let age = 27
+
+let person = { name, age } 
+```
+
+> // initializes the key to match the variable, and the value associated with the variable is now assigned to the key!
+
+### 6.9 Spread Operator (...)
+
+The spread operator allows us to combine objects and arrays, or create duplicates of them with ease! The syntax uses the triple period `...` and works as follows:
+
+```
+// with an array
+let array = [1, 2, 3]
+let newArrayDuplicate = [...array] // spreads all the original values out in the new array as if we had written them again
+
+// with an object
+let person = { name: 'james', age: 27 }
+let additionalDetails = { youtube: 'smoljames' }
+
+person = { ...person, ...additionalDetails } // combines the two objects in a new object
+```
+
+The spread operator can be use in numerous other circumstances and is incredibly helpful!
+
+### 6.10 Array Methods
+
+Array methods are the best thing since sliced bread :P There's quite a few of them and we covered a couple above, such as the `.sort()` function. Here we'll dive into the most common ones!
+
+1. **.forEach()**
+
+The `.forEach(() => {})` syntax is a great alternative to the `for` loop that we covered earlier. One of the most common uses for a `for` loop is to iterate over the values in an array, accessing each index one at a time. We'll the `.forEach()` does exactly this in a much simpler syntax.
+
+We use it as follows:
+
+```
+let numbers = [1, 2, 3]
+numbers.forEach((element, elementIndex) => {
+    console.log(element) // outputs each index one at a time
+})
+```
+
+2. **.map()**
+
+The `.map(() => {})` syntax will *map* over an array, and for ever element in the array, produce a new modified version depending on the function that you input and consequently the value that is returned from the function.
+
+We use it as follows:
+
+```
+let numbers = [1, 2, 3]
+numbers = numbers.map((element, elementIndex) => {
+    return element * 2
+})
+
+console.log(numbers) // outputs [2, 4, 6] as each value is multiplied by 2
+```
+
+3. **.filter()**
+
+The `.filter(() => {})` syntax will loop over an array, and will *filter* out any values that do not fulfill the condition returned from the function passed in as an argument.
+
+We use it as follows:
+
+```
+let numbers = [1, 2, 3, 4]
+let filteredNumbers = numbers.filter((element, elementIndex) => {
+    return element % 2 == 0 // checks if a number is even and returns true if it is, and false if it isn't
+})
+
+console.log(filteredNumbers) // outputs [2, 4] as all the values odd values we're filtered out
+```
+
+4. **.reduce()**
+
+The `.reduce(() => {}, defaultValue)` syntax is basically the god tier of all previous methods, as it can technically do all of them. The function takes an accumulator value and the current value, and builds a new anything depending on the starting value that you pass in.
+
+We use it as follows:
+
+```
+let numbers = [1, 2, 3, 4]
+let numberSum = numbers.reduce((acc, curr, currIndex) => {
+    return acc + curr // adds the current value onto the accumulated value
+}, 0) // 0 is the default value
+
+console.log(numberSum) // outputs 10 as the sum of all the numbers
+```
+
+But we could use it for making arrays, creating strings, modifying objects and the only limit to this array function is your creativity!
 
 ## Chapter 7 - Going Beyond
+
+This guide by no means covers everything. It was created to quickly summarize all the primary key works of JavaScript to get you up and running as soon as possible. Consequently, there's plenty more to learn :P The one big topic that is not covered by this guide, that is still recommended to learn is **Classes** in JavaScript. They're not that prominent but that can come in handy from time to time.
+
+Just think it's an object with extra steps.
 
 ## Final Words
 
