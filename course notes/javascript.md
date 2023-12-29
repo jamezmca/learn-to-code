@@ -10,10 +10,10 @@ JavaScript was the most popular programming language of 2023, and there's good r
 
 Here are some links you might find helpful!
 
-* FreeCodeCamp -> https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
-* Learn JavaScript in 90 minutes -> Coming soon!
-* Discord -> https://discord.gg/BYr6gujs4k
-* Learn to code roadmap -> https://github.com/jamezmca/learn-to-code
+* **FreeCodeCamp** -> https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/
+* **Learn JavaScript in 90 minutes** -> Coming soon!
+* **Discord Channel** -> https://discord.gg/BYr6gujs4k
+* **Learn to code roadmap** -> https://github.com/jamezmca/learn-to-code
 
 ## Chapter 1 - Introduction to JavaScript (JS)
 

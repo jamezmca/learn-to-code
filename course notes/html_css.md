@@ -12,10 +12,10 @@ They're also the perfect entry point for any new or beginner developer to start 
 
 Here are some links you might find helpful!
 
-* The Internet Is Hard -> https://internetingishard.netlify.app/
-* Learn HTML & CSS -> https://youtu.be/70T2GMDKl6M
-* Discord -> https://discord.gg/BYr6gujs4k
-* Learn to code roadmap -> https://github.com/jamezmca/learn-to-code
+* **The Internet Is Hard** -> https://internetingishard.netlify.app/
+* **Learn HTML & CSS** -> https://youtu.be/70T2GMDKl6M
+* **Discord Channel** -> https://discord.gg/BYr6gujs4k
+* **Learn to code roadmap** -> https://github.com/jamezmca/learn-to-code
 
 ## Chapter 1 - Introduction to HTML
 
