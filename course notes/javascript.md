@@ -823,6 +823,33 @@ You can have as many awaited lines of code as your please, so long as they are a
 
 ### 5._ Try Catch & Finally Blocks
 
+When making asynchronous requests, perhaps to an API or backend server per se, things can go wrong. Servers might time out, perhaps the request doesn't find it's destination or maybe even you're forbidden from making the request. In these cases, we need some code to handle the error as opposed to letting our code simply die :0
+
+So, instead we use a `try catch finally` block to attempt the asynchronous code, catch any errors, and finally display the resultant output of the operations. We could consequently construct an asynchronous block of code as follows:
+
+```
+async function fetchData() {
+    try {
+        // attempt our code in here
+
+        const apiUrl = 'https://localhost:8080/api/data'
+        const res = await fetch(apiUrl) // sends the asynchronous network request to the apiUrl
+        const data = await res.json() // parses the JSON response data
+        console.log(data) // outputs the data
+
+    } catch (err) {
+        // catch any errors we may have
+        console.log(err.message) // consoles the error message should we bug out the above code
+
+    } finally {
+        // tidy up 
+        console.log('Finished asynchronous function')
+    }
+}
+```
+
+This ensures that even if our response is bugged, our code will continue to run and we will still receive all the error messages.
+
 
 ### 5._ Promise.all()
 
