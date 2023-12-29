@@ -862,7 +862,13 @@ myElement.addEventListener("click", function() {
 
 > These are just some common examples, however the sky is the limit with DOM Manipulation. If you think you should be able to make a manipulation, you probably can.
 
-From here, all you need to do is ensure your JavaScript file is imported as a script at the bottom of your HTML document, and it will be executed accordingly.
+From here, all you need to do is ensure your JavaScript file is imported as a script at the bottom of your HTML document, and it will be executed accordingly. 
+
+```
+<script src="./path_to_file.js" defer/>
+```
+
+Add this line to the bottom of your HTML document, just above the closing `body` tag and you'll be right as rain.
 
 
 ## Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript
