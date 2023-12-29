@@ -26,7 +26,6 @@ Here are some links you might find helpful!
     - [2.3 Basic Functions in JavaScript](#23-basic-functions-in-javascript)
   - [Chapter 3 - Intermediate Programming Skills with JavaScript](#chapter-3---intermediate-programming-skills-with-javascript)
     - [3.1 Data Manipulation](#31-data-manipulation)
-    - [3.1.4 Chapter Quiz](#314-chapter-quiz)
     - [3.2 Scope, closures, and how to write modular and reusable code.](#32-scope-closures-and-how-to-write-modular-and-reusable-code)
   - [Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript](#chapter-4---understand-dom-manipulation-and-event-handling-in-javascript)
   - [Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript](#chapter-5---gain-competency-with-asynchronous-programming-in-javascript)
@@ -736,7 +735,7 @@ let jsonString = JSON.stringify(data)
 let parsedJSONObject = JSON.parse(jsonString)
 ```
 
-### 3.1.4 Chapter Quiz
+#### 3.1.4 Chapter Quiz
 
 Here are some questions that are the perfect application of your new knowledge!
 
