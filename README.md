@@ -18,9 +18,9 @@ With this guide, hopefully you too can learn to code (even if you have no prior 
 
 You're not alone in your journey, dive in to our coding community.
 
-* Youtube -> https://www.youtube.com/smoljames
-* Discord -> https://discord.gg/BYr6gujs4k
-* Course Notes -> https://github.com/jamezmca/learn-to-code/tree/main/course%20notes
+* **Youtube** -> https://www.youtube.com/smoljames
+* **Discord** -> https://discord.gg/BYr6gujs4k
+* **Course Notes** -> https://github.com/jamezmca/learn-to-code/tree/main/course%20notes
 
 ## Learning To Code (6 Chapters)
 
@@ -161,7 +161,7 @@ Now that you've got the knowledge you need to start building some wicked full st
 
 ## Land a Job
 
-Everything you could ever want to know about landing your software developer job can be found [here ->](https://www.roadmap.smoljames.com/blog/job_applications)
+Everything you could ever want to know about landing your software developer job can be found <kbd>[here ->](https://www.roadmap.smoljames.com/blog/job_applications)</kbd>
 
 ### [I WANT A JOB 🔥](https://www.roadmap.smoljames.com/blog/job_applications)
 <kbd>Click me</kbr>
