@@ -40,6 +40,8 @@ We begin our journey with HTML CSS & GIT. The first two are essentially the back
 
 4. [GIT Crash Course](https://youtu.be/WqWZt5gi-jw?si=reB1ABwV5Phus3pr) *[13mins]*
 
+5. [Learn HTTPS Networking](https://www.youtube.com/watch?v=fA0IBFiKaPE) *[14mins]*
+
 #### Course Notes
 
 Summary notes and reference material can be found here ->
