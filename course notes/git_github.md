@@ -126,6 +126,30 @@ If your branch is unable to be merged, it's likely that you have a **merge confl
 5. Once again, push your branch to GitHub per step 8 above.
     - If you check the GitHub MR you made, you fixes should be included and the merge conflicts gone, leaving your code to be merged!
 
+## Chapter 2 - Security
+
+Having your code online in a GitHub repository has many great benefits. But it can also be dangerous if you're working with secure keys or code that you wish to keep private and safe. Fortunately, GitHub accomidates for all security preferences, but it's important to know how to configure your projects correctly.
+
+### 2.1 Public vs Private Repos
+
+When you create a GitHub repo, you have the choice to make it public or private. Public repos are considered **open source** as anyone can look at your code, make versions of it, or copy it essentially. This can be great as it allows coders to share their knowledge. 
+
+However, if you have private information in your code or secure keys such as **API Keys** that you want to keep hidden from the world to prevent you ending up with a multi-million dollar bill for a service someone used in your name, then it's possible to make your repo **private**. 
+
+> You can configure the visibility settings via the settings on your repo. 
+
+### 2.2 Environment Variables (.env files)
+
+Another way of protecting special keys or passwords is via the use of a `.env` file. Inside of an environment variables files, we can simply assign our special keys to variable names that we can then use throughout out code base. The means that our code base doesn't have numerous instances of our secret keys plastered throughout it. Instead our keys are only written once inside a secure `.env` file that we can then refer to via their variable names instead.
+
+### 2.2.1 Git Ignore Files (.gitignore)
+
+It's important to note that your `.env` files are not immediately secure. If you upload your `.env` file to a public GitHub repo, then people can still view this file and copy your keys. Instead, we want to keep them soley on our local device; in other words, we **DO NOT** upload our `.env` files to our GitHub repos.
+
+We do this by including the `.env` inside of a file called `.gitignore`. The Git ignore file gets uploaded to GitHub and it will tell Git to not include the `.env` file with your repo. So you can do all your normal Git actions and the `.env` file will remain untouched and safe on your computer.
+
+> Occassionally, secret keys will be included in files where it's just easier to have them in the GitHub repo. In these cases, I will upload them to GitHub & just private the repo so that no one can see it!
+
 ## Final Words
 
 I hope that these notes give you the knowledge you need to excel as a GIT maestro! If you've enjoyed the repo, please consider giving it a ***star ⭐️***, and be sure to check out the other guides available so you can become the ultimate developer today :P
