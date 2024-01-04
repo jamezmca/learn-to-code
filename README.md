@@ -20,6 +20,7 @@ You're not alone in your journey, dive in to our coding community.
 
 * **Youtube** -> https://www.youtube.com/smoljames
 * **Discord** -> https://discord.gg/BYr6gujs4k
+* **Newsletter** -> https://smoljames.beehiiv.com/subscribe
 * **Course Notes** -> https://github.com/jamezmca/learn-to-code/tree/main/course%20notes
 
 ## Learning To Code (6 Chapters)
