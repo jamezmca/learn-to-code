@@ -150,6 +150,8 @@ Now that you've got the knowledge you need to start building some wicked full st
 
 **Projects do not need to be overly complex, just clean and well coded**
 
+### Recommended
+
 1. [Web portfolio](https://youtu.be/ylCUH6LkW80) -> You'll need somewhere to store you work.
 *Recommended to use a JavaScript framework combined with TailwindCSS*
 
@@ -160,6 +162,21 @@ Now that you've got the knowledge you need to start building some wicked full st
 4. A Full Stack project using a frontend framework (React.js or SvelteKit), Firebase auth, Firebase Firestore database & TailwindCSS. This could be a calender app, a todo app, or even a recipe app.
 
 > **After completing a tutorial or project**, share your work on Twitter, LinkedIn or in the [Discord](https://discord.gg/BYr6gujs4k) channel and tag me too so everyone can be inspired by your success :P
+
+### Additional Projects
+
+* **Full Stack Projects**
+    - [An E-Commerce Store in Next.js + Stripe + TailwindCSS](https://youtu.be/rbMvm-CrkOA)
+    - [A Full SEN Stack Project (Svelte, Express, Node.js)](https://youtu.be/oYQ61tmphYc)
+    - [A Node.js + HTML + CSS + Firebase Full Stack Poll App](https://youtu.be/qLUTHVf2mF4)
+* **Frontend Project**
+    - [A Data Visualisation Website (that consumes a data API and presents metrics that the user can interact with, for example a Covid Stats Website)](https://youtu.be/tYcjZomsFkY)
+    - [A React app that consumes an API, displays data, and has a responsive design](https://youtu.be/hRlujM-sycg)
+    - [Build a React web portfolio that is designed by AI](https://youtu.be/Gh4SeWGEHKg)
+* **Backend Project Recommendations**
+    - [A Web Scraper Server (that stores data provides it as an API)](https://youtu.be/37LJxWzjy6g)
+    - [A CRON Job Server (Completes a task at a given interval)](https://youtu.be/TJ_celb19Ko)
+    - [Something Serverless -_-](https://youtu.be/FZHyHQ6ytZM)
 
 ## Land a Job
 
