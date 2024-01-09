@@ -100,7 +100,7 @@ Dive into the world of dynamic weather with React! Build a user-friendly dashboa
 
 *Completion time **[20hrs]***
 
-If you're looking to extend your capabilites beyound Frontend development into Full Stack development, then it's time to explore some Backend tech!
+If you're looking to extend your capabilites beyond Frontend development into Full Stack development, then it's time to explore CRUD, APIs & backend servers!
 
 1. [Node.js + Express.js Crash Course - Zero to Hero](https://youtu.be/V8ePZHOjRQo) *[1hrs]*
 
