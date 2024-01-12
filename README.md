@@ -81,13 +81,15 @@ Ready to combine your passion for food and coding? Build an interactive Single P
 
 JavaScript frameworks make building dynamic and interactive websites incredibly easy. There's loads to pick from but React.js is a great place to start!
 
-1. [React Full Course - Zero to Hero](https://youtu.be/hRlujM-sycg) *[1hrs]*
+1. [React.js Crash Course -> Zero to Hero (Build a GYM App)](https://youtu.be/v0SfUz-Zbyg) *[1.5hrs]*
 
-2. [SvelteKit Web Portfolio](https://www.youtube.com/watch?v=ylCUH6LkW80) *[1.2hrs]*
+2. [Learn React.js in 1 Hr - Build a LOTR Website](https://youtu.be/hRlujM-sycg) *[1hrs]*
 
-3. [Learn NextJS 13: Build a Modern Full-Stack E-commerce App with TailwindCSS + Stripe + Zustand](https://www.youtube.com/watch?v=oLPgc5Fp2Ts) *[1.5hrs]*
+3. [SvelteKit Web Portfolio](https://www.youtube.com/watch?v=ylCUH6LkW80) *[1.2hrs]*
 
-4. [Learn Qwik - The World's Fastest JavaScript Web Framework](https://youtu.be/4a75F4FEArs?si=GUWyU8qb8aMZYiVU) *[1.5hrs]*
+4. [Learn NextJS 13: Build a Modern Full-Stack E-commerce App with TailwindCSS + Stripe + Zustand](https://www.youtube.com/watch?v=oLPgc5Fp2Ts) *[1.5hrs]*
+
+5. [Learn Qwik - The World's Fastest JavaScript Web Framework](https://youtu.be/4a75F4FEArs?si=GUWyU8qb8aMZYiVU) *[1.5hrs]*
 
 
 #### End of Chapter Project
