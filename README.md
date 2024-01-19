@@ -35,13 +35,15 @@ We begin our journey with HTML CSS & GIT. The first two are essentially the back
 
 1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
 
-2. [Learn HTML & CSS - Build & Deploy a Linktr.ee Clone [Beginner Tutorial]](https://youtu.be/jKWGYVRAYnc) *[30mins]*
+2. [Code a SUPREME Web-Portfolio w. HTML & CSS (& nothing else)](https://youtu.be/aLb_fMGZQXI) *[40mins]*
 
-3. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
+3. [Learn HTML & CSS - Build & Deploy a Linktr.ee Clone [Beginner Tutorial]](https://youtu.be/jKWGYVRAYnc) *[30mins]*
 
-4. [GIT Crash Course](https://youtu.be/WqWZt5gi-jw?si=reB1ABwV5Phus3pr) *[13mins]*
+4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
 
-5. [Learn HTTPS Networking](https://www.youtube.com/watch?v=fA0IBFiKaPE) *[14mins]*
+5. [GIT Crash Course](https://youtu.be/WqWZt5gi-jw?si=reB1ABwV5Phus3pr) *[13mins]*
+
+6. [Learn HTTPS Networking](https://www.youtube.com/watch?v=fA0IBFiKaPE) *[14mins]*
 
 #### Course Notes
 
