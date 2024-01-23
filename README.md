@@ -12,7 +12,7 @@ I'm James, a self-taught software developer, and this guide is the roadmap I wis
  
 With this guide, hopefully you too can learn to code (even if you have no prior experience) and land your developer role! 
 
-> If you're enjoying the guide, consider *staring ⭐️* & sharing the repo :P Or check out the interactive [version](https://www.roadmap.smoljames.com)🔥
+> If you're enjoying the guide, consider *staring ⭐️* & sharing the repo :P Or check out the interactive [version](https://www.smoljames.com)🔥
 
 ## Resources
 
