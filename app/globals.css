@@ -1,0 +1,133 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.specialShadow {
+    text-shadow: -1px -1px 4px #0022FFBF, 2px 2px 10px #0022FFBF, 0 0 20px #0022FFBF;
+    color: white;
+}
+
+.textGradient {
+    background: -webkit-linear-gradient(#0084FF, #00FFFB);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bgGradient {
+    background: linear-gradient(#0084FF, #00FFFB)
+}
+
+.blueBorder {
+    background: linear-gradient(30deg, #3b82f6, #67e8f9);
+    /* background: linear-gradient(30deg, #6d28d9, #f472b6); */
+}
+
+.animatedBorder {
+    z-index: -1;
+    position: absolute;
+    inset: -2.5px;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.animatedBorder::after {
+    position: absolute;
+    content: '';
+    inset: 2.5px;
+    background: #030615;
+    z-index: 0;
+    border-radius: 8px;
+
+}
+
+.animatedBorder div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    aspect-ratio: 1/1;
+    transform: translateY(-50%);
+    z-index: -1;
+
+
+}
+
+.animatedBorder div::before {
+    position: absolute;
+    content: '';
+    inset: 0;
+    background: linear-gradient(30deg, #3b82f6, #67e8f9);
+    animation: spin 4s linear infinite;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.btnBorder {
+    cursor: pointer;
+}
+
+.btnBorder:hover {
+    box-shadow: 2px 2px 0 0 #93c5fd;
+    transform: translate(2px, 2px);
+}
+
+.btnBorderFake,
+.btnBorder {
+    box-shadow: 4px 4px 0 0 #93c5fd;
+    border: 2px solid #93c5fd;
+    transition-duration: 200ms;
+}
+
+header,
+main,
+footer {
+    max-width: 65ch;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.markdown h1,
+.markdown h2,
+.markdown h3,
+.markdown h4,
+.markdown h5,
+.markdown h6,
+.markdown a,
+.markdown li,
+.markdown code,
+.markdown p,
+.markdown td {
+    color: #dbeafe !important;
+}
+
+.markdown th {
+    color: #93c5fd !important;
+}
+
+.markdown strong {
+    color: white;
+}
+
+.markdown code {
+    max-width: 100%;
+}
+
+.blueGradient {
+    background: -webkit-linear-gradient(30deg, #3b82f6, #67e8f9);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.blueBorder {
+    background: linear-gradient(30deg, #3b82f6, #67e8f9);
+}
