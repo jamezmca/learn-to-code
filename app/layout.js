@@ -12,6 +12,9 @@ const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 export const metadata = {
   title: "Smoljames",
   description: "I self-taught programming and landed a developer job FOR FREE, and you can too! With Smoljames, you can learn to code with the highest quality learning resources (totally free), and land a developer job ASAP.",
+  icons: {
+    icon: '/favicon2.png', // /public path
+  },
 };
 
 export default function RootLayout({ children }) {
