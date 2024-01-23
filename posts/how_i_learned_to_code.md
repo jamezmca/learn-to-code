@@ -44,6 +44,7 @@ Step 4; For step 4, I was looking at job postings for the jobs I wanted to see w
 Following this tutorial, I had all the essential skills to develop my own basic CRUD mobile app; a Todo app. I stylized it myself so it looked atrocious, but I did ultimately deploy it to the app store, and added it to my portfolio.
 
 4.2. Code my own React-Native app with basic CRUD functionality [read/write to device localstorage] | (1–2 weeks).
+
 Step 5; Waste a whole lot of time on random little youtube tutorials that I didn’t understand [this step is not mandatory to follow but I was directionless] (1 month).
 
 Step 6; After a period of aimless meandering, I finally found some direction and inspiration for my second project. I would occasionally put out job applications, get no response, and so I knew I needed something more. I settled on building an E-commerce store with Stripe & React, following another youtube tutorial at approximately 5hrs in length (can’t find the link for my life :’[). After completing the tutorial, I rebranded the site, added my own products, and proceeded to make zero sales; nice. Still, another project to the portfolio, all hosted live and everything.
@@ -116,7 +117,7 @@ Cheers, [your_name]
 
 Literally gets you free interviews (also got me an earlier offer — didn’t go forwards with it though).
 
-# Communication/Soft Skills
+# Communication / Soft Skills
 
 This ultimately landed me my job. I was initially rejected cause the role was full (I applied late), and a week later the hiring dude came back to me and said he liked my communication skills and said they wanted to make something work.
 
