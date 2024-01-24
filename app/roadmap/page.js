@@ -21,7 +21,7 @@ export default function RoadmapPage() {
         <MainWrapper>
             <div className="flex flex-col gap-2">
                 <h2 className={'text-3xl text-white  ' + press.className}>Welcome to the Roadmap</h2>
-                <p className={' '}>Join over 25,000+ students following this roadmap to learn coding and land developer jobs 🔥</p>
+                <p className={' '}>Join over 25,000+ students following this roadmap to learn to code and land their developer job 🔥</p>
             </div>
 
             {Object.keys(DATA.chapters).map((ele, eleIndex) => {
