@@ -33,23 +33,26 @@ Here are some links you might find helpful!
   - [Chapter 3 - Intermediate Programming Skills with JavaScript](#chapter-3---intermediate-programming-skills-with-javascript)
     - [3.1 Data Manipulation](#31-data-manipulation)
     - [3.2 Scope, closures, and how to write modular and reusable code.](#32-scope-closures-and-how-to-write-modular-and-reusable-code)
-  - [Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript](#chapter-4---understand-dom-manipulation-and-event-handling-in-javascript)
-  - [Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript](#chapter-5---gain-competency-with-asynchronous-programming-in-javascript)
-    - [5.1 Async Await](#51-async-await)
-    - [5.2 Try Catch \& Finally Blocks](#52-try-catch--finally-blocks)
-    - [5.3 Promise.all()](#53-promiseall)
-  - [Chapter 6 - Learn the Modern ES6+ JavaScript Syntax](#chapter-6---learn-the-modern-es6-javascript-syntax)
-    - [6.1 Arrow Functions](#61-arrow-functions)
-    - [6.2 Ternary Operator (?)](#62-ternary-operator-)
-    - [6.3 Optional Chaining](#63-optional-chaining)
-    - [6.4 Object Destructuring](#64-object-destructuring)
-    - [6.5 Array Destructuring](#65-array-destructuring)
-    - [6.6 Template Literal Strings (\`\`)](#66-template-literal-strings-)
-    - [6.7 Short Circuits (\&\& || ??)](#67-short-circuits---)
-    - [6.8 Enhanced Object Literals](#68-enhanced-object-literals)
-    - [6.9 Spread Operator (...)](#69-spread-operator-)
-    - [6.10 Array Methods](#610-array-methods)
-  - [Chapter 7 - Going Beyond](#chapter-7---going-beyond)
+  - [Chapter 4 - Modern OOP (Object-Oriented Programming)](#chapter-4---modern-oop-object-oriented-programming)
+    - [4.1 Basics of JavaScript Classes](#41-basics-of-javascript-classes)
+    - [4.2 Points to Note](#42-points-to-note)
+  - [Chapter 5 - Understand DOM Manipulation and Event Handling in JavaScript](#chapter-5---understand-dom-manipulation-and-event-handling-in-javascript)
+  - [Chapter 6 - Gain Competency with Asynchronous Programming in JavaScript](#chapter-6---gain-competency-with-asynchronous-programming-in-javascript)
+    - [6.1 Async Await](#61-async-await)
+    - [6.2 Try Catch \& Finally Blocks](#62-try-catch--finally-blocks)
+    - [6.3 Promise.all()](#63-promiseall)
+  - [Chapter 7 - Learn the Modern ES6+ JavaScript Syntax](#chapter-7---learn-the-modern-es6-javascript-syntax)
+    - [7.1 Arrow Functions](#71-arrow-functions)
+    - [7.2 Ternary Operator (?)](#72-ternary-operator-)
+    - [7.3 Optional Chaining](#73-optional-chaining)
+    - [7.4 Object Destructuring](#74-object-destructuring)
+    - [7.5 Array Destructuring](#75-array-destructuring)
+    - [7.6 Template Literal Strings (\`\`)](#76-template-literal-strings-)
+    - [7.7 Short Circuits (\&\& || ??)](#77-short-circuits---)
+    - [7.8 Enhanced Object Literals](#78-enhanced-object-literals)
+    - [7.9 Spread Operator (...)](#79-spread-operator-)
+    - [7.10 Array Methods](#710-array-methods)
+  - [Chapter 8 - Going Beyond](#chapter-8---going-beyond)
 
 ## Chapter 1 - Introduction to JavaScript (JS)
 
@@ -352,7 +355,9 @@ while (img_not_found) {
 
 This loop will endlessly execute until the function returns true (we'll talk more about functions later), and the `img_not_found` value is set to false, and the loop is exited.
 
-#### 2.2.3 If Statements
+#### 2.2.3 Breaking Loops
+
+#### 2.2.4 If Statements
 
 If statements are fairly sacred in JavaScript and come in handy all the time. Let's say that we wanted to only execute a block of code depending on a certain condition; we'll, that's when `if` blocks come in handy. We could also have a block to run in the otherwise, or `else` condition, or even have some extra conditions in between. The syntax for the `if` block is as follows:
 
@@ -838,7 +843,143 @@ calculate(5, 3);
 
 In this example, mathOperations.js is a module that exports functions for addition and subtraction. The calculator.js module imports these functions and uses them to perform calculations. Each module has a specific responsibility, and changes to one module are less likely to impact the other.
 
-## Chapter 4 - Understand DOM Manipulation and Event Handling in JavaScript
+## Chapter 4 - Modern OOP (Object-Oriented Programming) 
+
+Object-Oriented Programming (OOP) in JavaScript is a way to write code using objects. These objects can hold data and functions that work on the data. JavaScript uses special functions called constructors to make these objects, and it also has a newer, easier way to make them with something called classes. OOP helps organize code better, making it easier to use and change later. It's like having a bunch of small machines (objects) in your code, each doing its own job.
+
+With features like constructors, methods, this keyword, and new capabilities like getters, setters, and static methods, JavaScript provides a flexible environment to apply OOP principles, enhancing code clarity, modularity, and maintainability.
+
+### 4.1 Basics of JavaScript Classes
+
+In JavaScript, classes are a template for creating objects. They encapsulate data with code to work on that data. JavaScript classes are a syntactical sugar over JavaScript's existing prototype-based inheritance and are introduced in ECMAScript 2015 (ES6). They offer a cleaner, more concise way to create objects and deal with inheritance.
+
+#### 4.1.1 Class Declaration
+
+To declare a class, you use the class keyword followed by the class name.
+
+```
+class MyClass {
+  // class body
+}
+```
+
+#### 4.1.2 Constructor
+
+The `constructor` method is a special method for creating and initializing objects created with a class. There can only be one constructor method in a class. It's mainly used for initializing properties of the class.
+
+```
+class MyClass {
+  constructor(name) {
+    this.name = name; // name is a property of the class
+  }
+}
+```
+
+#### 4.1.3 Methods
+
+You can define methods for a class, where methods are just functions that are associated with a class. By default, all methods are added to the prototype of the object, not the object itself.
+
+```
+class MyClass {
+  constructor(name) {
+    this.name = name;
+  }
+
+  greet() {
+    console.log(`Hello, my name is ${this.name}!`);
+  }
+}
+```
+
+In JavaScript, if a property is non-enumerable (methods for example), it means that the property won't show up if you loop over the object using a `for...in` loop or methods like `Object.keys()`. By default, all static properties and methods added to a class's prototype are non-enumerable.
+
+#### 4.1.4 Instantiation
+
+Classes are instantiated (used) using the new keyword. We basically create an **instance** of the class (think of it as a blueprint for creating an object with certain data and properties).
+
+```
+const obj = new MyClass('Alice');
+obj.greet(); // Output: Hello, my name is Alice!
+```
+
+*So here, the data passed in as an argument during the initialization is received in the constructor method.*
+
+#### 4.1.5 Inheritance
+
+JavaScript classes support inheritance via the extends keyword. Child classes inherit all properties and methods from the parent class.
+
+```
+class Animal {
+  constructor(name) {
+    this.name = name;
+  }
+
+  speak() {
+    console.log(`${this.name} makes a noise.`);
+  }
+}
+
+class Dog extends Animal {
+  speak() {
+    console.log(`${this.name} barks.`);
+  }
+}
+
+let dog = new Dog('Rex');
+dog.speak(); // Output: Rex barks.
+```
+
+#### 4.1.6 Static Methods and Properties
+
+Static methods and properties are called on the class itself, not on instances of the class. This means you don't need to create an object from a class to use them. You define them using the static keyword.
+
+```
+class MyClass {
+  static staticMethod() {
+    console.log('This is a static method.');
+  }
+}
+
+MyClass.staticMethod(); // Output: This is a static method. 
+```
+
+*Note how we didn't instantiate the class, yet we still used the method.*
+
+#### 4.1.7 Getters and Setters
+
+Classes support getter and setter methods as a way of intercepting accesses to a member of an object.
+
+```
+class MyClass {
+  constructor(name) {
+    this._name = name;
+  }
+
+  get name() {
+    return this._name;
+  }
+
+  set name(value) {
+    this._name = value;
+  }
+}
+
+const obj = new MyClass('Alice');
+console.log(obj.name); // Output: Alice
+obj.name = 'Bob';
+console.log(obj.name); // Output: Bob
+```
+
+### 4.2 Points to Note
+
+* Class declarations are not hoisted (unlike function declarations), which means that they can't be used prior to being instantiated.
+* Methods in classes are non-enumerable.
+* Classes have a default constructor if one is not specified.
+* The **`this`** keyword in a method refers to the instance of the class.
+
+Classes provide a much cleaner and clearer syntax to create objects and deal with inheritance compared to the more complex prototype-based inheritance. They make your code more structured and maintainable.
+
+## Chapter 5 - Understand DOM Manipulation and Event Handling in JavaScript
 
 Now it's time to get into the good stuff. This chapter covers JavaScripts integration with HTML & CSS to produce amazing dynamic websites and web user experiences. When we say *manipulate the DOM*, we mean manipulate the Document Object Model, which itself is a *model* that represent the *HTML Document* as an *object* that can be interacted with JavaScript. In short, we can select HTML elements or tags in JavaScript and manipulate them.
 
@@ -907,7 +1048,7 @@ From here, all you need to do is ensure your JavaScript file is imported as a sc
 Add this line to the bottom of your HTML document, just above the closing `body` tag and you'll be right as rain.
 
 
-## Chapter 5 - Gain Competency with Asynchronous Programming in JavaScript
+## Chapter 6 - Gain Competency with Asynchronous Programming in JavaScript
 
 So far in our learning of JavaScript, we've look only as synchronous programming. Synchronous programming can be thought of as a linear set of instructions, where one instruction starts as the previous one ends, until there are no more. And this is all well and good until you run into what is known as **promises**. 
 
@@ -915,7 +1056,7 @@ A promise is essentially a placeholder that represents information that is yet t
 
 There are two ways we can resolve this issue; with the `.then()` chaining syntax or `async/await`. The latter is the more modern syntax and is the one we will discuss in this tutorial.
 
-### 5.1 Async Await
+### 6.1 Async Await
 
 The async await syntax essentially works by declaring a function code block to be asynchronous, allowing us to await asyncrhonous operations within. This means that any asynchronous call made within the `async` block causes our code to stop, and wait for the request to be fulfilled which means that we have the information back, the promise is resolved, and we have the green light to carry on executing the remainder of our code. 
 
@@ -933,7 +1074,7 @@ async function slowRequest() {
 
 You can have as many awaited lines of code as your please, so long as they are all within an asynchronous function block.
 
-### 5.2 Try Catch & Finally Blocks
+### 6.2 Try Catch & Finally Blocks
 
 When making asynchronous requests, perhaps to an API or backend server per se, things can go wrong. Servers might time out, perhaps the request doesn't find it's destination or maybe even you're forbidden from making the request. In these cases, we need some code to handle the error as opposed to letting our code simply die :0
 
@@ -964,7 +1105,7 @@ This ensures that even if our response is bugged, our code will continue to run 
 > Technically, you don't actually need the finally portion of the block, but it's good to know about and comes in handy now and then. It's best practice to use a try catch block at the minimum wherever you are making asynchronous requests or have code liable to bug out.
 
 
-### 5.3 Promise.all()
+### 6.3 Promise.all()
 
 Now so far, we've learned how to make network requests and perform asynchronous operations in series (one starts after the prior finishes). If we're making a large number of requests, this can be quite a slow process.
 
@@ -988,11 +1129,11 @@ async function sleepFunction() {
 > You can use ```Promise.allSettled()``` is an equivalent method that returns an object for each data, containing a status the specifies the outcome of the request, and the fulfilled request information itself.
 
 
-## Chapter 6 - Learn the Modern ES6+ JavaScript Syntax
+## Chapter 7 - Learn the Modern ES6+ JavaScript Syntax
 
 And finally, it's time to learn some of the most modern JavaScript syntax that is currently available to make your programming even faster 🔥 
 
-### 6.1 Arrow Functions
+### 7.1 Arrow Functions
 
 First off we have arrow functions, which are a newer, more modern syntax for defining a function. Arrow functions maintain a lot of the key features of our original function syntax, only, they look a bit more like an arrow, for example ```() => {}``` is an anonymous arrow function that does nothing. We can convert an original function to the arrow syntax as follows:
 
@@ -1014,7 +1155,7 @@ let newFunction = (argument) => {console.log('This is the argument: ', argument)
 
 > If our arrow function is one line, we can simplfy the function even further to ```let newFunction = (arg) => console.log('This is the argument: ', argument))```. Note how I dropped the curly braces.
 
-#### 6.1.1 Anonymous Functions
+#### 7.1.1 Anonymous Functions
 
 As for anonymous functions, they're a rather infrequency occurance in JavaScript. The most common example is perhaps when we're appending a click event to a button in HTML or React.js perhaps.
 
@@ -1025,7 +1166,7 @@ function() {} // using the old syntax
 () => {} // using the new syntax
 ```
 
-### 6.2 Ternary Operator (?)
+### 7.2 Ternary Operator (?)
 
 The ternary operator is a shorthand for an `if else` evaluation. A one-liner if you will! The syntax works as follows:
 
@@ -1038,7 +1179,7 @@ let isJonFriend = friends.includes('Jon') ? true : false // evaluates to false a
 
 > You can chain numerous ternary statements if you're clever, but sometimes it's best to revert to the good old `if else` blocks for code clarity.
 
-### 6.3 Optional Chaining
+### 7.3 Optional Chaining
 
 Occassionally, when working with objects, you might get a few nested objects one within another. In this situation, it's not uncommon to chain your keys to access sub dictionaries - for example:
 
@@ -1071,7 +1212,7 @@ let henryAge = person?.['friends']?.['henry']?.['age']
 let henryAge = person?.friends?.henry?.age
 ```
 
-### 6.4 Object Destructuring
+### 7.4 Object Destructuring
 
 Object destructing is amazing! We essentially dismantle the object :0 Let's say we had the following object and we wanted to create variables out of the keys. In the good old days, we used to have to do the following:
 
@@ -1099,7 +1240,7 @@ const {name, age} = person
 const {name: personName, age} = person // this would create a variable called personName that assumes the value of the name which is 'james'
 ```
 
-### 6.5 Array Destructuring
+### 7.5 Array Destructuring
 
 Much the same as object destructuring, yet not quite as common, we can dismantled arrays as follows:
 
@@ -1112,7 +1253,7 @@ let value2 = oldArray[1]
 let [value1, value2] = oldArray // ensuring to match the variable indexes
 ```
 
-### 6.6 Template Literal Strings (``)
+### 7.6 Template Literal Strings (``)
 
 Template literal strings allows us to write strings that cross over onto multiple lines! To create a template literal string, we simple use the backtick keys (``). But template literal strings allow us to do more than that. We can also use them to insert variable values in the midst of our strings. For example:
 
@@ -1128,11 +1269,11 @@ console.log(`The boy was called ${name}`)
 
 > We wrap any javascript variables inside the `${variableName}` dollar sign and curly braces to insert the value associated with the variable into the string.
 
-### 6.7 Short Circuits (&& || ??)
+### 7.7 Short Circuits (&& || ??)
 
 Sometimes when we're defining values and variables, we'll occassionally need to do so conditionally, where the assignment might be dependant on a condition. We could do this use an `if else` block, but we can also do it in one line using the short circuit operators.
 
-#### 6.7.1 AND Short Circuit (&&)
+#### 7.7.1 AND Short Circuit (&&)
 
 If we wanted to assign a value only if a condition was true, we use the AND `&&` short circuit.
 
@@ -1143,7 +1284,7 @@ let name = person.name && 'Jonny'
 console.log(name) // evaluates to Jonny only if person.name exists, otherwise assumes undefined.
 ```
 
-#### 6.7.2 OR Short Circuit (||)
+#### 7.7.2 OR Short Circuit (||)
 
 If we instead wanted to assign a backup value in the case where the first value does not exist, we instead use the `||` OR short circuit. For example:
 
@@ -1154,7 +1295,7 @@ let name = person.name || 'Default Name'
 // will assume the value of Jon unless the name key did not exist, in which case it would assume the OR condition which is 'Default name'
 ```
 
-#### 6.7.3 Nullish Coalescing (??)
+#### 7.7.3 Nullish Coalescing (??)
 
 Similar to the OR example, nullish coalescing returns it's right-handside operand when it's left-handside operand is `null` or `undefined`, and otherwise returns it's left-handside operand.
 
@@ -1165,7 +1306,7 @@ const baz = 0 ?? 42 // assumes 0
 
 > Note in the last example with Baz, if we use the || OR short circuit, the 0 would have cause the OR operand to be assumed, hence the difference.
 
-### 6.8 Enhanced Object Literals
+### 7.8 Enhanced Object Literals
 
 Enhanced object literals is a super nifty syntax that makes constructing objects even easier. Let's say we were trying to construct an object to consolidate a number of variables we already have defined. It would probably look a bit as follows:
 
@@ -1190,7 +1331,7 @@ let person = { name, age }
 
 > // initializes the key to match the variable, and the value associated with the variable is now assigned to the key!
 
-### 6.9 Spread Operator (...)
+### 7.9 Spread Operator (...)
 
 The spread operator allows us to combine objects and arrays, or create duplicates of them with ease! The syntax uses the triple period `...` and works as follows:
 
@@ -1208,7 +1349,7 @@ person = { ...person, ...additionalDetails } // combines the two objects in a ne
 
 The spread operator can be use in numerous other circumstances and is incredibly helpful!
 
-### 6.10 Array Methods
+### 7.10 Array Methods
 
 Array methods are the best thing since sliced bread :P There's quite a few of them and we covered a couple above, such as the `.sort()` function. Here we'll dive into the most common ones!
 
@@ -1272,7 +1413,7 @@ console.log(numberSum) // outputs 10 as the sum of all the numbers
 
 But we could use it for making arrays, creating strings, modifying objects and the only limit to this array function is your creativity!
 
-## Chapter 7 - Going Beyond
+## Chapter 8 - Going Beyond
 
 This guide by no means covers everything. It was created to quickly summarize all the primary key works of JavaScript to get you up and running as soon as possible. Consequently, there's plenty more to learn :P The one big topic that is not covered by this guide, that is still recommended to learn is **Classes** in JavaScript. They're not that prominent but that can come in handy from time to time.
 
