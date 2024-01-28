@@ -1317,11 +1317,17 @@ video {
 .font-bold {
   font-weight: 700;
 }
+.font-medium {
+  font-weight: 500;
+}
 .uppercase {
   text-transform: uppercase;
 }
 .capitalize {
   text-transform: capitalize;
+}
+.italic {
+  font-style: italic;
 }
 .text-\[\#030615\] {
   --tw-text-opacity: 1;
@@ -1346,6 +1352,49 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+.text-pink-300 {
+  --tw-text-opacity: 1;
+  color: rgb(249 168 212 / var(--tw-text-opacity));
+}
+.text-pink-400 {
+  --tw-text-opacity: 1;
+  color: rgb(244 114 182 / var(--tw-text-opacity));
+}
+.text-amber-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 191 36 / var(--tw-text-opacity));
+}
+.text-indigo-400 {
+  --tw-text-opacity: 1;
+  color: rgb(129 140 248 / var(--tw-text-opacity));
+}
+.text-rose-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 113 133 / var(--tw-text-opacity));
+}
+.text-violet-400 {
+  --tw-text-opacity: 1;
+  color: rgb(167 139 250 / var(--tw-text-opacity));
+}
+.text-emerald-300 {
+  --tw-text-opacity: 1;
+  color: rgb(110 231 183 / var(--tw-text-opacity));
+}
+.text-yellow-400 {
+  --tw-text-opacity: 1;
+  color: rgb(250 204 21 / var(--tw-text-opacity));
+}
+.text-blue-400 {
+  --tw-text-opacity: 1;
+  color: rgb(96 165 250 / var(--tw-text-opacity));
+}
+.text-cyan-400 {
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
+}
+.underline {
+  text-decoration-line: underline;
 }
 .opacity-20 {
   opacity: 0.2;
@@ -1562,6 +1611,10 @@ footer {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:opacity-70:hover {
+  opacity: 0.7;
 }
 
 .hover\:after\:translate-x-full:hover::after {

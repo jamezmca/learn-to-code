@@ -1,7 +1,3 @@
 {
-  "/page": "app/page.js",
-  "/notes/page": "app/notes/page.js",
-  "/blog/[slug]/page": "app/blog/[slug]/page.js",
-  "/roadmap/page": "app/roadmap/page.js",
-  "/blog/page": "app/blog/page.js"
+  "/roadmap/page": "app/roadmap/page.js"
 }

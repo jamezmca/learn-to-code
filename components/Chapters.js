@@ -24,8 +24,8 @@ export default function Chapters(props) {
     return (
         <div className={'flex items-stretch duration-200  mb-4 ' + (completed.length === resources.length ? ' bg-blue-300 text-white ' : ' text-[#030615] bg-white ') + press.className}>
 
-            <p className={' py-1 px-2 sm:hidden '}>Ch 0{eleIndex + 1}</p>
-            <p className={' py-1 px-2 sm:inline hidden  '}>Chapter 0{eleIndex + 1}</p>
+            <p className={' py-1 px-2 sm:hidden '}>Ch 0{eleIndex}</p>
+            <p className={' py-1 px-2 sm:inline hidden  '}>Chapter 0{eleIndex}</p>
             <div className=' w-4 bg-[#030615]'></div>
             <div className='flex items-stretch flex-1 bg-[#030615] gap-1'>
                 {[...Array(resources.length).keys()].map((val, valIndex) => {

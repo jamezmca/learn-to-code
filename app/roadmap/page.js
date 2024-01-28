@@ -21,7 +21,9 @@ export default function RoadmapPage() {
         <MainWrapper>
             <div className="flex flex-col gap-2">
                 <h2 className={'text-3xl text-white  ' + press.className}>Welcome to the Roadmap</h2>
-                <p className={' '}>Join over 25,000+ students following this roadmap to learn to code and land their developer job 🔥</p>
+                <p className={' '}>Join over 25,000+ students following this roadmap to learn to code and land a developer job 🔥</p>
+                <p className={' italic'}>If you're ever feeling stuck or overwhelmed, know that there is always help and assistance available in the <Link className='text-pink-400 font-bold duration-200 hover:opacity-70' href={'https://discord.gg/BYr6gujs4k'} target='_blank'>Discord Channel</Link> and you can access additional support notes & guides <Link className='text-pink-400 font-bold duration-200 hover:opacity-70' href={'/notes'} target='_blank'>here</Link> :P</p>
+
             </div>
 
             {Object.keys(DATA.chapters).map((ele, eleIndex) => {
@@ -64,8 +66,12 @@ export default function RoadmapPage() {
                                 )
                             })}
                         </ul>
-                        <p><b className={' ' + press.className}>&rarr; Project</b> </p>
-                        <p>{DATA.chapters[ele].project}</p>
+                        {DATA?.chapters?.[ele]?.project && (
+                            <>
+                                <p><b className={' ' + press.className}>&rarr; Project</b> </p>
+                                <p>{DATA.chapters[ele].project}</p>
+                            </>
+                        )}
                     </div>
                 )
             })}
