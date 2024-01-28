@@ -1,5 +1,5 @@
 "use client"
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import DATA from '../public/roadmap.json'
 
 import { Inter, Press_Start_2P, Roboto_Mono } from "next/font/google";
@@ -14,12 +14,28 @@ export default function Chapters(props) {
     let resources = DATA.chapters[ele].resources
 
     function handleToggleResource(valIndex) {
+        let newData = []
         if (completed.includes(valIndex)) {
-            setCompleted(completed.filter(i => i !== valIndex))
-            return
+            newData = completed.filter(i => i !== valIndex)
+        } else {
+            newData = [...completed, valIndex]
         }
-        setCompleted([...completed, valIndex])
+
+        setCompleted(newData)
+        let tempData = JSON.parse(localStorage.getItem('roadmap') || "{}")
+        tempData[eleIndex] = newData.join(',')
+        localStorage.setItem('roadmap', JSON.stringify(tempData))
+        console.log(completed)
     }
+
+
+    useEffect(() => {
+        let tempData = JSON.parse(localStorage.getItem('roadmap') || "{}")
+        if (eleIndex in tempData) {
+            setCompleted(tempData[eleIndex].split(',').filter(val => val !== '').map(val => parseInt(val)))
+        }
+    }, [])
+
 
     return (
         <div className={'flex items-stretch duration-200  mb-4 ' + (completed.length === resources.length ? ' bg-blue-300 text-white ' : ' text-[#030615] bg-white ') + press.className}>
