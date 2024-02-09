@@ -49,8 +49,9 @@ const HomePage = () => {
 
   let socials = [
     { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', link: 'https://www.linkedin.com/in/jamezmcarthur/', target: '_blank' },
+    { name: 'GitHub', icon: 'fa-brands fa-github', link: 'https://github.com/jamezmca', target: '_blank' },
     { name: 'Twitter', icon: 'fa-brands fa-twitter', link: 'https://twitter.com/_Smoljames', target: '_blank' },
-    { name: 'Email', icon: 'fa-solid fa-envelope', link: 'mailto:jamesismathematicool@gmail.com', target: '' },
+    // { name: 'Email', icon: 'fa-solid fa-envelope', link: 'mailto:jamesismathematicool@gmail.com', target: '' },
   ]
 
   //  {/* have a section for links -> roadmap notes discord youtube newsletter */}

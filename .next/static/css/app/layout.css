@@ -1264,6 +1264,10 @@ video {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1276,23 +1280,19 @@ video {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
 }
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
 }
-.pr-2 {
-  padding-right: 0.5rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .pr-1 {
   padding-right: 0.25rem;
+}
+.pr-2 {
+  padding-right: 0.5rem;
 }
 .text-center {
   text-align: center;
@@ -1638,12 +1638,20 @@ footer {
     flex-direction: row;
   }
 
+  .sm\:items-center {
+    align-items: center;
+  }
+
   .sm\:items-stretch {
     align-items: stretch;
   }
 
   .sm\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .sm\:gap-8 {
+    gap: 2rem;
   }
 
   .sm\:text-3xl {
