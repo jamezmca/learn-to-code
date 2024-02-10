@@ -25,7 +25,7 @@ Here are some links you might find helpful!
 * **GitHub** -> https://www.github.com
 * **GIT Crash Course** -> https://www.youtube.com/watch?v=WqWZt5gi-jw&t=6s
 * **Discord Channel** -> https://discord.gg/BYr6gujs4k
-* **Learn to code roadmap** -> https://github.com/jamezmca/learn-to-code
+* [**Learn to Code Roadmap**](https://www.smoljames.com/roadmap)
 
 ## Chapter 1 - Introduction to GIT
 

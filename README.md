@@ -21,7 +21,7 @@ You're not alone in your journey, dive in to our coding community.
 * **Youtube** -> https://www.youtube.com/smoljames
 * **Discord** -> https://discord.gg/BYr6gujs4k
 * **Newsletter** -> https://smoljames.beehiiv.com/subscribe
-* **Course Notes** -> https://github.com/jamezmca/learn-to-code/tree/main/course%20notes
+* **Course Notes** -> https://www.smoljames.com/notes
 
 ## Learning To Code (6 Chapters)
 
@@ -49,8 +49,8 @@ We begin our journey with HTML CSS & GIT. The first two are essentially the back
 
 Summary notes and reference material can be found here ->
 
-* [HTML & CSS Survival Guide](https://github.com/jamezmca/learn-to-code/blob/main/course%20notes/html_css.md)
-* [GIT & GitHub Survival Guide](https://github.com/jamezmca/learn-to-code/blob/main/course%20notes/git_github.md)
+* [HTML & CSS Survival Guide](https://smoljames.com/notes/html_css)
+* [GIT & GitHub Survival Guide](https://smoljames.com/notes/git_github)
 
 #### End of Chapter Project
 
