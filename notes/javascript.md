@@ -96,7 +96,8 @@ Now **save** the file, and once again open up your terminal or command line. Ens
 
 This will execute your JS file using the Node.js runtime and consequently perform the instruction that we gave inside -> to *console.log* (which means print/to log to the console/terminal) `Hello World!`. To run any other JS file, simply replace the `index.js` filename with the appropriate filename.
 
-> *For more information about VSCode & the terminal, check out this **[guide]()**.*
+<!-- > *For more information about VSCode & the terminal, check out this **[guide]()**.* -->
+> *Ensure that you save your file every time you make adjustments prior to re-executing it!.*
 
 ## Chapter 2 - Basic JavaScript Syntax and Concepts
 
@@ -112,7 +113,7 @@ As mentioned above, the art of writing JavaScript is analogous to writing our a 
 
 > We've already seen one example of a common syntax in JavaScript that is commonly used for printing outputs or values to our terminal -> `console.log()`. We'll come to understand more about this example later, but for now, it's good to know that this simple line is one of the most powerful tools at your disposal in JavaScript when it comes to debugging code; whatever you place within the circular parenthesis, will then be outputted to the console for you to see.
 
-The last thing to note before we dive deeper into the syntax is that our instructions need to be clearly separated from one another. We can do that by either having each individual instruction on it's own line, or by using the `;` key at the end of each instruction.
+**The last thing to note before we dive deeper into the syntax is that our instructions need to be clearly separated from one another. We can do that by either having each individual instruction on it's own line, or by using the `;` key at the end of each instruction.**
 
 #### 2.1.1 Variable & Declarations
 
@@ -906,28 +907,35 @@ obj.greet(); // Output: Hello, my name is Alice!
 
 #### 4.1.5 Inheritance
 
-JavaScript classes support inheritance via the extends keyword. Child classes inherit all properties and methods from the parent class.
+JavaScript classes support inheritance via the **extends** keyword. Child classes inherit all properties and methods from the parent class.
 
 ```
 class Animal {
   constructor(name) {
-    this.name = name;
+    this.name = name
   }
 
   speak() {
-    console.log(`${this.name} makes a noise.`);
+    console.log(`${this.name} makes a noise.`)
   }
 }
 
 class Dog extends Animal {
+  constructor(name, breed) {
+    super(name)
+    this.breed = breed
+  }
   speak() {
-    console.log(`${this.name} barks.`);
+    console.log(`${this.name} barks.`)
   }
 }
 
-let dog = new Dog('Rex');
+let dog = new Dog('Rex', 'corgi')
 dog.speak(); // Output: Rex barks.
 ```
+
+Note that in the extended class Dog, we introduce a new method called **super**. We pass in the arguments/properties that the parent class expects, and super sends the input parameters of the new Dog class through to the parent class Animal, so that in the dog class we only have to assign the new property, breed.
+
 
 #### 4.1.6 Static Methods and Properties
 
