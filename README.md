@@ -63,13 +63,13 @@ Build your first ever Single Page Application (SPA) - a portfolio website showca
 
 *Completion time **[10hrs]***
 
-JavaScript is the most popular programming language in the world and is brilliant for both frontend and backend development.
+JavaScript is the most popular programming language in the world and is brilliant for both frontend and backend development. 
 
-1. [FreeCodeCamp JavaScript Algorithms & Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) *[-/- hrs]*
+**For this chapter you can select either the FreeCodeCamp curriculum OR the JavaScript Course 🔥**
 
-2. [How to use JavaScript in Web Development?](https://youtu.be/0GWNq9Cra60) *[10mins]*
+-  [FreeCodeCamp JavaScript Algorithms & Data Structures](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/) *[300 hrs]*
 
-3. [Build & Deploy an Unreasonably Good ToDo Web App w. HTML CSS JavaScript](https://youtu.be/OulQ9W2s6Z0) *[34mins]*
+- [The Complete JavaScript Course - Zero to Hero in 2024](https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4) *[9 hrs]*
 
 #### End of Chapter Project
 

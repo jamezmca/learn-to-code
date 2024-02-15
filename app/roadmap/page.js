@@ -7,6 +7,8 @@ import Chapters from '@/components/Chapters';
 
 import { Inter, Press_Start_2P, Roboto_Mono } from "next/font/google";
 import Question from '@/components/Question';
+import BlueBtn from '@/components/BlueBtn';
+import VideoCard from '@/components/VideoCard';
 // const inter = Inter({ subsets: ["latin"] });
 const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
@@ -27,52 +29,60 @@ export default function RoadmapPage() {
             </div>
 
             {Object.keys(DATA.chapters).map((ele, eleIndex) => {
+
                 return (
                     <div key={eleIndex} className='flex flex-col gap-2'>
                         <Chapters ele={ele} eleIndex={eleIndex} />
                         <h2 className={'specialShadow uppercase text-2xl ' + press.className}>{ele.replaceAll('_', ' ')}</h2>
                         {/* <p className=''>&rarr; {DATA.chapters[ele].description}</p> */}
-                        <ul className='py-4 flex flex-col gap-4 '>
-                            {DATA.chapters[ele].resources.map((resource, resourceIndex) => {
-                                // accessVideoId(resource.link)
-                                return (
-                                    <li key={resourceIndex} className=''>
-                                        <Link href={resource.link} target='_blank' className='flex items-start gap-4 group'>
-                                            <div className='flex flex-col gap-2 flex-1'>
-
-                                                <h5 className='text-base md:text-lg group-hover:text-blue-300 duration-200'>
-                                                    {resourceIndex + 1}. {resource.name}
-                                                </h5>
-                                                <div className='flex items-center justify-between gap-2 text-xs sm:text-sm'>
-                                                    <div className='flex items-center gap-2'>
-                                                        <p><strong className='font-bold'>Duration</strong></p>
-                                                        <p className=''>{resource.duration}</p>
-                                                    </div>
-                                                    {/* <div className='flex items-center gap-2'>
-                                                        <p><strong className='font-bold'>Order</strong></p>
-                                                        <p className=''>{resourceIndex + 1}</p>
-                                                    </div> */}
-                                                    {/* <div className='flex items-center gap-2'>
-                                                        <p><strong className='font-bold'>Status</strong></p>
-                                                        <p className=''>{resourceIndex + 1}</p>
-                                                    </div> */}
-                                                </div>
-                                            </div>
-                                            <div className='flex flex-col items-center justify-center aspect-video max-w-32 sm:max-w-40 overflow-hidden rounded-md'>
-                                                <img className='w-full h-full object-cover' src={resource?.video_id ? `https://i.ytimg.com/vi/${resource.video_id}/hqdefault.jpg` : 'https://yt3.googleusercontent.com/jDkmkuUvuG1tNDIYiBJq7_l1DWw2e6uA4po--mjWnqRycF4kIg9luunDBiUaWesKOLxdWxRV=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj'} alt={`video-thumbnail-${resource.name}`} />
-                                            </div>
-                                        </Link>
-                                    </li>
-                                )
-                            })}
-                        </ul>
-                        {DATA?.chapters?.[ele]?.project && (
+                        {ele !== 'javascript' ? (
                             <>
-                                <p><b className={' ' + press.className}>&rarr; Project</b> </p>
-                                <p>{DATA.chapters[ele].project}</p>
+                                <ul className='py-4 flex flex-col gap-4 '>
+                                    {DATA.chapters[ele].resources.map((resource, resourceIndex) => {
+                                        return (
+                                            <li key={resourceIndex} className=''>
+                                                <VideoCard {...resource} resourceIndex={`${resourceIndex + 1}`} />
+                                            </li>
+                                        )
+                                    })}
+                                </ul>
+                                {DATA?.chapters?.[ele]?.project && (
+                                    <>
+                                        <p><b className={' ' + press.className}>&rarr; Project</b> </p>
+                                        <p>{DATA.chapters[ele].project}</p>
+                                    </>
+                                )}
                             </>
-                        )}
-                    </div>
+                        ) : (
+                            <div className='py-4 flex flex-col gap-4'>
+                                <p className='italic'>Learning JavaScript is a mighty beast, and there are two extremely brilliant pathways you could choose to follow on your conquest!</p>
+                                <VideoCard name="🔥 The Complete JavaScript Course - Zero to Hero in 2024" link="https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4" duration="9hrs" recommended="recommended" img_link="https://github.com/jamezmca/the-complete-javascript-course/raw/main/assets/thumbnail.jpg">
+                                    <div className='flex items-center gap-4'>
+                                        <Link href={'https://youtu.be/qr6sKTzjlUo'} target='_blank'>
+                                            <BlueBtn btnText="Or start free on YouTube" noShadow />
+                                        </Link>
+                                        <p>✦</p>
+                                        <Link href={'https://github.com/jamezmca/the-complete-javascript-course'} target={'_blank'} className="flex items-center gap-4 duration-200 hover:text-blue-300">
+                                            <i className={' text-lg fa-brands fa-github '}></i>
+                                            <p className='hidden sm:inline'>GitHub</p>
+                                        </Link>
+                                        <p>✦</p>
+                                        <Link href={'https://linkedin.com/company/smoljames-education'} target={'_blank'} className="flex items-center gap-4 duration-200 hover:text-blue-300">
+                                            <i className={' text-lg fa-brands fa-linkedin '}></i>
+                                            <p className='hidden sm:inline'>LinkedIn</p>
+                                        </Link>
+                                    </div>
+                                </VideoCard>
+                                <div className='flex items-center gap-4 pt-2'>
+                                    <h5 className={'text-base  md:text-lg group-hover:text-blue-300 duration-200 ' + press.className}>
+                                        &rarr;  Alternative Pathway
+                                    </h5>
+                                </div>
+                                <VideoCard {...DATA.chapters[ele].resources[0]} img_link="https://yt3.googleusercontent.com/ytc/AIf8zZTDkajQxPa4sjDOW-c3er1szXkSAO-H9TiF4-8u_Q=s900-c-k-c0x00ffffff-no-rj" recommended="optional" />
+                            </div>
+                        )
+                        }
+                    </div >
                 )
             })}
 
@@ -133,6 +143,6 @@ export default function RoadmapPage() {
 
             <p className='text-center'>Together we can become great developers ⚡️</p>
 
-        </MainWrapper>
+        </MainWrapper >
     )
 }

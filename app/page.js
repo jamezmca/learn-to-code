@@ -13,7 +13,7 @@ function LinkSection(props) {
       {array.map((link, linkIndex) => {
         return (
           <Link href={link.link} target={link.target} key={linkIndex} className="bg-blue-950 text-blue-100 rounded-lg btnBorder relative grid place-items-center p-4">
-            <i className={'absolute text-xl left-4 top-1/2 -translate-y-1/2 ' + ((linkIndex < 3 && title === 'Links') ? ' specialShadow ' : '') + link.icon}></i>
+            <i className={'absolute text-xl left-4 top-1/2 -translate-y-1/2 ' + ((linkIndex < 4 && title === 'Links') ? ' specialShadow ' : '') + link.icon}></i>
             <p className={' ' + ((['Roadmap', 'YouTube', 'Courses', 'Discord'].includes(link.name)) ? ' specialShadow ' : '') + press.className}>{link.name}</p>
           </Link>
         )
@@ -33,7 +33,7 @@ const HomePage = () => {
     { name: 'YouTube', icon: 'fa-brands fa-youtube', link: 'https://www.youtube.com/smoljames?sub_confirmation=1', target: '_blank' },
     { name: 'Roadmap', icon: 'fa-solid fa-signs-post', link: '/roadmap', target: '' },
     { name: 'Discord', icon: 'fa-brands fa-discord', link: 'https://discord.gg/BYr6gujs4k', target: '_blank' },
-    // { name: 'Courses', icon: 'fa-solid fa-graduation-cap', link: 'https://discord.gg/BYr6gujs4k', target: '_blank' },
+    { name: 'Courses', icon: 'fa-solid fa-graduation-cap', link: 'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4', target: '_blank' },
     { name: 'Notes', icon: 'fa-solid fa-book', link: '/notes', target: '' },
     { name: 'Newsletter', icon: 'fa-regular fa-newspaper', link: 'https://smoljames.beehiiv.com/subscribe', target: '_blank' },
   ]
@@ -48,7 +48,7 @@ const HomePage = () => {
   ]
 
   let socials = [
-    { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', link: 'https://www.linkedin.com/in/jamezmcarthur/', target: '_blank' },
+    { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', link: 'https://linkedin.com/company/smoljames-education', target: '_blank' },
     { name: 'GitHub', icon: 'fa-brands fa-github', link: 'https://github.com/jamezmca', target: '_blank' },
     { name: 'Twitter', icon: 'fa-brands fa-twitter', link: 'https://twitter.com/_Smoljames', target: '_blank' },
     // { name: 'Email', icon: 'fa-solid fa-envelope', link: 'mailto:jamesismathematicool@gmail.com', target: '' },

@@ -358,6 +358,10 @@ This loop will endlessly execute until the function returns true (we'll talk mor
 
 #### 2.2.3 Breaking Loops
 
+If you wish to skip over an interaction of a loop, you can use the `continue` keyword, and in a similar vein, you can exit / kill a loop using the `break` keyword.
+
+Likewise, if you ever run into an **infinite loop** and your code won't stop executing, you can hit the `control + C` buttons on your computer whilst inside the terminal to exit the program.
+
 #### 2.2.4 If Statements
 
 If statements are fairly sacred in JavaScript and come in handy all the time. Let's say that we wanted to only execute a block of code depending on a certain condition; we'll, that's when `if` blocks come in handy. We could also have a block to run in the otherwise, or `else` condition, or even have some extra conditions in between. The syntax for the `if` block is as follows:

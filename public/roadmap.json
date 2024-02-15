@@ -85,18 +85,6 @@
                     "link": "https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/",
                     "duration": "300hrs",
                     "video_id": ""
-                },
-                {
-                    "name": "How to use JavaScript in Web Development?",
-                    "link": "https://youtu.be/0GWNq9Cra60",
-                    "duration": "10mins",
-                    "video_id": "0GWNq9Cra60"
-                },
-                {
-                    "name": "Build & Deploy an Unreasonably Good ToDo Web App w. HTML CSS JavaScript",
-                    "link": "https://youtu.be/OulQ9W2s6Z0",
-                    "duration": "34mins",
-                    "video_id": "OulQ9W2s6Z0"
                 }
             ],
             "notes": [

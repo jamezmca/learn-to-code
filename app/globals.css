@@ -7,6 +7,10 @@
     color: white;
 }
 
+.normShadow {
+    text-shadow: 0 0  2px rgba(0, 100, 0, 0.598);
+}
+
 .textGradient {
     background: -webkit-linear-gradient(#0084FF, #00FFFB);
     -webkit-background-clip: text;

@@ -2,6 +2,7 @@ import React from 'react'
 
 import { Inter, Press_Start_2P, Roboto_Mono } from "next/font/google";
 import Link from 'next/link';
+import BlueBtn from './BlueBtn';
 // const inter = Inter({ subsets: ["latin"] });
 const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
@@ -16,9 +17,9 @@ export default function Question(props) {
 
                     <Link
                         href={link} target={target || ''}
-                        className="p-[1.5px] w-fit my-2 rounded-lg relative group"
                     >
-                        <div
+                        <BlueBtn btnText={linkText} />
+                        {/* <div
                             className={"absolute inset-0 blueBorder duration-500 rounded-lg "}
                         />
 
@@ -30,7 +31,7 @@ export default function Question(props) {
                             className="bg-white dark:bg-slate-950 text-xs sm:text-sm px-2 py-1 z-1 group-hover:bg-transparent group-hover:text-white duration-200 relative rounded-lg"
                         >
                             {linkText}
-                        </p>
+                        </p> */}
                     </Link>
                 </>
             )}
