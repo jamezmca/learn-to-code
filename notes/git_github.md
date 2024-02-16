@@ -27,6 +27,16 @@ Here are some links you might find helpful!
 * **Discord Channel** -> https://discord.gg/BYr6gujs4k
 * [**Learn to Code Roadmap**](https://www.smoljames.com/roadmap)
 
+## Chapter 0 - GitHub Desktop
+
+If you wish to avoid the process of learning Git and want to start using GitHub today, uploading and saving your code in a repo, then I highly recommend you install **GitHub Desktop**.
+
+* [Link to download](https://desktop.github.com/)
+
+Once you have installed GitHub Desktop, open up the application on your device, and then authenticate it with your GitHub account. From there, you can add a codebase on your local device to a GitHub repository by hidding the add button within GitHub Desktop. Select the folder you wish to push to GitHub, initialize it as a GitHub repo, and then push the code to GitHub.
+
+Whenever you make changes, be sure to commit them and then push the changes to GitHub.
+
 ## Chapter 1 - Introduction to GIT
 
 GIT is a command line tool. We use it by typing certain commands into our terminal to achieve numerous different outcomes. To become a GIT master, it is important to first understand some of the key commands, but it is equally important to also understand what is known as the *GIT workflow*.
@@ -155,6 +165,12 @@ It's important to note that your `.env` files are not immediately secure. If you
 We do this by including the `.env` inside of a file called `.gitignore`. The Git ignore file gets uploaded to GitHub and it will tell Git to not include the `.env` file with your repo. So you can do all your normal Git actions and the `.env` file will remain untouched and safe on your computer.
 
 > Occassionally, secret keys will be included in files where it's just easier to have them in the GitHub repo. In these cases, I will upload them to GitHub & just private the repo so that no one can see it!
+
+## Chapter 3 - Cloning
+
+This is just a quick note that when you want to pull code down onto your computer from GitHub, there are two main options available to you. Number 1 is clone a repo via SSH, and the other is to use HTTPS. 
+
+HTTPS is almost always going to be easier, you might however need the [GitHub CLI](https://cli.github.com/).
 
 ## Final Words
 
