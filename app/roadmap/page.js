@@ -56,10 +56,10 @@ export default function RoadmapPage() {
                         ) : (
                             <div className='py-4 flex flex-col gap-4'>
                                 <p className='italic'>Learning JavaScript is a mighty beast, and there are two extremely brilliant pathways you could choose to follow on your conquest!</p>
-                                <VideoCard name="🔥 The Complete JavaScript Course - Zero to Hero in 2024" link="https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4" duration="9hrs" recommended="recommended" img_link="https://github.com/jamezmca/the-complete-javascript-course/raw/main/assets/thumbnail.jpg">
+                                <VideoCard name="🔥 The Complete JavaScript Course - Zero to Hero in 2024" link="https://youtu.be/qr6sKTzjlUo" duration="1hr" recommended="recommended" img_link="https://github.com/jamezmca/the-complete-javascript-course/raw/main/assets/thumbnail.jpg">
                                     <div className='flex items-center gap-4'>
-                                        <Link href={'https://youtu.be/qr6sKTzjlUo'} target='_blank'>
-                                            <BlueBtn btnText="Or start free on YouTube" noShadow />
+                                        <Link href={'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4'} target='_blank'>
+                                            <BlueBtn btnText="Get the Full Course ⭐️" noShadow />
                                         </Link>
                                         <p>✦</p>
                                         <Link href={'https://github.com/jamezmca/the-complete-javascript-course'} target={'_blank'} className="flex items-center gap-4 duration-200 hover:text-blue-300">
