@@ -2,6 +2,7 @@ import Link from "next/link";
 import MainWrapper from "@/components/MainWrapper";
 
 import { Inter, Press_Start_2P } from "next/font/google";
+import Plaque from "@/components/Plaque";
 const inter = Inter({ subsets: ["latin"] });
 const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
@@ -54,6 +55,14 @@ const HomePage = () => {
     // { name: 'Email', icon: 'fa-solid fa-envelope', link: 'mailto:jamesismathematicool@gmail.com', target: '' },
   ]
 
+  let planBenefits = [
+    'Join Office Hours live stream',
+    'Every Sunday 2pm EST',
+    'All your questions answered',
+    'Project feedback and advice',
+    'Resume & cover letter reviews',
+  ]
+
   //  {/* have a section for links -> roadmap notes discord youtube newsletter */}
   //     {/* have a section for extras -> store music patreon portfolio*/}
   //     {/* have a section for socials -> linkedin twitter email*/}
@@ -62,6 +71,7 @@ const HomePage = () => {
     <MainWrapper>
       <LinkSection title={'Links'} array={links} />
       <LinkSection title={'Miscellaneous'} array={extras} />
+      <Plaque benefits={planBenefits} name={'SmolBud'} price={2.99} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} />
       <section className="gap-4 flex items-center justify-center flex-wrap">
         {socials.map((link, linkIndex) => {
           return (

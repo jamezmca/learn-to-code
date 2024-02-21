@@ -41,7 +41,7 @@ export default function RootLayout({ children }) {
 
   const footer = (
     <footer className="py-20 flex items-center justify-center px-4">
-      <p><i className="fa-regular fa-copyright pr-1"></i> Smoljames 2024</p>
+      <p><i className="fa-regular fa-copyright pr-1"></i> Smoljames 2024 💛</p>
     </footer>
   );
 
