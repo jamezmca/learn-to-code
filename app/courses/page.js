@@ -2,7 +2,6 @@ import MainWrapper from '@/components/MainWrapper'
 import React from 'react'
 
 import { Inter, Press_Start_2P, Roboto_Mono } from "next/font/google";
-import Link from 'next/link';
 import Plaque from '@/components/Plaque';
 const space = Roboto_Mono({ subsets: ["latin"], weight: ['400', '700'] });
 // const inter = Inter({ subsets: ["latin"] });
@@ -106,7 +105,6 @@ export default function CoursesPage() {
                     )
                 })}
             </div>
-
         </MainWrapper>
     )
 }
