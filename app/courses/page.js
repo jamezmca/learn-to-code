@@ -60,7 +60,7 @@ export default function CoursesPage() {
                 </h2>
                 <p className='text-blue-300'>All the <span className='text-blue-200 font-bold'>coding courses</span> you need to excel <span className='text-blue-200 font-bold'>in one place</span> 🔥</p>
             </div>
-            <Plaque benefits={planBenefits} name={'SmolDev'} price={29} />
+            <Plaque benefits={planBenefits} name={'SmolDev'} price={29} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} />
             <div className='flex items-center gap-4'>
 
                 <h2 className={'text-3xl  ' + press.className}>
