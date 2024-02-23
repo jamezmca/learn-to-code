@@ -101,13 +101,19 @@
             "index": 4,
             "resources": [
                 {
-                    "name": "React.js Crash Course -> Zero to Hero (Build a GYM App)",
+                    "name": "Learn React.JS in 40 minutes (seriously)",
+                    "link": "https://youtu.be/DHWrOpKSZkM",
+                    "duration": "40mins",
+                    "video_id": "DHWrOpKSZkM"
+                },
+                {
+                    "name": "React.JS Crash Course -> Zero to Hero (Build a GYM App)",
                     "link": "https://youtu.be/v0SfUz-Zbyg",
                     "duration": "1.5hrs",
                     "video_id": "v0SfUz-Zbyg"
                 },
                 {
-                    "name": "Learn React.js in 1 Hr - Build a LOTR Website",
+                    "name": "Learn React.JS in 1 Hr - Build a LOTR Website",
                     "link": "https://youtu.be/hRlujM-sycg",
                     "duration": "1hrs",
                     "video_id": "hRlujM-sycg"
