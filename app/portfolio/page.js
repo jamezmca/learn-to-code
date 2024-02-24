@@ -81,7 +81,7 @@ export default function PortfolioPage() {
                     </div>
                 </div>
             </div>
-            <p>Hi, I'm James, a software developer who loves building cool things with code. In addition to coding, I also make YouTube videos where I teach people how to program and I love going to the gym, reading & videogames too.</p>
+            <p>Hi, I'm James, a software developer who loves building cool things with code. In addition to coding, I also make YouTube videos where I teach people how to program and I love going to the gym, reading & video games too.</p>
             <div className='text-blue-300 flex flex-col gap-2 sm:flex-row sm:items-center sm:gap-8'>
                 <a href="mailto:jamesismathematicool@gmail.com" className="hover:text-blue-100 duration-200 flex items-center gap-4">
                     <i className="fa-solid fa-arrow-right -rotate-45"></i>
