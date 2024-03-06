@@ -23,10 +23,10 @@ function PlanBenefits(props) {
 }
 
 export default function Plaque(props) {
-    const { name, price, benefits, link } = props
+    const { name, price, benefits, link, message } = props
     return (
         <div className='flex flex-col py-2 gap-8 bg-blue-400 text-blue-300 rounded-2xl'>
-            <div className='grid grid-cols-1 md:grid-cols-2 gap-4 p-4 py-6 bg-slate-900 rounded-xl'>
+            <div className={'grid grid-cols-1  gap-4 p-4 py-6 bg-slate-900 rounded-xl ' + (benefits ? ' md:grid-cols-2' : ' ')}>
                 <div className='flex flex-col gap-4 justify-center'>
                     {/* <h3 className={'text-4xl text-center  ' + press.className}>
                         <span className='textGradient'>✦</span>
@@ -45,15 +45,14 @@ export default function Plaque(props) {
                             /month
                         </h5>
                     </div>
-
-                    <PlanBenefits sm benefits={benefits} />
+                    {benefits && (<PlanBenefits sm benefits={benefits} />)}
                     <Link href={link} target='_blank' className='mx-auto mt-2 duration-200 hover:opacity-70 px-4 py-2 rounded-md bg-blue-300 text-slate-900'>
                         <h5 className={'text-sm  ' + press.className}>
                             Subscribe
                         </h5>
                     </Link>
                 </div>
-                <PlanBenefits benefits={benefits} />
+                {benefits && (<PlanBenefits benefits={benefits} />)}
             </div>
         </div>
     )
