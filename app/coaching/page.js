@@ -27,8 +27,8 @@ export default function CoachingPage() {
                 <h2 className={'text-3xl textGradient ' + press.className}>
                     COACHING
                 </h2>
-                <p className='text-blue-300'>Book a <span className='text-blue-200 font-bold'>1-on-1 coaching & mentorship</span>  session today :P</p>
-                <Link href={'/'} className=''>
+                <p className='text-blue-300'>Book a <span className='text-blue-200 font-bold'>1-on-1 coaching & mentorship</span>  session today :P Send me a message on my LinkedIn and we can organize a call!</p>
+                <Link href={'/https://www.linkedin.com/company/smoljames-education'} target="_blank" className=''>
                     <BlueBtn btnText="Book a session ✅" lg />
                 </Link>
             </div>

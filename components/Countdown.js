@@ -55,7 +55,7 @@ export default function Countdown() {
                     Office Hours
                 </p>
                 <p className={'text-center text-xs blueGradient ' + press.className}>
-                    {timer}
+                    {timer || 'Calculating...'}
                 </p>
             </div>
             {/* <ruby className={'text-xs mx-auto flex flex-col w-fit text-center py-1   ' + press.className}>
