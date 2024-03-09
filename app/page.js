@@ -62,8 +62,8 @@ const HomePage = () => {
     'Become a SmolBud 😍',
     'Support the channel 💛',
     'Be an absolute legend 🔥',
-    'Become a Smoljames OG ⚡️',
-    'My love & affection 🎉',
+    // 'Become a Smoljames OG ⚡️',
+    // 'My love & affection 🎉',
   ]
 
   //  {/* have a section for links -> roadmap notes discord youtube newsletter */}
