@@ -1,10 +1,28 @@
 {
   "pages": {
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
+    ],
     "/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
+    ],
+    "/roadmap/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/roadmap/page.css",
+      "static/chunks/app/roadmap/page.js"
+    ],
+    "/contact/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/contact/page.css",
+      "static/chunks/app/contact/page.js"
     ],
     "/coaching/page": [
       "static/chunks/webpack.js",
@@ -12,17 +30,11 @@
       "static/css/app/coaching/page.css",
       "static/chunks/app/coaching/page.js"
     ],
-    "/page": [
+    "/contact/story/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
-    ],
-    "/roadmap/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/roadmap/page.css",
-      "static/chunks/app/roadmap/page.js"
+      "static/css/app/contact/story/page.css",
+      "static/chunks/app/contact/story/page.js"
     ]
   }
 }

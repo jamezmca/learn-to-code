@@ -21,7 +21,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   const header = (
     <div className="flex flex-col">
-      <Countdown />
+      {/* <Countdown /> */}
+      {/* <p className={"textGradient text-xs sm:text-sm text-center " }>Share your success story &rarr;</p> */}
       <header className="flex items-center gap-4 justify-between p-4 relative">
         {/* <div className="animatedBorder"><div></div></div> */}
         <Link href={'/'}>
