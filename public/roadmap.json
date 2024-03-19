@@ -33,6 +33,12 @@
                     "video_id": "70T2GMDKl6M"
                 },
                 {
+                    "name": "Learn Flexbox CSS in 8 minutes",
+                    "link": "https://youtu.be/F5_nBy66LJs",
+                    "duration": "8mins",
+                    "video_id": "F5_nBy66LJs"
+                },
+                {
                     "name": "Code a SUPREME Web-Portfolio w. HTML & CSS (& nothing else)",
                     "link": "https://youtu.be/aLb_fMGZQXI",
                     "duration": "40mins",
@@ -45,22 +51,10 @@
                     "video_id": "c51RJtRFky4"
                 },
                 {
-                    "name": "Learn HTML & CSS - Build & Deploy a Linktr.ee Clone [Beginner Tutorial]",
-                    "link": "https://youtu.be/jKWGYVRAYnc",
-                    "duration": "30mins",
-                    "video_id": "jKWGYVRAYnc"
-                },
-                {
                     "name": "How to Get Started with GitHub",
                     "link": "https://youtu.be/277gRTVtw2I",
                     "duration": "10mins",
                     "video_id": "277gRTVtw2I"
-                },
-                {
-                    "name": "Learn HTTPS Networking",
-                    "link": "https://www.youtube.com/watch?v=fA0IBFiKaPE",
-                    "duration": "14mins",
-                    "video_id": "fA0IBFiKaPE"
                 }
             ],
             "notes": [

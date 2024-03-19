@@ -58,6 +58,14 @@ export default function CoursesPage() {
             tags: [['pro', 'bg-emerald-400', 'text-white'], ['javascript', '', 'text-yellow-300'], ['nodejs', '', 'text-green-300']],
         },
         {
+            name: 'Learn Backend Development with Node.JS Express PostgreSQL & Docker',
+            description: 'Zero to Hero in 2024 🔥',
+            link: 'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4',
+            imgLink: 'https://github.com/jamezmca/the-complete-javascript-course/blob/main/assets/thumbnail.jpg?raw=true',
+            status: '',
+            tags: [['pro', 'bg-emerald-400', 'text-white'], ['javascript', '', 'text-yellow-300'], ['nodejs', '', 'text-green-300']],
+        },
+        {
             name: 'Build a Full Stack Market Place App w. Next.JS & Supabase',
             description: 'Zero to Hero in 2024 🔥',
             link: 'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4',
@@ -73,8 +81,23 @@ export default function CoursesPage() {
             status: '',
             tags: [['pro', 'bg-emerald-400', 'text-white'], ['javascript', '', 'text-yellow-300'], ['nodejs', '', 'text-green-300']],
         },
+        {
+            name: 'Beginners Guide to Full Stack Development',
+            description: 'Node.JS typeorm PostgreSQL & Docker',
+            link: 'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4',
+            imgLink: 'https://github.com/jamezmca/the-complete-javascript-course/blob/main/assets/thumbnail.jpg?raw=true',
+            status: '',
+            tags: [['pro', 'bg-emerald-400', 'text-white'], ['javascript', '', 'text-yellow-300'], ['nodejs', '', 'text-green-300']],
+        },
+        {
+            name: 'Network Requests for Beginners',
+            description: 'How Computers Communicate',
+            link: 'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4',
+            imgLink: 'https://github.com/jamezmca/the-complete-javascript-course/blob/main/assets/thumbnail.jpg?raw=true',
+            status: '',
+            tags: [['pro', 'bg-emerald-400', 'text-white'], ['javascript', '', 'text-yellow-300'], ['nodejs', '', 'text-green-300']],
+        },
     ]
-
 
     return (
         <MainWrapper>

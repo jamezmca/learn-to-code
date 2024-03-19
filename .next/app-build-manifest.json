@@ -18,18 +18,6 @@
       "static/css/app/roadmap/page.css",
       "static/chunks/app/roadmap/page.js"
     ],
-    "/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/contact/page.css",
-      "static/chunks/app/contact/page.js"
-    ],
-    "/coaching/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/coaching/page.css",
-      "static/chunks/app/coaching/page.js"
-    ],
     "/contact/story/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
