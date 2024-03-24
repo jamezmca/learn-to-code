@@ -12,17 +12,11 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/roadmap/page": [
+    "/portfolio/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/roadmap/page.css",
-      "static/chunks/app/roadmap/page.js"
-    ],
-    "/contact/story/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/contact/story/page.css",
-      "static/chunks/app/contact/story/page.js"
+      "static/css/app/portfolio/page.css",
+      "static/chunks/app/portfolio/page.js"
     ]
   }
 }
