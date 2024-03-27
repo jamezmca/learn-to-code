@@ -115,6 +115,7 @@ Select 3 from the below choices depending on what your end goal is; selecting a 
 Everything you need to make professional resumes and appealing cover letters is right here:
 
 * [Click me](https://www.hyr.sh)
+
 <!-- * [Click me](https://www.reddit.com/r/jobs/comments/7y8k6p/im_an_exrecruiter_for_some_of_the_top_companies/)
 
 And here are some templates you can use -> [Template #1](https://docs.google.com/document/d/1ZInuI8oXHfOtgchhhjBRekFurQNbDTL7JYb7bTrQrr4/edit?usp=sharing) · [Template #2](https://docs.google.com/document/d/1cQSasCB-DwscAXvlut95Tk5GovoMoZJyQFUl2TB_A6U/edit?usp=sharing)

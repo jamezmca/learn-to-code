@@ -90,7 +90,9 @@ export default function RoadmapPage() {
             })}
 
             <h2 className={'text-2xl text-white specialShadow  ' + press.className}>Projects</h2>
-
+            <div className='flex flex-col aspect-video'>
+                <iframe className='w-full h-full' src="https://www.youtube.com/embed/2cJIgWZhKgQ?si=TS6UZGXuE3ylfwVi" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+            </div>
             <div className='flex flex-col gap-8'>
                 <div className='flex flex-col gap-2'>
                     <h2 className={'text-g   ' + press.className}>Recommended</h2>
