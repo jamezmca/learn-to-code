@@ -72,6 +72,9 @@ const HomePage = () => {
 
   return (
     <MainWrapper>
+      <Link href="https://www.hyr.sh" target="_blank">
+        <img src="hyrsh_banner_3.png" alt="hyr_sh_banner" />
+      </Link>
       <LinkSection title={'Links'} array={links} />
       <LinkSection title={'Miscellaneous'} array={extras} />
       <Plaque benefits={planBenefits} message={''} name={'SmolBud'} price={2.99} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} />
