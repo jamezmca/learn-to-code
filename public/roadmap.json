@@ -101,16 +101,16 @@
                     "video_id": "DHWrOpKSZkM"
                 },
                 {
-                    "name": "React.JS Crash Course -> Zero to Hero (Build a GYM App)",
-                    "link": "https://youtu.be/v0SfUz-Zbyg",
-                    "duration": "1.5hrs",
-                    "video_id": "v0SfUz-Zbyg"
-                },
-                {
                     "name": "Learn React.JS in 1hr - Build a Space Website w. React.JS & the NASA API",
                     "link": "https://youtu.be/5Gf6grFgoG8",
                     "duration": "1hr",
                     "video_id": "5Gf6grFgoG8"
+                },
+                {
+                    "name": "React.JS Crash Course -> Zero to Hero (Build a GYM App)",
+                    "link": "https://youtu.be/v0SfUz-Zbyg",
+                    "duration": "1.5hrs",
+                    "video_id": "v0SfUz-Zbyg"
                 },
                 {
                     "name": "SvelteKit Web Portfolio",
