@@ -51,6 +51,12 @@
                     "video_id": "c51RJtRFky4"
                 },
                 {
+                    "name": "Learn TailwindCSS in 23 mins",
+                    "link": "https://youtu.be/W-LDhPyv478",
+                    "duration": "23mins",
+                    "video_id": "W-LDhPyv478"
+                },
+                {
                     "name": "How to Get Started with GitHub",
                     "link": "https://youtu.be/277gRTVtw2I",
                     "duration": "10mins",
@@ -95,22 +101,16 @@
             "index": 4,
             "resources": [
                 {
-                    "name": "Learn React.JS in 40 minutes (seriously)",
-                    "link": "https://youtu.be/DHWrOpKSZkM",
-                    "duration": "40mins",
-                    "video_id": "DHWrOpKSZkM"
+                    "name": "React.JS Simply Explained",
+                    "link": "https://youtu.be/bfcoBGgDSIc",
+                    "duration": "21mins",
+                    "video_id": "bfcoBGgDSIc"
                 },
                 {
-                    "name": "Learn React.JS in 1hr - Build a Space Website w. React.JS & the NASA API",
-                    "link": "https://youtu.be/5Gf6grFgoG8",
-                    "duration": "1hr",
-                    "video_id": "5Gf6grFgoG8"
-                },
-                {
-                    "name": "React.JS Crash Course -> Zero to Hero (Build a GYM App)",
-                    "link": "https://youtu.be/v0SfUz-Zbyg",
-                    "duration": "1.5hrs",
-                    "video_id": "v0SfUz-Zbyg"
+                    "name": "React JS Full Course - Build 4 Projects in 5 Hours | Zero to Hero",
+                    "link": "https://youtu.be/82PXenL4MGg",
+                    "duration": "5hr",
+                    "video_id": "82PXenL4MGg"
                 },
                 {
                     "name": "SvelteKit Web Portfolio",
@@ -144,6 +144,12 @@
         "backend_server_frameworks": {
             "index": 5,
             "resources": [
+                {
+                    "name": "The Backend Simply Explained",
+                    "link": "https://youtu.be/FdHJPlpL1hI",
+                    "duration": "12mins",
+                    "video_id": "FdHJPlpL1hI"
+                },
                 {
                     "name": "Node.js + Express.js Crash Course - Zero to Hero",
                     "link": "https://youtu.be/V8ePZHOjRQo",
