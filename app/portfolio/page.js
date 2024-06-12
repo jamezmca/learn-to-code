@@ -57,7 +57,7 @@ export default function PortfolioPage() {
                 <p className='text-blue-300'>I write code & build projects :P</p>
             </div>
             <div className='flex flex-col sm:flex-row sm:items-stretch gap-8 text-blue-300'>
-                <img className='rounded-full w-32' src='https://media.licdn.com/dms/image/C5603AQG6Q4W3kWANtw/profile-displayphoto-shrink_200_200/0/1630988413596?e=1716422400&v=beta&t=kw3CaswkyeQ5SqNy1p3pPW8ETQJhSUrQzTtjExzgImU' alt='profile-img' />
+                <img className='rounded-full w-32' src='https://media.licdn.com/dms/image/C5603AQG6Q4W3kWANtw/profile-displayphoto-shrink_800_800/0/1630988413596?e=1723680000&v=beta&t=9F4EsCzPPgzq8PTr9OaFqE66keMkUA2uvOvyP9kW0QE' alt='profile-img' />
                 <div className='flex flex-col gap-2 text-base sm:text-lg'>
                     <div className='flex items-center flex-1 gap-2 '>
                         <div className='grid place-items-center w-8'>

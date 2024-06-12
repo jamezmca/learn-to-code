@@ -47,7 +47,7 @@ const HomePage = () => {
     { name: 'My Story', icon: 'fa-solid fa-user-graduate', link: 'https://youtu.be/nP0-oYGiqts', target: '_blank' },
     // { name: 'Patreon', icon: 'fa-brands fa-patreon', link: '/', target: '_blank' },
     { name: 'Portfolio', icon: 'fa-solid fa-lemon', link: '/portfolio', target: '' },
-    { name: 'Store', icon: 'fa-solid fa-store', link: 'https://store.smoljames.com/', target: '_blank' },
+    // { name: 'Store', icon: 'fa-solid fa-store', link: 'https://store.smoljames.com/', target: '_blank' },
     { name: 'Coding Music', icon: 'fa-solid fa-music', link: 'https://youtube.com/playlist?list=PLNonIcU6qKdBRxZEq5nyr_i7A1wB7kbMX&si=ATRS7--9E8J8Obhn', target: '_blank' },
   ]
 
