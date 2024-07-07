@@ -3,6 +3,7 @@ import MainWrapper from "@/components/MainWrapper";
 
 import { Inter, Press_Start_2P } from "next/font/google";
 import Plaque from "@/components/Plaque";
+import ResumeSignup from "@/components/ResumeSignup";
 const inter = Inter({ subsets: ["latin"] });
 const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
@@ -76,6 +77,7 @@ const HomePage = () => {
       <Link href="https://www.hyr.sh" target="_blank">
         <img src="hyrsh_banner_3.png" alt="hyr_sh_banner" />
       </Link>
+      {/* <ResumeSignup /> */}
       <LinkSection title={'Links'} array={links} />
       <LinkSection title={'Miscellaneous'} array={extras} />
       <Plaque benefits={planBenefits} message={''} name={'SmolDev'} price={9.99} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} />
