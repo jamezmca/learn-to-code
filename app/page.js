@@ -74,10 +74,10 @@ const HomePage = () => {
 
   return (
     <MainWrapper>
-      <Link href="https://www.hyr.sh" target="_blank">
+      {/* <Link href="https://www.hyr.sh" target="_blank">
         <img src="hyrsh_banner_3.png" alt="hyr_sh_banner" />
-      </Link>
-      {/* <ResumeSignup /> */}
+      </Link> */}
+      <ResumeSignup />
       <LinkSection title={'Links'} array={links} />
       <LinkSection title={'Miscellaneous'} array={extras} />
       <Plaque benefits={planBenefits} message={''} name={'SmolDev'} price={9.99} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} />
