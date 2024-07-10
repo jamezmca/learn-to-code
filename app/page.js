@@ -38,7 +38,7 @@ const HomePage = () => {
     { name: 'Roadmap', icon: 'fa-solid fa-signs-post', link: '/roadmap', target: '' },
     // { name: 'Discord', icon: 'fa-brands fa-discord', link: '/discord' },
     { name: 'Courses', icon: 'fa-solid fa-graduation-cap', link: 'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4', target: '_blank' },
-    { name: 'GitHub', icon: 'fa-solid fa-heart', link: 'https://github.com/jamezmca', target: '_blank' },
+    { name: 'GitHub', icon: 'fa-brands fa-github', link: 'https://github.com/jamezmca', target: '_blank' },
     { name: 'Discord', icon: 'fa-brands fa-discord', link: 'https://discord.gg/BYr6gujs4k', target: '_blank' },
     { name: 'Notes', icon: 'fa-solid fa-book', link: '/notes', target: '' },
   ]
