@@ -9,10 +9,14 @@ const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 export default function ResumeSignup() {
     return (
         <div className="flex items-center flex-wrap gap-4 gap-y-2 text-base sm:text-lg">
-            <p className='font-medium'> Get hired faster 🔥</p>
+            <p className='font-medium'> Free resume review 🔥</p>
+            <Link target='_blank' href={'https://www.hyr.sh/feedback'}>
+                <BlueBtn btnText="Follow these instructions ✅" />
+            </Link>
+            {/* <p className='font-medium'> Get hired faster 🔥</p>
             <Link target='_blank' href={'https://www.hyr.sh'}>
                 <BlueBtn btnText="Create free resume ✅" />
-            </Link>
+            </Link> */}
             {/* <Link href={'/blog/land_a_job'} className="bg-blue-950 text-blue-100 rounded-lg btnBorder relative grid place-items-center p-4">
                 <p className={'text-xl ' + press.className}>Land a Job</p>
             </Link> */}
