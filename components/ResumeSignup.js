@@ -9,9 +9,9 @@ const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 export default function ResumeSignup() {
     return (
         <div className="flex items-center flex-wrap gap-4 gap-y-2 text-base sm:text-lg">
-            <p className='font-medium'> Free resume review 🔥</p>
+            {/* <p className='font-medium'>  🔥</p> */}
             <Link target='_blank' href={'https://www.hyr.sh/feedback'}>
-                <BlueBtn btnText="Follow these instructions ✅" />
+                <BlueBtn btnText="Free resume review ✅" />
             </Link>
             {/* <p className='font-medium'> Get hired faster 🔥</p>
             <Link target='_blank' href={'https://www.hyr.sh'}>
