@@ -27,7 +27,7 @@ export default function VideoCard(props) {
                     </div>
                 </div>
                 <div className='flex flex-col items-center justify-center aspect-video max-w-32 sm:max-w-40 overflow-hidden rounded-md'>
-                    <img className='w-full h-full object-cover' src={img_link ? img_link : video_id ? `https://i.ytimg.com/vi/${video_id}/hqdefault.jpg` : 'https://yt3.googleusercontent.com/jDkmkuUvuG1tNDIYiBJq7_l1DWw2e6uA4po--mjWnqRycF4kIg9luunDBiUaWesKOLxdWxRV=w2120-fcrop64=1,00000000ffffffff-k-c0xffffffff-no-nd-rj'} alt={`video-thumbnail-${name}`} />
+                    <img className='w-full h-full object-cover' src={img_link ? img_link : video_id ? `https://i.ytimg.com/vi/${video_id}/hqdefault.jpg` : 'banner10.jpeg'} alt={`video-thumbnail-${name}`} />
                 </div>
             </Link>
             {children}
