@@ -1,3 +1,4 @@
 {
-  "/roadmap/page": "app/roadmap/page.js"
+  "/roadmap/page": "app/roadmap/page.js",
+  "/page": "app/page.js"
 }

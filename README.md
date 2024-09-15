@@ -33,17 +33,18 @@ Finally, time for the good stuff 🎉
 
 We begin our journey with HTML CSS & GIT. The first two are essentially the backbone of the internet, and are the perfect entry point for beginner developers. GIT on the otherhand, is a code version management that companies use to organize their work.
 
-1. [HTML & CSS Full Course - Zero to Hero](https://www.youtube.com/watch?v=70T2GMDKl6M) *[1.5hrs]*
+1. [HTML & CSS Full Course - Zero to Hero](https://youtu.be/Eb3lOiukwAQ) *[5.6hrs]*
 
-2. [Code a SUPREME Web-Portfolio w. HTML & CSS (& nothing else)](https://youtu.be/aLb_fMGZQXI) *[40mins]*
+2. [Learn Flexbox CSS in 8 minutes](https://youtu.be/F5_nBy66LJs) *[8mins]*
 
-3. [Learn HTML & CSS - Build & Deploy a Linktr.ee Clone [Beginner Tutorial]](https://youtu.be/jKWGYVRAYnc) *[30mins]*
+3. [Code a SUPREME Web-Portfolio w. HTML & CSS (& nothing else)](https://youtu.be/aLb_fMGZQXI) *[40mins]*
 
-4. [How To Deploy A Website (to the internet)](https://youtu.be/NBrQp6-721c) *[4.5mins]*
 
-5. [GIT Crash Course](https://youtu.be/WqWZt5gi-jw?si=reB1ABwV5Phus3pr) *[13mins]*
+4. [How to become a CSS God (step by step guide)](https://youtu.be/c51RJtRFky4) *[12mins]*
 
-6. [Learn HTTPS Networking](https://www.youtube.com/watch?v=fA0IBFiKaPE) *[14mins]*
+5. [Learn TailwindCSS in 23 mins](https://youtu.be/W-LDhPyv478) *[23mins]*
+
+6. [How to Get Started with GitHub](https://youtu.be/277gRTVtw2I) *[10mins]*
 
 #### Course Notes
 
@@ -83,15 +84,17 @@ Ready to combine your passion for food and coding? Build an interactive Single P
 
 JavaScript frameworks make building dynamic and interactive websites incredibly easy. There's loads to pick from but React.js is a great place to start!
 
-1. [React.js Crash Course -> Zero to Hero (Build a GYM App)](https://youtu.be/v0SfUz-Zbyg) *[1.5hrs]*
+1. [React.JS Simply Explained](https://youtu.be/bfcoBGgDSIc) *[21mins]*
 
-2. [Learn React.js in 1 Hr - Build a LOTR Website](https://youtu.be/hRlujM-sycg) *[1hrs]*
+2. [React.JS Full Course - Build 4 Projects in 5 Hours](https://youtu.be/82PXenL4MGg) *[5hrs]*
 
-3. [SvelteKit Web Portfolio](https://www.youtube.com/watch?v=ylCUH6LkW80) *[1.2hrs]*
+3. [NEXT.js Full Course | Build and Deploy a Full Stack App w. Firebase & TailwindCSS](https://youtu.be/lkjrUW8fI40) *[4hrs]*
 
-4. [Learn NextJS 13: Build a Modern Full-Stack E-commerce App with TailwindCSS + Stripe + Zustand](https://www.youtube.com/watch?v=oLPgc5Fp2Ts) *[1.5hrs]*
+4. [SvelteKit Web Portfolio](https://www.youtube.com/watch?v=ylCUH6LkW80) *[1.2hrs]*
 
-5. [Learn Qwik - The World's Fastest JavaScript Web Framework](https://youtu.be/4a75F4FEArs?si=GUWyU8qb8aMZYiVU) *[1.5hrs]*
+5. [Learn NextJS 13: Build a Modern Full-Stack E-commerce App with TailwindCSS + Stripe + Zustand](https://www.youtube.com/watch?v=oLPgc5Fp2Ts) *[1.5hrs]*
+
+6. [Learn Qwik - The World's Fastest JavaScript Web Framework](https://youtu.be/4a75F4FEArs?si=GUWyU8qb8aMZYiVU) *[1.5hrs]*
 
 
 #### End of Chapter Project
@@ -106,11 +109,13 @@ Dive into the world of dynamic weather with React! Build a user-friendly dashboa
 
 If you're looking to extend your capabilites beyond Frontend development into Full Stack development, then it's time to explore CRUD, APIs & backend servers!
 
-1. [Node.js + Express.js Crash Course - Zero to Hero](https://youtu.be/V8ePZHOjRQo) *[1hrs]*
+1. [The Backend Simply Explained](https://youtu.be/FdHJPlpL1hI) *[12mins]*
 
-2. [Monetise an API with Stripe Node.js & Firebase](https://youtu.be/Wy9aOFcpr0w) *[1.5hrs]*
+2. [Node.js + Express.js Crash Course - Zero to Hero](https://youtu.be/V8ePZHOjRQo) *[1hrs]*
 
-3. [Dockerized Node.js & PostgreSQL Tutorial](https://youtu.be/sDPw2Yp4JwE) *[26mins]*
+3. [Monetise an API with Stripe Node.js & Firebase](https://youtu.be/Wy9aOFcpr0w) *[1.5hrs]*
+
+4. [Dockerized Node.js & PostgreSQL Tutorial](https://youtu.be/sDPw2Yp4JwE) *[26mins]*
 
 
 #### End of Chapter Project
