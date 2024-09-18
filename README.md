@@ -110,7 +110,7 @@ Dive into the world of dynamic weather with React! Build a user-friendly dashboa
 
 If you're looking to extend your capabilites beyond Frontend development into Full Stack development, then it's time to explore CRUD, APIs & backend servers!
 
-1. [The Backend Simply Explained](https://youtu.be/FdHJPlpL1hI) *[12mins]*
+1. [The Backend Simply Explained](https://youtu.be/FdHJPlpL1hI) *[21mins]*
 
 2. [Node.js + Express.js Crash Course - Zero to Hero](https://youtu.be/V8ePZHOjRQo) *[1hrs]*
 
