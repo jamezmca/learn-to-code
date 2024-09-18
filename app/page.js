@@ -9,7 +9,7 @@ const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
 function LinkSection(props) {
   const { title, array, children } = props
-  console.log(title === 'Projects')
+
   return (
     <section className={"gap-4   " + (title === 'Projects' ? ' flex flex-col' : ' grid grid-cols-1 md:grid-cols-2')}>
       <h3 className={'text-blue-300 md:col-span-2 ' + press.className}>✦ {title === 'Links' ? 'Learn To Code' : title} ✦</h3>
