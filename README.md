@@ -22,6 +22,7 @@ You're not alone in your journey, dive in to our coding community.
 * **Discord** -> https://discord.gg/BYr6gujs4k
 * **Newsletter** -> https://smoljames.beehiiv.com/subscribe
 * **Course Notes** -> https://www.smoljames.com/notes
+* **Resume Builder** -> https://www.hyr.sh
 
 ## Learning To Code (6 Chapters)
 

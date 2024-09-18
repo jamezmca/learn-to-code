@@ -11,12 +11,6 @@
       "static/chunks/main-app.js",
       "static/css/app/page.css",
       "static/chunks/app/page.js"
-    ],
-    "/roadmap/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/roadmap/page.css",
-      "static/chunks/app/roadmap/page.js"
     ]
   }
 }

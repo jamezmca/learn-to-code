@@ -9,8 +9,9 @@ const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
 function LinkSection(props) {
   const { title, array, children } = props
+  console.log(title === 'Projects')
   return (
-    <section className="flex flex-col gap-4 grid grid-cols-1 md:grid-cols-2">
+    <section className={"gap-4   " + (title === 'Projects' ? ' flex flex-col' : ' grid grid-cols-1 md:grid-cols-2')}>
       <h3 className={'text-blue-300 md:col-span-2 ' + press.className}>✦ {title === 'Links' ? 'Learn To Code' : title} ✦</h3>
       {array && (
         array.map((link, linkIndex) => {
@@ -42,7 +43,7 @@ const HomePage = () => {
     { name: 'Newsletter', icon: 'fa-regular fa-newspaper', link: 'https://smoljames.beehiiv.com/subscribe', target: '_blank' },
     { name: 'Notes', icon: 'fa-solid fa-book', link: '/notes', target: '' },
   ]
-  
+
   let extras = [
     { name: 'Discord', icon: 'fa-brands fa-discord', link: 'https://discord.gg/BYr6gujs4k', target: '_blank' },
     { name: 'Blog', icon: 'fa-solid fa-bookmark', link: '/blog', target: '' },
@@ -58,6 +59,12 @@ const HomePage = () => {
     { name: 'LinkedIn', icon: 'fa-brands fa-linkedin', link: 'https://linkedin.com/company/smoljames-education', target: '_blank' },
     { name: 'GitHub', icon: 'fa-brands fa-github', link: 'https://github.com/jamezmca', target: '_blank' },
     { name: 'Twitter', icon: 'fa-brands fa-twitter', link: 'https://twitter.com/_Smoljames', target: '_blank' },
+    // { name: 'Email', icon: 'fa-solid fa-envelope', link: 'mailto:jamesismathematicool@gmail.com', target: '' },
+  ]
+  let projects = [
+    { name: 'Resume Builder', icon: 'fa-solid fa-hammer', link: 'https://www.hyr.sh', target: '_blank' },
+    { name: 'VSCode Shortcuts', icon: 'fa-solid fa-hat-wizard', link: 'https://www.vscodeshortcuts.smoljames.com', target: '_blank' },
+    { name: 'FantaCSS', icon: 'fa-solid fa-book-skull', link: 'https://www.fantacss.smoljames.com', target: '_blank' },
     // { name: 'Email', icon: 'fa-solid fa-envelope', link: 'mailto:jamesismathematicool@gmail.com', target: '' },
   ]
 
@@ -80,6 +87,7 @@ const HomePage = () => {
       </Link>
       {/* <ResumeSignup /> */}
       <LinkSection title={'Links'} array={links} />
+      <LinkSection title={'Projects'} array={projects} />
       <LinkSection title={'Miscellaneous'} array={extras} />
       <Plaque benefits={planBenefits} message={''} name={'SmolDev'} price={9.99} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} />
       <section className="gap-4 flex items-center justify-center flex-wrap">
