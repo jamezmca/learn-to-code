@@ -87,7 +87,7 @@ JavaScript frameworks make building dynamic and interactive websites incredibly 
 
 1. [React.JS Simply Explained](https://youtu.be/bfcoBGgDSIc) *[21mins]*
 
-2. [React.JS Full Course - Build 4 Projects in 5 Hours](https://youtu.be/82PXenL4MGg) *[5hrs]*
+2. [React.JS Full Course | Build & Deploy 3 Modern Web Apps and Get Hired!](https://youtu.be/iKpkVKubvKk) *[8hrs]*
 
 3. [NEXT.js Full Course | Build and Deploy a Full Stack App w. Firebase & TailwindCSS](https://youtu.be/lkjrUW8fI40) *[4hrs]*
 
