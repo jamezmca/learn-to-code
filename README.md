@@ -112,11 +112,13 @@ If you're looking to extend your capabilites beyond Frontend development into Fu
 
 1. [The Backend Simply Explained](https://youtu.be/FdHJPlpL1hI) *[21mins]*
 
-2. [Node.js + Express.js Crash Course - Zero to Hero](https://youtu.be/V8ePZHOjRQo) *[1hrs]*
+2. [Backend Full Course | NodeJS ExpressJS PostgreSQL Prisma & Docker](https://youtu.be/9BD9eK9VqXA) *[5hrs17mins]*
 
-3. [Monetise an API with Stripe Node.js & Firebase](https://youtu.be/Wy9aOFcpr0w) *[1.5hrs]*
+3. [Node.js + Express.js Crash Course - Zero to Hero](https://youtu.be/V8ePZHOjRQo) *[1hrs]*
 
-4. [Dockerized Node.js & PostgreSQL Tutorial](https://youtu.be/sDPw2Yp4JwE) *[26mins]*
+4. [Monetise an API with Stripe Node.js & Firebase](https://youtu.be/Wy9aOFcpr0w) *[1.5hrs]*
+
+5. [Dockerized Node.js & PostgreSQL Tutorial](https://youtu.be/sDPw2Yp4JwE) *[26mins]*
 
 
 #### End of Chapter Project
