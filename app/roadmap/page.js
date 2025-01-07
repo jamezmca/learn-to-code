@@ -29,10 +29,10 @@ export default function RoadmapPage() {
                     <li className='font-medium'>✅ Learn everything you need to become a 10x developer</li>
                     <li className='font-medium'>✅ Build numerous projects that will get your hired</li>
                 </ul>
-                <p className={' italic'}>If you're ever feeling stuck or overwhelmed, know that there is always help and assistance available in the <Link className='text-pink-400 font-bold duration-200 hover:opacity-70' href={'https://discord.gg/BYr6gujs4k'} target='_blank'>Discord Channel</Link> and you can access additional support notes & guides <Link className='text-pink-400 font-bold duration-200 hover:opacity-70' href={'/notes'} target='_blank'>here</Link>!</p>
-                {/* <Link href={'https://www.hyr.sh'} target='_blank'>
-                    <BlueBtn btnText="Build a better resume ✅" noShadow />
-                </Link> */}
+                <p className={' italic'}>If you're ever feeling stuck or overwhelmed, know that there is always help and assistance available in the GitHub repos for each course!</p>
+                <Link href={'https://www.hyr.sh'} target='_blank'>
+                    <BlueBtn btnText="Build a tech resume ✅" noShadow />
+                </Link>
 
             </div>
 
@@ -54,12 +54,12 @@ export default function RoadmapPage() {
                                         )
                                     })}
                                 </ul>
-                                {DATA?.chapters?.[ele]?.project && (
+                                {/* {DATA?.chapters?.[ele]?.project && (
                                     <>
                                         <p><b className={' ' + press.className}>&rarr; Project</b> </p>
                                         <p>{DATA.chapters[ele].project}</p>
                                     </>
-                                )}
+                                )} */}
                             </>
                         ) : (
                             <div className='py-4 flex flex-col gap-4'>

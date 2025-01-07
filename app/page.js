@@ -4,6 +4,7 @@ import MainWrapper from "@/components/MainWrapper";
 import { Inter, Press_Start_2P } from "next/font/google";
 import Plaque from "@/components/Plaque";
 import ResumeSignup from "@/components/ResumeSignup";
+import BlueBtn from "@/components/BlueBtn";
 const inter = Inter({ subsets: ["latin"] });
 const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
@@ -82,8 +83,11 @@ const HomePage = () => {
 
   return (
     <MainWrapper>
-      <Link href="https://www.hyr.sh" target="_blank">
+      {/* <Link href="https://www.hyr.sh" target="_blank">
         <img src="hyrsh_banner_3.png" alt="hyr_sh_banner" />
+      </Link> */}
+      <Link href={'https://docs.google.com/document/d/1nF1i7nn6ZZbr3zyMRXCSxuTwmFuLHfAAYSDVhdZJ3Nw/edit?usp=sharing'} target='_blank'>
+        <BlueBtn btnText="YouTube Planner - Upcoming courses in 2025 ✅"  />
       </Link>
       {/* <ResumeSignup /> */}
       <LinkSection title={'Links'} array={links} />
