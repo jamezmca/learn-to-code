@@ -93,7 +93,7 @@ const HomePage = () => {
       <LinkSection title={'Links'} array={links} />
       <LinkSection title={'Projects'} array={projects} />
       <LinkSection title={'Miscellaneous'} array={extras} />
-      <Plaque benefits={planBenefits} message={''} name={'SmolDev'} price={9.99} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} />
+      {/* <Plaque benefits={planBenefits} message={''} name={'SmolDev'} price={9.99} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} /> */}
       <section className="gap-4 flex items-center justify-center flex-wrap">
         {socials.map((link, linkIndex) => {
           return (
