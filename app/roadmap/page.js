@@ -94,44 +94,14 @@ export default function RoadmapPage() {
                 )
             })}
 
-            <h2 className={'text-2xl text-white specialShadow  ' + press.className}>Projects</h2>
-            <div className='flex flex-col aspect-video'>
-                <iframe className='w-full h-full' src="https://www.youtube.com/embed/2cJIgWZhKgQ?si=TS6UZGXuE3ylfwVi" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
-            </div>
-            <div className='flex flex-col gap-8'>
-                <div className='flex flex-col gap-2'>
-                    <h2 className={'text-g   ' + press.className}>Recommended</h2>
-                    {DATA.projects.recommendations.map((e, eIndex) => {
-                        return (
-                            <div key={eIndex}><p>· {e}</p></div>
-                        )
-                    })}
-                </div>
-                <div className='flex flex-col gap-2'>
-                    <h2 className={'text-g   ' + press.className}>Full Stack</h2>
-                    {DATA.projects.full_stack.map((e, eIndex) => {
-                        return (
-                            <Link href={e.link} target='_blank' key={eIndex} className='duration-200 hover:text-blue-300'><p><i className="fa-solid fa-arrow-right -rotate-45 pr-2"></i> {e.name}</p></Link >
-                        )
-                    })}
-                </div>
-                <div className='flex flex-col gap-2'>
-                    <h2 className={'text-g   ' + press.className}>Frontend</h2>
-                    {DATA.projects.frontend.map((e, eIndex) => {
-                        return (
-                            <Link href={e.link} target='_blank' key={eIndex} className='duration-200 hover:text-blue-300'><p><i className="fa-solid fa-arrow-right -rotate-45 pr-2"></i> {e.name}</p></Link >
-                        )
-                    })}
-                </div>
-                <div className='flex flex-col gap-2'>
-                    <h2 className={'text-g   ' + press.className}>Backend</h2>
-                    {DATA.projects.backend.map((e, eIndex) => {
-                        return (
-                            <Link href={e.link} target='_blank' key={eIndex} className='duration-200 hover:text-blue-300'><p><i className="fa-solid fa-arrow-right -rotate-45 pr-2"></i> {e.name}</p></Link >
-                        )
-                    })}
+            <div className='flex flex-col gap-2'>
+                <Chapters ele={'javascript'} eleIndex={6} />
+                <h2 className={'specialShadow uppercase text-2xl ' + press.className}>Full Stack Development</h2>
+                <div className='flex flex-col aspect-video'>
+                    <iframe className='w-full h-full' src="https://www.youtube.com/embed/dKch_WrYwd4?si=5Q-Y3_FCTtzwwvSs" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
                 </div>
             </div>
+
 
 
             <Link href={'/blog/land_a_job'} className="bg-blue-950 text-blue-100 rounded-lg btnBorder relative grid place-items-center p-4">
