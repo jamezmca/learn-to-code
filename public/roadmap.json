@@ -184,26 +184,6 @@
             "description": "If you're looking to extend your capabilites beyond Frontend development into Full Stack development, then it's time to explore CRUD, APIs & backend servers!",
             "completion_time": "20hrs",
             "project": "Take your first steps in backend development with a simple 'To-Do List' app! Build an API with Node.js and Express to add, list, and mark tasks as complete, all while utilizing in-memory data storage and basic error handling. "
-        },
-        "full_stack_development": {
-            "index": 6,
-            "resources": [
-                {
-                    "name": "Full Stack Course | Build 4 Projects & Get Hired",
-                    "link": "https://www.udemy.com/course/draft/6424833/?referralCode=F3FB3E174D38A54974EB",
-                    "duration": "16hrs",
-                    "video_id": "dKch_WrYwd4"
-                }
-            ],
-            "notes": [
-                {
-                    "name": "",
-                    "link": ""
-                }
-            ],
-            "description": "This chapter will help us to synthesise all our knowledge together under the branch of programming known as Full Stack Development. We'll learn how we can integrate all of the systems we've learned to far to build and deploy amazing web applications for just about purpose or application.            ",
-            "completion_time": "16hrs",
-            "project": "Now that you've got the knowledge you need to start building some wicked full stack web applications, here's my recommendation for the best trio of projects to include in your web portfolio.            "
         }
     },
     "support": {
