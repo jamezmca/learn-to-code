@@ -46,10 +46,10 @@ const HomePage = () => {
   ]
 
   let extras = [
-    { name: 'Discord', icon: 'fa-brands fa-discord', link: 'https://discord.gg/BYr6gujs4k', target: '_blank' },
+    // { name: 'Discord', icon: 'fa-brands fa-discord', link: 'https://discord.gg/BYr6gujs4k', target: '_blank' },
     { name: 'Blog', icon: 'fa-solid fa-bookmark', link: '/blog', target: '' },
     { name: 'My Story', icon: 'fa-solid fa-user-graduate', link: 'https://youtu.be/nP0-oYGiqts', target: '_blank' },
-    { name: 'Coaching', icon: 'fa-solid fa-heart', link: '/coaching', target: '' },
+    // { name: 'Coaching', icon: 'fa-solid fa-heart', link: '/coaching', target: '' },
     // { name: 'Patreon', icon: 'fa-brands fa-patreon', link: '/', target: '_blank' },
     { name: 'Portfolio', icon: 'fa-solid fa-lemon', link: '/portfolio', target: '' },
     // { name: 'Store', icon: 'fa-solid fa-store', link: 'https://store.smoljames.com/', target: '_blank' },
