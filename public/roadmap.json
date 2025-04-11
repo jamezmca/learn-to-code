@@ -101,40 +101,22 @@
             "index": 4,
             "resources": [
                 {
-                    "name": "React.JS Simply Explained",
-                    "link": "https://youtu.be/bfcoBGgDSIc",
-                    "duration": "21mins",
-                    "video_id": "bfcoBGgDSIc"
-                },
-                {
                     "name": "React.JS Full Course | Build & Deploy 3 Modern Web Apps and Get Hired!",
                     "link": "https://youtu.be/iKpkVKubvKk",
                     "duration": "8hrs",
                     "video_id": "iKpkVKubvKk"
                 },
                 {
+                    "name": "Frontend Full Course | Learn React.js Svelte & Vue.js in 8 hours",
+                    "link": "https://youtu.be/U5ETOo6R5vM",
+                    "duration": "8hrs",
+                    "video_id": "U5ETOo6R5vM"
+                },
+                {
                     "name": "NEXT.js 14 Full Course | Build and Deploy a Full Stack App w. Firebase & TailwindCSS",
                     "link": "https://youtu.be/lkjrUW8fI40",
                     "duration": "4hrs",
                     "video_id": "lkjrUW8fI40"
-                },
-                {
-                    "name": "SvelteKit Web Portfolio",
-                    "link": "https://www.youtube.com/watch?v=ylCUH6LkW80",
-                    "duration": "1.2hrs",
-                    "video_id": "ylCUH6LkW80"
-                },
-                {
-                    "name": "Learn NextJS 13: Build a Modern Full-Stack E-commerce App with TailwindCSS + Stripe + Zustand",
-                    "link": "https://www.youtube.com/watch?v=oLPgc5Fp2Ts",
-                    "duration": "1.5hrs",
-                    "video_id": "oLPgc5Fp2Ts"
-                },
-                {
-                    "name": "Learn Qwik - The World's Fastest JavaScript Web Framework",
-                    "link": "https://youtu.be/4a75F4FEArs?si=GUWyU8qb8aMZYiVU",
-                    "duration": "1.5hrs",
-                    "video_id": "4a75F4FEArs"
                 }
             ],
             "notes": [
@@ -161,18 +143,6 @@
                     "link": "https://youtu.be/9BD9eK9VqXA",
                     "duration": "5.33hrs",
                     "video_id": "9BD9eK9VqXA"
-                },
-                {
-                    "name": "Node.js + Express.js Crash Course - Zero to Hero",
-                    "link": "https://youtu.be/V8ePZHOjRQo",
-                    "duration": "1hrs",
-                    "video_id": "V8ePZHOjRQo"
-                },
-                {
-                    "name": "Dockerized Node.js & PostgreSQL Tutorial",
-                    "link": "https://youtu.be/sDPw2Yp4JwE",
-                    "duration": "26mins",
-                    "video_id": "sDPw2Yp4JwE"
                 }
             ],
             "notes": [

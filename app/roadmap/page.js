@@ -26,12 +26,12 @@ export default function RoadmapPage() {
                 <p className={' '}>Join over 25,000+ aspiring programmers following this roadmap to learn-to-code and land-a-developer-job 🔥 By completing this roadmap, you will:</p>
                 <ul>
                     <li className='font-medium'>✅ Save $15,000 (average cost of a bootcamp)</li>
-                    <li className='font-medium'>✅ Learn everything you need to become a 10x developer</li>
+                    <li className='font-medium'>✅ Learn everything from the beginner that you need to become a 10x developer</li>
                     <li className='font-medium'>✅ Build numerous projects that will get your hired</li>
                 </ul>
                 <p className={' italic'}>If you're ever feeling stuck or overwhelmed, know that there is always help and assistance available in the GitHub repos for each course!</p>
                 <Link href={'https://www.hyr.sh'} target='_blank'>
-                    <BlueBtn btnText="Build a tech resume ✅" noShadow />
+                    <BlueBtn btnText="Build a better resume ✅" noShadow />
                 </Link>
 
             </div>
