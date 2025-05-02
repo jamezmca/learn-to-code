@@ -11,8 +11,8 @@ const space = Roboto_Mono({ subsets: ["latin"], weight: ['400', '700'] });
 const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata = {
-  title: "Smoljames",
-  description: "I self-taught programming and landed a developer job FOR FREE, and you can too! With Smoljames, you can learn to code with the highest quality learning resources, and land a developer job today.",
+  title: "Smoljames · Learn to Code",
+  description: "I self-taught programming and landed a developer job FOR FREE, and you can too! Learn full stack development with trusted and beginner friendly learn to code courses.",
   icons: {
     icon: '/favicon2.png', // /public path
   },
@@ -45,8 +45,14 @@ export default function RootLayout({ children }) {
   );
 
   const footer = (
-    <footer className="py-20 flex items-center justify-center px-4">
-      <p><i className="fa-regular fa-copyright pr-1"></i> Smoljames 2024 💛</p>
+    <footer className="">
+
+      <Link target='_blank' href='https://www.youtube.com/smoljames'>
+        <img src='/favicon2.png' className="w-[30px]" alt='pfp' />
+        <p className="specialShadow">Smoljames 2025</p>
+        <i className="fa-regular fa-copyright pr-1"></i> 
+      </Link>
+
     </footer>
   );
 

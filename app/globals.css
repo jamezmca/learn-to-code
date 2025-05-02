@@ -135,3 +135,39 @@ footer {
 .blueBorder {
     background: linear-gradient(30deg, #3b82f6, #67e8f9);
 }
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: center;
+    padding: 3rem 0;
+    padding-bottom: 4rem;
+}
+
+footer a {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    padding: 0.5rem;
+    padding-right: 0.5rem;
+    background: #0e1625;
+    border-radius: 4rem;
+    border: 1px solid rgba(145, 224, 255, 0.12);
+    transition-duration: 200ms;
+    text-decoration: none;
+    transform: none;
+    box-shadow: none;
+}
+
+footer a:hover {
+    border: 1px solid #4c32e1;
+    transform: none;
+}
+
+footer a img {
+    max-width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+}

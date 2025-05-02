@@ -86,9 +86,9 @@ const HomePage = () => {
       {/* <Link href="https://www.hyr.sh" target="_blank">
         <img src="hyrsh_banner_3.png" alt="hyr_sh_banner" />
       </Link> */}
-      <Link href={'https://forms.gle/o8XuGneS5tKfo8rH8'} target='_blank'>
+      {/* <Link href={'https://forms.gle/o8XuGneS5tKfo8rH8'} target='_blank'>
         <BlueBtn btnText="Share your feedback - let me know what content you want to see! ✅"  />
-      </Link>
+      </Link> */}
       {/* <ResumeSignup /> */}
       <LinkSection title={'Links'} array={links} />
       <LinkSection title={'Projects'} array={projects} />
