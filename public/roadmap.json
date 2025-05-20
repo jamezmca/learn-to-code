@@ -39,12 +39,6 @@
                     "video_id": "F5_nBy66LJs"
                 },
                 {
-                    "name": "Learn TailwindCSS in 23 mins",
-                    "link": "https://youtu.be/W-LDhPyv478",
-                    "duration": "23mins",
-                    "video_id": "W-LDhPyv478"
-                },
-                {
                     "name": "How to Get Started with GitHub",
                     "link": "https://youtu.be/277gRTVtw2I",
                     "duration": "10mins",
@@ -93,6 +87,12 @@
                     "link": "https://youtu.be/iKpkVKubvKk",
                     "duration": "8hrs",
                     "video_id": "iKpkVKubvKk"
+                },
+                {
+                    "name": "TailwindCSS Course for Beginners",
+                    "link": "https://youtu.be/GcX4iEhDgM8",
+                    "duration": "90mins",
+                    "video_id": "W-LDhPyv478"
                 },
                 {
                     "name": "Frontend Full Course | Learn React.js Svelte & Vue.js in 8 hours",
