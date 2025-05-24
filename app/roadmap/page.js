@@ -103,7 +103,7 @@ export default function RoadmapPage() {
             </div>
 
 
-            <Link href={'https://www.hubble.social/jamesmcarthur'} target='_blank' className="bg-blue-950 text-blue-100 rounded-lg btnBorder relative grid place-items-center p-4">
+            <Link href={'https://hyr.sh'} target='_blank' className="bg-blue-950 text-blue-100 rounded-lg btnBorder relative grid place-items-center p-4">
                 <p className={'text-xl text-center ' + press.className}>Build a tech resume ✅</p>
             </Link>
 
