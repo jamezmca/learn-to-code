@@ -47,7 +47,7 @@ export default function RootLayout({ children }) {
   const footer = (
     <footer className="">
 
-      <Link target='_blank' href='https://www.youtube.com/smoljames'>
+      <Link target='_blank' href='https://smoljames.beehiiv.com/subscribe'>
         <img src='/favicon2.png' className="w-[30px]" alt='pfp' />
         <p className="specialShadow">Smoljames 2025</p>
         <i className="fa-regular fa-copyright pr-1"></i> 

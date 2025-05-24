@@ -30,8 +30,8 @@ export default function RoadmapPage() {
                     <li className='font-medium'>✅ Build numerous projects that will get your hired</li>
                 </ul>
                 <p className={' italic'}>If you're ever feeling stuck or overwhelmed, know that there is always help and assistance available in the GitHub repos for each course!</p>
-                <Link href={'https://www.hyr.sh'} target='_blank'>
-                    <BlueBtn btnText="1:1 Coaching 🔥" noShadow />
+                <Link href={'https://www.hubble.social/jamesmcarthur'} target='_blank'>
+                    <BlueBtn btnText="Book 1:1 Coaching 🔥" noShadow />
                 </Link>
 
             </div>
@@ -104,7 +104,7 @@ export default function RoadmapPage() {
 
 
             <Link href={'https://www.hubble.social/jamesmcarthur'} target='_blank' className="bg-blue-950 text-blue-100 rounded-lg btnBorder relative grid place-items-center p-4">
-                <p className={'text-xl ' + press.className}>Build a tech resume ✅</p>
+                <p className={'text-xl text-center ' + press.className}>Build a tech resume ✅</p>
             </Link>
 
             <div className='flex flex-col gap-4'>
@@ -113,7 +113,7 @@ export default function RoadmapPage() {
             </div>
 
             <Question question={'When can I start?'} answer='No better time to start than today!' link={'https://youtu.be/70T2GMDKl6M'} target={'_blank'} linkText="Start learning now 🔥"></Question>
-            <Question question={'What do I need to do to get hired?'} answer="Great question - here's what you need to know!" link={'/blog/land_a_job'}  linkText="How to land your developer job ✅"></Question>
+            <Question question={'What do I need to do to get hired?'} answer="Great question - here's what you need to know!" link={'/blog/land_a_job'} linkText="How to land your developer job ✅"></Question>
             <Question question={'Is the course relevant in 2025?'} answer={'Absolutely - It receives constant updates to ensure it remains relevant to the current day :P'} ></Question>
             <Question question={'Is there a support community?'} answer={"There's a huge community here to support you on your coding journey at every step of the way. We're pretty active in the Discord channel which you might like to join!"} link={'https://discord.gg/BYr6gujs4k'} target={'_blank'} linkText="Join the Discord!"></Question>
             <Question question={'Do I need any prior programming experience?'} answer={'No programming experience is required to get started with this roadmap! It\'s Zero to Hero.'} ></Question>
