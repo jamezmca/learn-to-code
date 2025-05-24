@@ -40,15 +40,16 @@ const HomePage = () => {
     { name: 'Roadmap', icon: 'fa-solid fa-signs-post', link: '/roadmap', target: '' },
     // { name: 'Discord', icon: 'fa-brands fa-discord', link: '/discord' },
     { name: 'Courses', icon: 'fa-solid fa-graduation-cap', link: 'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4', target: '_blank' },
+    { name: '1:1 Coaching', icon: 'fa-solid fa-chalkboard', link: 'https://www.hubble.social/jamesmcarthur', target: '_blank' },
     { name: 'GitHub', icon: 'fa-brands fa-github', link: 'https://github.com/jamezmca', target: '_blank' },
     { name: 'Newsletter', icon: 'fa-regular fa-newspaper', link: 'https://smoljames.beehiiv.com/subscribe', target: '_blank' },
-    { name: 'Notes', icon: 'fa-solid fa-book', link: '/notes', target: '' },
   ]
-
+  
   let extras = [
     // { name: 'Discord', icon: 'fa-brands fa-discord', link: 'https://discord.gg/BYr6gujs4k', target: '_blank' },
     { name: 'Blog', icon: 'fa-solid fa-bookmark', link: '/blog', target: '' },
     { name: 'My Story', icon: 'fa-solid fa-user-graduate', link: 'https://youtu.be/nP0-oYGiqts', target: '_blank' },
+    { name: 'Notes', icon: 'fa-solid fa-book', link: '/notes', target: '' },
     // { name: 'Coaching', icon: 'fa-solid fa-heart', link: '/coaching', target: '' },
     // { name: 'Patreon', icon: 'fa-brands fa-patreon', link: '/', target: '_blank' },
     { name: 'Portfolio', icon: 'fa-solid fa-lemon', link: '/portfolio', target: '' },
