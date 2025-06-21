@@ -19,7 +19,6 @@ export const metadata = {
 
 export default function CoursesPage() {
     const postMetadata = getPostMetadata('courses');
-    console.log(postMetadata)
 
     // okay so each md course needs some data, which includes fireship pro stuff, and just take them to a course page that has the youtube url at the bottom
 
