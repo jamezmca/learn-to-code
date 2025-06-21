@@ -3,18 +3,25 @@ import React from 'react'
 
 import { Inter, Press_Start_2P, Roboto_Mono } from "next/font/google";
 import Plaque from '@/components/Plaque';
+import getPostMetadata from '@/components/getPostMetadata';
+import Link from 'next/link';
 const space = Roboto_Mono({ subsets: ["latin"], weight: ['400', '700'] });
 // const inter = Inter({ subsets: ["latin"] });
 const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata = {
     title: "Smoljames ⋅ Courses",
-    description: "Become a 10x super hyper mega developer today with these amazing learn to code courses.",
+    description: "Join 10,000+ programmers following our modern courses where we learn to code by building fun and cool projects.",
 };
 
 
 
+
 export default function CoursesPage() {
+    const postMetadata = getPostMetadata('courses');
+    console.log(postMetadata)
+
+    // okay so each md course needs some data, which includes fireship pro stuff, and just take them to a course page that has the youtube url at the bottom
 
     let planBenefits = [
         'Unlimited access to PRO courses on YouTube',
@@ -105,9 +112,9 @@ export default function CoursesPage() {
                 <h2 className={'text-3xl  ' + press.className}>
                     BECOME AN <span className='textGradient'>AWESOME</span> DEVELOPER!
                 </h2>
-                <p className='text-blue-300'>All the <span className='text-blue-200 font-bold'>coding courses</span> you need to excel <span className='text-blue-200 font-bold'>in one place</span> 🔥</p>
+                <p className='text-blue-300'>All the <span className='text-blue-200 font-bold'>coding courses</span> you need to become a pro developer <span className='text-blue-200 font-bold'>in one place</span> 🔥</p>
             </div>
-            <Plaque benefits={planBenefits} name={'SmolDev'} price={29} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} />
+            {/* <Plaque benefits={planBenefits} name={'SmolDev'} price={29} link={'https://www.youtube.com/channel/UCPBK_brqoVQtO-fOWpxQGXw/join'} /> */}
             <div className='flex items-center gap-4'>
 
                 <h2 className={'text-3xl  ' + press.className}>
@@ -115,14 +122,16 @@ export default function CoursesPage() {
                 </h2>
                 <div className='bg-blue-200 h-2 flex-1'></div>
             </div>
-            <p>
+            {/* <p>
                 Whether you want to excel in web development, mobile development or strengthen your fundamental software engineering skills, there is a course for you.
-            </p>
+            </p> */}
             <div className='grid grid-cols-1 sm:grid-cols-2 gap-8'>
-                {courses.map((course, courseIndex) => {
+                {postMetadata.map((course, courseIndex) => {
                     return (
-                        <div className='rounded-lg bg-slate-900 border border-solid border-slate-800 overflow-hidden cursor-pointer hover:scale-[105%] duration-200 flex flex-col' key={courseIndex} >
-                            <div className='flex flex-col aspect-video relative'>
+                        <Link href={'/courses/' + course.slug} className='rounded-lg bg-slate-900 border border-solid border-slate-800 overflow-hidden cursor-pointer hover:scale-[105%] duration-200 flex flex-col' key={courseIndex} >
+                            <img src={`https://i.ytimg.com/vi/${course.img}/hqdefault.jpg`} alt={`${course.title}_name`} className='w-full aspect-video object-cover' />
+
+                            {/* <div className='flex flex-col relative h-fit'>
                                 {course.status != 'Complete' && (
                                     <div className='absolute inset-0 z-10 grid place-items-center'>
                                         <div className='absolute inset-0 bg-slate-900 opacity-60' />
@@ -131,14 +140,13 @@ export default function CoursesPage() {
                                         </h2>
                                     </div>
                                 )}
-                                <img src={course.imgLink} alt={`${course.name}_name`} className='w-full h-full object-cover ' />
-                            </div>
+                            </div> */}
                             <div className='flex flex-col gap-4 p-4'>
                                 <h2 className={'text-lg text-blue-200 ' + press.className}>
-                                    {course.name}
+                                    {course.title}
                                 </h2>
-                                <p className='text-blue-300'>{course.description}</p>
-                                <div className='flex items-center gap-2 flex-wrap'>
+                                <p className='text-blue-300'>{course.subtitle}</p>
+                                {/* <div className='flex items-center gap-2 flex-wrap'>
                                     {course.tags.map((tag, tagIndex) => {
                                         return (
                                             <div className={'px-2 py-1.5  rounded-md ' + ` ${tag[1] ? tag[1] : 'bg-slate-950'}`} key={tagIndex}>
@@ -146,9 +154,9 @@ export default function CoursesPage() {
                                             </div>
                                         )
                                     })}
-                                </div>
+                                </div> */}
                             </div>
-                        </div>
+                        </Link>
                     )
                 })}
             </div>

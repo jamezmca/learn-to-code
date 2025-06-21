@@ -15,6 +15,11 @@ const getPostMetadata = (basePath) => {
             order: matterResult.data.order,
             status: matterResult.data.status,
             slug: fileName.replace(".md", ""),
+        } : basePath == 'courses' ? {
+            title: matterResult.data.title,
+            img: matterResult.data.img,
+            subtitle: matterResult.data.subtitle,
+            slug: fileName.replace(".md", ""),
         } : {
             title: matterResult.data.title,
             date: matterResult.data.date,

@@ -11,8 +11,9 @@ const space = Roboto_Mono({ subsets: ["latin"], weight: ['400', '700'] });
 const press = Press_Start_2P({ subsets: ["latin"], weight: ['400'] });
 
 export const metadata = {
-  title: "Smoljames · Learn to Code",
-  description: "I self-taught programming and landed a developer job FOR FREE, and you can too! Learn full stack development with trusted and beginner friendly learn to code courses.",
+  title: "Learn to Code · Smoljames",
+  description: "Start your learn to code journey · Tried and trusted project-based courses · The Smoljames Roadmap was created by James McArthur, a self-taught software developer and founder of the Smoljames YouTube channel.",
+  // description: "I self-taught programming and landed a developer job FOR FREE, and you can too! Learn full stack development with trusted and beginner friendly learn to code courses.",
   icons: {
     icon: '/favicon2.png', // /public path
   },
@@ -47,10 +48,10 @@ export default function RootLayout({ children }) {
   const footer = (
     <footer className="">
 
-      <Link target='_blank' href='https://smoljames.beehiiv.com/subscribe'>
+      <Link target='_blank' href='https://youtube.com/smoljames'>
         <img src='/favicon2.png' className="w-[30px]" alt='pfp' />
         <p className="specialShadow">Smoljames 2025</p>
-        <i className="fa-regular fa-copyright pr-1"></i> 
+        <i className="fa-regular fa-copyright pr-1"></i>
       </Link>
 
     </footer>

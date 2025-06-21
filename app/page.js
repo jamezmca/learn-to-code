@@ -39,7 +39,7 @@ const HomePage = () => {
     { name: 'YouTube', icon: 'fa-brands fa-youtube', link: 'https://www.youtube.com/smoljames?sub_confirmation=1', target: '_blank' },
     { name: 'Roadmap', icon: 'fa-solid fa-signs-post', link: '/roadmap', target: '' },
     // { name: 'Discord', icon: 'fa-brands fa-discord', link: '/discord' },
-    { name: 'Courses', icon: 'fa-solid fa-graduation-cap', link: 'https://www.udemy.com/course/the-complete-javascript-course-zero-to-hero/?referralCode=F6229ABBDBD16EB43FA4', target: '_blank' },
+    { name: 'Courses', icon: 'fa-solid fa-graduation-cap', link: '/courses' },
     { name: '1:1 Coaching', icon: 'fa-solid fa-chalkboard', link: 'https://www.hubble.social/jamesmcarthur', target: '_blank' },
     { name: 'GitHub', icon: 'fa-brands fa-github', link: 'https://github.com/jamezmca', target: '_blank' },
     { name: 'Newsletter', icon: 'fa-regular fa-newspaper', link: 'https://smoljames.beehiiv.com/subscribe', target: '_blank' },
