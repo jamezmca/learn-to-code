@@ -11,15 +11,17 @@
   "dependencies": {
     "gray-matter": "^4.0.3",
     "markdown-to-jsx": "^7.4.0",
-    "next": "^14.1.0",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "16.1.1",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-server-dom-turbopack": "^19.2.3",
+    "react-server-dom-webpack": "^19.2.3"
   },
   "devDependencies": {
     "@tailwindcss/typography": "^0.5.10",
     "autoprefixer": "^10.4.17",
-    "eslint": "^8",
-    "eslint-config-next": "14.1.0",
+    "eslint": "^9.39.2",
+    "eslint-config-next": "16.1.1",
     "postcss": "^8.4.33",
     "tailwindcss": "^3.4.1"
   }
