@@ -17,11 +17,13 @@ const getPostContent = (slug) => {
 };
 
 export const generateStaticParams = async () => {
-    const posts = getPostMetadata('notes');
-    return posts.map((post) => ({
-        slug: post.slug,
-    }));
-};
+  const posts = getPostMetadata('notes')
+
+  return posts
+    .map(p => p.slug?.trim())
+    .filter(Boolean)
+    .map(slug => ({ slug }))
+}
 
 export async function generateMetadata({ params, searchParams }, parent) {
     // read route params
