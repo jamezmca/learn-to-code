@@ -33,10 +33,10 @@ export async function generateMetadata({ params, searchParams }, parent) {
     }
 }
 
-const CoursePage = (props) => {
-    const slug = props.params.slug;
-    const post = getPostContent(slug);
-
+const CoursePage = async ({ params }) => {
+    const { slug } = await params
+    const post = getPostContent(slug)
+    
     return (
         <MainWrapper>
             <div className="flex flex-col">

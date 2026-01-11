@@ -17,12 +17,12 @@ const getPostContent = (slug) => {
 };
 
 export const generateStaticParams = async () => {
-  const posts = getPostMetadata('notes')
+    const posts = getPostMetadata('notes')
 
-  return posts
-    .map(p => p.slug?.trim())
-    .filter(Boolean)
-    .map(slug => ({ slug }))
+    return posts
+        .map(p => p.slug?.trim())
+        .filter(Boolean)
+        .map(slug => ({ slug }))
 }
 
 export async function generateMetadata({ params, searchParams }, parent) {
@@ -34,9 +34,9 @@ export async function generateMetadata({ params, searchParams }, parent) {
     }
 }
 
-const NotePage = (props) => {
-    const slug = props.params.slug;
-    const post = getPostContent(slug);
+const NotePage = async ({ params }) => {
+    const { slug } = await params
+    const post = getPostContent(slug)
     return (
         <MainWrapper>
             <div className="flex flex-col">

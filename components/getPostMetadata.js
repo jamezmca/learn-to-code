@@ -7,26 +7,32 @@ const getPostMetadata = (basePath) => {
     const markdownPosts = files.filter((file) => file.endsWith(".md"));
 
     // Get gray-matter data from each file.
-    const posts = markdownPosts.map((fileName) => {
-        const fileContents = fs.readFileSync(`${basePath}/${fileName}`, "utf8");
-        const matterResult = matter(fileContents);
-        return basePath === 'notes' ? {
-            title: matterResult.data.title,
-            order: matterResult.data.order,
-            status: matterResult.data.status,
-            slug: fileName.replace(".md", ""),
-        } : basePath == 'courses' ? {
-            title: matterResult.data.title,
-            img: matterResult.data.img,
-            subtitle: matterResult.data.subtitle,
-            slug: fileName.replace(".md", ""),
-        } : {
-            title: matterResult.data.title,
-            date: matterResult.data.date,
-            subtitle: matterResult.data.subtitle,
-            slug: fileName.replace(".md", ""),
-        };
-    });
+    const posts = markdownPosts.map(fileName => {
+        const fileContents = fs.readFileSync(`${basePath}/${fileName}`, "utf8")
+
+        let matterResult
+        try {
+            matterResult = matter(fileContents)
+        } catch {
+            return null
+        }
+
+        const slug = fileName.replace(".md", "").trim()
+        if (!slug) return null
+
+        const data = matterResult.data || {}
+
+        if (basePath === "notes") {
+            return { title: data.title ?? "", order: data.order, status: data.status, slug }
+        }
+
+        if (basePath === "courses") {
+            return { title: data.title ?? "", img: data.img, subtitle: data.subtitle, slug }
+        }
+
+        return { title: data.title ?? "", date: data.date, subtitle: data.subtitle, slug }
+    }).filter(Boolean)
+
 
     return posts;
 };
